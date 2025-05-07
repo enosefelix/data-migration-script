@@ -1,0 +1,6622 @@
+[
+  {
+    "claimNumber": "OHI01144000090679RX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "AHMED OLAWALE ENIOLA",
+    "company": "AA RESCUE(BFCL)",
+    "gender": "MALE",
+    "dateOfBirth": "1986-04-22",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "52340",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-18",
+    "dateOfAdmission": "2024-12-18",
+    "dateOfDischarge": "2024-12-18",
+    "diagnosis": [
+      "Unspecified malaria",
+      "sepsis, unspecified organism",
+      "Acute bronchitis, unspecified"
+    ],
+    "total": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "8000",
+      "8000"
+    ],
+    "item": [
+      "PARACETAMOL 500MG TAB",
+      "AMOXYCILLIN 500MG CAP",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "NORMAL SALINE",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "QUININE INJ. 600MG",
+      "PARACETAMOL INJ",
+      "10% DEXTROSE",
+      "METRONIDAZOLE INFUSION",
+      "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+      "FEEDING PER DIEM",
+      "GENERAL WARD"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Admin",
+      "Admin"
+    ],
+    "quantity": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "2",
+      "2"
+    ],
+    "cost": [
+      "30",
+      "60",
+      "1500",
+      "1200",
+      "3000",
+      "3000",
+      "800",
+      "800",
+      "1200",
+      "1000",
+      "2000",
+      "4000",
+      "4000"
+    ],
+    "awarded": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "4000",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4000",
+      "4000"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Paid for 24 hours admission",
+      "Paid for 24 hours admission"
+    ],
+    "quantityApproved": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 52340,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "AMOXYCILLIN 500MG CAP",
+          "code": "A29746"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "QUININE INJ. 600MG",
+          "code": "A29798"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "V42607"
+        },
+        {
+          "item": "10% DEXTROSE",
+          "code": "D1071"
+        },
+        {
+          "item": "METRONIDAZOLE INFUSION",
+          "code": "A00254"
+        },
+        {
+          "item": "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+          "code": "C00069"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "FEEDING PER DIEM",
+          "code": "FEED-1"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        }
+      ]
+    },
+    "ttotal": [
+      540,
+      900,
+      1500,
+      2400,
+      3000,
+      3000,
+      3200,
+      4000,
+      4800,
+      5000,
+      8000,
+      8000,
+      8000
+    ],
+    "claim_number": 300002648
+  },
+  {
+    "claimNumber": "OHI01951000090431RY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "SOLOMON LEBURA IGBOH",
+    "company": "DEPORTA LOGISTICS",
+    "gender": "Male",
+    "dateOfBirth": "1978-05-04",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "4792",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-12",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Hypertensive heart disease without (congestive) heart failure",
+      "sepsis, unspecified organism",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "item": [
+      "NIFEDIPINE 20MG TAB",
+      "PARACETAMOL 500MG TAB",
+      "ARTHEMETER INJECTION 80MG",
+      "AMLODIPINE 10MG (OTHER BRANDS)",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "FBC",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Chronic Drugs",
+      "DRUGS",
+      "DRUGS",
+      "Chronic Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "40",
+      "9",
+      "30",
+      "35",
+      "600",
+      "700",
+      "1000"
+    ],
+    "awarded": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "Abayomi",
+    "claimed": 3172,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "NIFEDIPINE 20MG TAB",
+          "code": "N43556"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "AMLODIPINE 10MG (OTHER BRANDS)",
+          "code": "E33497"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      40,
+      162,
+      180,
+      490,
+      600,
+      700,
+      1000
+    ],
+    "claim_number": 300002649
+  },
+  {
+    "claimNumber": "OHI06177000090404CT24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUWADAMILOLA AYOMIDE ADESINA",
+    "company": "WORKFORCE MANAGEMENT CENTRE",
+    "gender": "Female",
+    "dateOfBirth": "1997-01-20",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "8656",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Urinary tract infection, site not specified",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "400",
+      "840"
+    ],
+    "item": [
+      "Urinalysis",
+      "PREDNISOLONE 5MG TAB",
+      "WBC",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "Urine mcs",
+      "FANSIDAR 525MG TAB",
+      "DOXYCYCLINE 100MG CAP/vibramycine",
+      "GP INITIAL CONSULTATION",
+      "AMOXICILIN + CLAVULANIC  1G TAB",
+      "PCV",
+      "DICLOFENAC SODIUM 50MG"
+    ],
+    "itemType": [
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Laboratory",
+      "Drugs"
+    ],
+    "quantity": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "28"
+    ],
+    "cost": [
+      "380",
+      "15",
+      "500",
+      "600",
+      "700",
+      "250",
+      "55",
+      "1000",
+      "164",
+      "400",
+      "30"
+    ],
+    "awarded": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "0",
+      "300"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "400",
+      "540"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Diagnosis & Lab mismatch",
+      "Overprescriptions"
+    ],
+    "quantityApproved": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "10"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8656,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PREDNISOLONE 5MG TAB",
+          "code": "N38155"
+        },
+        {
+          "item": "FANSIDAR 525MG TAB",
+          "code": "F00623"
+        },
+        {
+          "item": "DOXYCYCLINE 100MG CAP/vibramycine",
+          "code": "D1062"
+        },
+        {
+          "item": "AMOXICILIN + CLAVULANIC  1G TAB",
+          "code": "A29714"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 50MG",
+          "code": "B30977"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "Urine mcs",
+          "code": "81001"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        }
+      ]
+    },
+    "ttotal": [
+      380,
+      420,
+      500,
+      600,
+      700,
+      750,
+      770,
+      1000,
+      2296,
+      400,
+      840
+    ],
+    "claim_number": 300002650
+  },
+  {
+    "claimNumber": "OHI01618000090421PY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "BRIGHT MAYOWA ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "Male",
+    "dateOfBirth": "2017-10-17",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2775",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Other specified helminthiases"
+    ],
+    "total": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2775,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      25,
+      150,
+      600,
+      2000
+    ],
+    "claim_number": 300002651
+  },
+  {
+    "claimNumber": "OHI016180000904201Z24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "ANUOLUWAPO CATHERINE ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "FEMALE",
+    "dateOfBirth": "2015-07-28",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "8525",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Plasmodium falciparum malaria, unspecified",
+      "Abdominal and pelvic pain",
+      "Other specified sepsis",
+      "Helminthiasis, unspecified"
+    ],
+    "total": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "IBUPROFEN 200MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "WBC"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Laboratory"
+    ],
+    "quantity": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "40",
+      "600",
+      "700",
+      "250",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "awarded": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "0"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "700"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "FBC already paid"
+    ],
+    "quantityApproved": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8525,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "IBUPROFEN 200MG TAB",
+          "code": "I43766"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        }
+      ]
+    },
+    "ttotal": [
+      125,
+      300,
+      600,
+      600,
+      700,
+      1500,
+      2000,
+      2000,
+      700
+    ],
+    "claim_number": 300002652
+  },
+  {
+    "claimNumber": "OHI01618000090419GD24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "TAIWO DANIEL ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "MALE",
+    "dateOfBirth": "1979-07-14",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2900",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Other acute upper respiratory infections of multiple sites",
+      "Dental caries, unspecified"
+    ],
+    "total": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "LORATIDINE 10MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "60",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2900,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "LORATIDINE 10MG TAB",
+          "code": "A30248"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      300,
+      600,
+      2000
+    ],
+    "claim_number": 300002653
+  },
+  {
+    "claimNumber": "OHI01046000090231SX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "KHALEED TAJUDEEN",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "2006-01-16",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "18970",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-05",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Unspecified malaria",
+      "Peptic ulcer, site unspecified",
+      "anemia, unspecified",
+      "Hypertensive heart and renal disease, unspecified",
+      "Typhoid fever"
+    ],
+    "total": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "item": [
+      "DICLOFENAC 75MG INJECTION",
+      "PARACETAMOL 500MG TAB",
+      "Creatinine",
+      "GESTID SUSPENSION 100ML",
+      "PCV",
+      "UREA",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG",
+      "OMEPRAZOLE 20MG",
+      "Electrolytes"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Laboratory"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "cost": [
+      "120",
+      "15",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "300",
+      "2000",
+      "360",
+      "90",
+      "4000"
+    ],
+    "awarded": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 18970,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "GESTID SUSPENSION 100ML",
+          "code": "G1001"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "OMEPRAZOLE 20MG",
+          "code": "C32106"
+        }
+      ],
+      "services": [
+        {
+          "item": "Creatinine",
+          "code": "82570"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        },
+        {
+          "item": "UREA",
+          "code": "84545"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "Electrolytes",
+          "code": "80051"
+        }
+      ]
+    },
+    "ttotal": [
+      120,
+      270,
+      1000,
+      1200,
+      1200,
+      1200,
+      1500,
+      1800,
+      2000,
+      2160,
+      2520,
+      4000
+    ],
+    "claim_number": 300002654
+  },
+  {
+    "claimNumber": "OHI01144000090679RX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "AHMED OLAWALE ENIOLA",
+    "company": "AA RESCUE(BFCL)",
+    "gender": "MALE",
+    "dateOfBirth": "1986-04-22",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "52340",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-18",
+    "dateOfAdmission": "2024-12-18",
+    "dateOfDischarge": "2024-12-18",
+    "diagnosis": [
+      "Unspecified malaria",
+      "sepsis, unspecified organism",
+      "Acute bronchitis, unspecified"
+    ],
+    "total": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "8000",
+      "8000"
+    ],
+    "item": [
+      "PARACETAMOL 500MG TAB",
+      "AMOXYCILLIN 500MG CAP",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "NORMAL SALINE",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "QUININE INJ. 600MG",
+      "PARACETAMOL INJ",
+      "10% DEXTROSE",
+      "METRONIDAZOLE INFUSION",
+      "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+      "FEEDING PER DIEM",
+      "GENERAL WARD"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Admin",
+      "Admin"
+    ],
+    "quantity": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "2",
+      "2"
+    ],
+    "cost": [
+      "30",
+      "60",
+      "1500",
+      "1200",
+      "3000",
+      "3000",
+      "800",
+      "800",
+      "1200",
+      "1000",
+      "2000",
+      "4000",
+      "4000"
+    ],
+    "awarded": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "4000",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4000",
+      "4000"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Paid for 24 hours admission",
+      "Paid for 24 hours admission"
+    ],
+    "quantityApproved": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 52340,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "AMOXYCILLIN 500MG CAP",
+          "code": "A29746"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "QUININE INJ. 600MG",
+          "code": "A29798"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "V42607"
+        },
+        {
+          "item": "10% DEXTROSE",
+          "code": "D1071"
+        },
+        {
+          "item": "METRONIDAZOLE INFUSION",
+          "code": "A00254"
+        },
+        {
+          "item": "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+          "code": "C00069"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "FEEDING PER DIEM",
+          "code": "FEED-1"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        }
+      ]
+    },
+    "ttotal": [
+      540,
+      900,
+      1500,
+      2400,
+      3000,
+      3000,
+      3200,
+      4000,
+      4800,
+      5000,
+      8000,
+      8000,
+      8000
+    ],
+    "claim_number": 300002655
+  },
+  {
+    "claimNumber": "OHI066130000907277724",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUFEMI ADEWALE ONABOTE",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "1975-12-09",
+    "memberPlan": "GOLD FAMILY",
+    "totalClaimed": "21502.5",
+    "status": "Adjudicated",
+    "serviceProvider": "DENNIS TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-20",
+    "dateOfAdmission": "2024-12-19",
+    "dateOfDischarge": "2024-12-20",
+    "diagnosis": [
+      "Sickle-cell anaemia with crisis"
+    ],
+    "total": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "awarded": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "item": [
+      "PROMETHAZINE INJ",
+      "Urinalysis",
+      "PARACETAMOL INJ",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "NORMAL SALINE",
+      "GENERAL WARD",
+      "PENTAZOCINE INJ 30MG",
+      "SPECIALIST CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "MEDICAL",
+      "Drugs",
+      "Administrative",
+      "Drugs",
+      "Administrative"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "cost": [
+      "175",
+      "500",
+      "200",
+      "1000",
+      "2000",
+      "535",
+      "3000",
+      "337.5",
+      "7500"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 21502.5,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PROMETHAZINE INJ",
+          "code": "P43749"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "Entry: PARACETAMOL INJ"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "PENTAZOCINE INJ 30MG",
+          "code": "F1231"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "Entry: GP INITIAL CONSULTATION"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        },
+        {
+          "item": "SPECIALIST CONSULTATION",
+          "code": "Entry: SPECIALIST CONSULTATION"
+        }
+      ]
+    },
+    "ttotal": [
+      175,
+      500,
+      800,
+      1000,
+      2000,
+      2140,
+      3000,
+      4387.5,
+      7500
+    ],
+    "claim_number": 300002656
+  },
+  {
+    "claimNumber": "OHI01951000090431RY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "SOLOMON LEBURA IGBOH",
+    "company": "DEPORTA LOGISTICS",
+    "gender": "Male",
+    "dateOfBirth": "1978-05-04",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "4792",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-12",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Hypertensive heart disease without (congestive) heart failure",
+      "sepsis, unspecified organism",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "item": [
+      "NIFEDIPINE 20MG TAB",
+      "PARACETAMOL 500MG TAB",
+      "ARTHEMETER INJECTION 80MG",
+      "AMLODIPINE 10MG (OTHER BRANDS)",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "FBC",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Chronic Drugs",
+      "DRUGS",
+      "DRUGS",
+      "Chronic Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "40",
+      "9",
+      "30",
+      "35",
+      "600",
+      "700",
+      "1000"
+    ],
+    "awarded": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "Abayomi",
+    "claimed": 3172,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "NIFEDIPINE 20MG TAB",
+          "code": "N43556"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "AMLODIPINE 10MG (OTHER BRANDS)",
+          "code": "E33497"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      40,
+      162,
+      180,
+      490,
+      600,
+      700,
+      1000
+    ],
+    "claim_number": 300002657
+  },
+  {
+    "claimNumber": "OHI06177000090404CT24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUWADAMILOLA AYOMIDE ADESINA",
+    "company": "WORKFORCE MANAGEMENT CENTRE",
+    "gender": "Female",
+    "dateOfBirth": "1997-01-20",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "8656",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Urinary tract infection, site not specified",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "400",
+      "840"
+    ],
+    "item": [
+      "Urinalysis",
+      "PREDNISOLONE 5MG TAB",
+      "WBC",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "Urine mcs",
+      "FANSIDAR 525MG TAB",
+      "DOXYCYCLINE 100MG CAP/vibramycine",
+      "GP INITIAL CONSULTATION",
+      "AMOXICILIN + CLAVULANIC  1G TAB",
+      "PCV",
+      "DICLOFENAC SODIUM 50MG"
+    ],
+    "itemType": [
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Laboratory",
+      "Drugs"
+    ],
+    "quantity": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "28"
+    ],
+    "cost": [
+      "380",
+      "15",
+      "500",
+      "600",
+      "700",
+      "250",
+      "55",
+      "1000",
+      "164",
+      "400",
+      "30"
+    ],
+    "awarded": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "0",
+      "300"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "400",
+      "540"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Diagnosis & Lab mismatch",
+      "Overprescriptions"
+    ],
+    "quantityApproved": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "10"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8656,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PREDNISOLONE 5MG TAB",
+          "code": "N38155"
+        },
+        {
+          "item": "FANSIDAR 525MG TAB",
+          "code": "F00623"
+        },
+        {
+          "item": "DOXYCYCLINE 100MG CAP/vibramycine",
+          "code": "D1062"
+        },
+        {
+          "item": "AMOXICILIN + CLAVULANIC  1G TAB",
+          "code": "A29714"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 50MG",
+          "code": "B30977"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "Urine mcs",
+          "code": "81001"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        }
+      ]
+    },
+    "ttotal": [
+      380,
+      420,
+      500,
+      600,
+      700,
+      750,
+      770,
+      1000,
+      2296,
+      400,
+      840
+    ],
+    "claim_number": 300002658
+  },
+  {
+    "claimNumber": "OHI01618000090421PY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "BRIGHT MAYOWA ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "Male",
+    "dateOfBirth": "2017-10-17",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2775",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Other specified helminthiases"
+    ],
+    "total": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2775,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      25,
+      150,
+      600,
+      2000
+    ],
+    "claim_number": 300002659
+  },
+  {
+    "claimNumber": "OHI016180000904201Z24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "ANUOLUWAPO CATHERINE ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "FEMALE",
+    "dateOfBirth": "2015-07-28",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "8525",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Plasmodium falciparum malaria, unspecified",
+      "Abdominal and pelvic pain",
+      "Other specified sepsis",
+      "Helminthiasis, unspecified"
+    ],
+    "total": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "IBUPROFEN 200MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "WBC"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Laboratory"
+    ],
+    "quantity": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "40",
+      "600",
+      "700",
+      "250",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "awarded": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "0"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "700"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "FBC already paid"
+    ],
+    "quantityApproved": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8525,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "IBUPROFEN 200MG TAB",
+          "code": "I43766"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        }
+      ]
+    },
+    "ttotal": [
+      125,
+      300,
+      600,
+      600,
+      700,
+      1500,
+      2000,
+      2000,
+      700
+    ],
+    "claim_number": 300002660
+  },
+  {
+    "claimNumber": "OHI01618000090419GD24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "TAIWO DANIEL ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "MALE",
+    "dateOfBirth": "1979-07-14",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2900",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Other acute upper respiratory infections of multiple sites",
+      "Dental caries, unspecified"
+    ],
+    "total": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "LORATIDINE 10MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "60",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2900,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "LORATIDINE 10MG TAB",
+          "code": "A30248"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      300,
+      600,
+      2000
+    ],
+    "claim_number": 300002661
+  },
+  {
+    "claimNumber": "OHI01046000090231SX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "KHALEED TAJUDEEN",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "2006-01-16",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "18970",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-05",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Unspecified malaria",
+      "Peptic ulcer, site unspecified",
+      "anemia, unspecified",
+      "Hypertensive heart and renal disease, unspecified",
+      "Typhoid fever"
+    ],
+    "total": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "item": [
+      "DICLOFENAC 75MG INJECTION",
+      "PARACETAMOL 500MG TAB",
+      "Creatinine",
+      "GESTID SUSPENSION 100ML",
+      "PCV",
+      "UREA",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG",
+      "OMEPRAZOLE 20MG",
+      "Electrolytes"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Laboratory"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "cost": [
+      "120",
+      "15",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "300",
+      "2000",
+      "360",
+      "90",
+      "4000"
+    ],
+    "awarded": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 18970,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "GESTID SUSPENSION 100ML",
+          "code": "G1001"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "OMEPRAZOLE 20MG",
+          "code": "C32106"
+        }
+      ],
+      "services": [
+        {
+          "item": "Creatinine",
+          "code": "82570"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        },
+        {
+          "item": "UREA",
+          "code": "84545"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "Electrolytes",
+          "code": "80051"
+        }
+      ]
+    },
+    "ttotal": [
+      120,
+      270,
+      1000,
+      1200,
+      1200,
+      1200,
+      1500,
+      1800,
+      2000,
+      2160,
+      2520,
+      4000
+    ],
+    "claim_number": 300002662
+  },
+  {
+    "claimNumber": "OHI01144000090679RX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "AHMED OLAWALE ENIOLA",
+    "company": "AA RESCUE(BFCL)",
+    "gender": "MALE",
+    "dateOfBirth": "1986-04-22",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "52340",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-18",
+    "dateOfAdmission": "2024-12-18",
+    "dateOfDischarge": "2024-12-18",
+    "diagnosis": [
+      "Unspecified malaria",
+      "sepsis, unspecified organism",
+      "Acute bronchitis, unspecified"
+    ],
+    "total": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "8000",
+      "8000"
+    ],
+    "item": [
+      "PARACETAMOL 500MG TAB",
+      "AMOXYCILLIN 500MG CAP",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "NORMAL SALINE",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "QUININE INJ. 600MG",
+      "PARACETAMOL INJ",
+      "10% DEXTROSE",
+      "METRONIDAZOLE INFUSION",
+      "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+      "FEEDING PER DIEM",
+      "GENERAL WARD"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Admin",
+      "Admin"
+    ],
+    "quantity": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "2",
+      "2"
+    ],
+    "cost": [
+      "30",
+      "60",
+      "1500",
+      "1200",
+      "3000",
+      "3000",
+      "800",
+      "800",
+      "1200",
+      "1000",
+      "2000",
+      "4000",
+      "4000"
+    ],
+    "awarded": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "4000",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4000",
+      "4000"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Paid for 24 hours admission",
+      "Paid for 24 hours admission"
+    ],
+    "quantityApproved": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 52340,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "AMOXYCILLIN 500MG CAP",
+          "code": "A29746"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "QUININE INJ. 600MG",
+          "code": "A29798"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "V42607"
+        },
+        {
+          "item": "10% DEXTROSE",
+          "code": "D1071"
+        },
+        {
+          "item": "METRONIDAZOLE INFUSION",
+          "code": "A00254"
+        },
+        {
+          "item": "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+          "code": "C00069"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "FEEDING PER DIEM",
+          "code": "FEED-1"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        }
+      ]
+    },
+    "ttotal": [
+      540,
+      900,
+      1500,
+      2400,
+      3000,
+      3000,
+      3200,
+      4000,
+      4800,
+      5000,
+      8000,
+      8000,
+      8000
+    ],
+    "claim_number": 300002663
+  },
+  {
+    "claimNumber": "OHI066130000907277724",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUFEMI ADEWALE ONABOTE",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "1975-12-09",
+    "memberPlan": "GOLD FAMILY",
+    "totalClaimed": "21502.5",
+    "status": "Adjudicated",
+    "serviceProvider": "DENNIS TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-20",
+    "dateOfAdmission": "2024-12-19",
+    "dateOfDischarge": "2024-12-20",
+    "diagnosis": [
+      "Sickle-cell anaemia with crisis"
+    ],
+    "total": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "awarded": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "item": [
+      "PROMETHAZINE INJ",
+      "Urinalysis",
+      "PARACETAMOL INJ",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "NORMAL SALINE",
+      "GENERAL WARD",
+      "PENTAZOCINE INJ 30MG",
+      "SPECIALIST CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "MEDICAL",
+      "Drugs",
+      "Administrative",
+      "Drugs",
+      "Administrative"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "cost": [
+      "175",
+      "500",
+      "200",
+      "1000",
+      "2000",
+      "535",
+      "3000",
+      "337.5",
+      "7500"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 21502.5,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PROMETHAZINE INJ",
+          "code": "P43749"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "Entry: PARACETAMOL INJ"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "PENTAZOCINE INJ 30MG",
+          "code": "F1231"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "Entry: GP INITIAL CONSULTATION"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        },
+        {
+          "item": "SPECIALIST CONSULTATION",
+          "code": "Entry: SPECIALIST CONSULTATION"
+        }
+      ]
+    },
+    "ttotal": [
+      175,
+      500,
+      800,
+      1000,
+      2000,
+      2140,
+      3000,
+      4387.5,
+      7500
+    ],
+    "claim_number": 300002664
+  },
+  {
+    "claimNumber": "OHI01951000090431RY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "SOLOMON LEBURA IGBOH",
+    "company": "DEPORTA LOGISTICS",
+    "gender": "Male",
+    "dateOfBirth": "1978-05-04",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "4792",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-12",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Hypertensive heart disease without (congestive) heart failure",
+      "sepsis, unspecified organism",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "item": [
+      "NIFEDIPINE 20MG TAB",
+      "PARACETAMOL 500MG TAB",
+      "ARTHEMETER INJECTION 80MG",
+      "AMLODIPINE 10MG (OTHER BRANDS)",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "FBC",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Chronic Drugs",
+      "DRUGS",
+      "DRUGS",
+      "Chronic Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "40",
+      "9",
+      "30",
+      "35",
+      "600",
+      "700",
+      "1000"
+    ],
+    "awarded": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "Abayomi",
+    "claimed": 3172,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "NIFEDIPINE 20MG TAB",
+          "code": "N43556"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "AMLODIPINE 10MG (OTHER BRANDS)",
+          "code": "E33497"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      40,
+      162,
+      180,
+      490,
+      600,
+      700,
+      1000
+    ],
+    "claim_number": 300002665
+  },
+  {
+    "claimNumber": "OHI06177000090404CT24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUWADAMILOLA AYOMIDE ADESINA",
+    "company": "WORKFORCE MANAGEMENT CENTRE",
+    "gender": "Female",
+    "dateOfBirth": "1997-01-20",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "8656",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Urinary tract infection, site not specified",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "400",
+      "840"
+    ],
+    "item": [
+      "Urinalysis",
+      "PREDNISOLONE 5MG TAB",
+      "WBC",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "Urine mcs",
+      "FANSIDAR 525MG TAB",
+      "DOXYCYCLINE 100MG CAP/vibramycine",
+      "GP INITIAL CONSULTATION",
+      "AMOXICILIN + CLAVULANIC  1G TAB",
+      "PCV",
+      "DICLOFENAC SODIUM 50MG"
+    ],
+    "itemType": [
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Laboratory",
+      "Drugs"
+    ],
+    "quantity": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "28"
+    ],
+    "cost": [
+      "380",
+      "15",
+      "500",
+      "600",
+      "700",
+      "250",
+      "55",
+      "1000",
+      "164",
+      "400",
+      "30"
+    ],
+    "awarded": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "0",
+      "300"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "400",
+      "540"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Diagnosis & Lab mismatch",
+      "Overprescriptions"
+    ],
+    "quantityApproved": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "10"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8656,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PREDNISOLONE 5MG TAB",
+          "code": "N38155"
+        },
+        {
+          "item": "FANSIDAR 525MG TAB",
+          "code": "F00623"
+        },
+        {
+          "item": "DOXYCYCLINE 100MG CAP/vibramycine",
+          "code": "D1062"
+        },
+        {
+          "item": "AMOXICILIN + CLAVULANIC  1G TAB",
+          "code": "A29714"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 50MG",
+          "code": "B30977"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "Urine mcs",
+          "code": "81001"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        }
+      ]
+    },
+    "ttotal": [
+      380,
+      420,
+      500,
+      600,
+      700,
+      750,
+      770,
+      1000,
+      2296,
+      400,
+      840
+    ],
+    "claim_number": 300002666
+  },
+  {
+    "claimNumber": "OHI01618000090421PY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "BRIGHT MAYOWA ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "Male",
+    "dateOfBirth": "2017-10-17",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2775",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Other specified helminthiases"
+    ],
+    "total": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2775,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      25,
+      150,
+      600,
+      2000
+    ],
+    "claim_number": 300002667
+  },
+  {
+    "claimNumber": "OHI016180000904201Z24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "ANUOLUWAPO CATHERINE ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "FEMALE",
+    "dateOfBirth": "2015-07-28",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "8525",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Plasmodium falciparum malaria, unspecified",
+      "Abdominal and pelvic pain",
+      "Other specified sepsis",
+      "Helminthiasis, unspecified"
+    ],
+    "total": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "IBUPROFEN 200MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "WBC"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Laboratory"
+    ],
+    "quantity": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "40",
+      "600",
+      "700",
+      "250",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "awarded": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "0"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "700"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "FBC already paid"
+    ],
+    "quantityApproved": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8525,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "IBUPROFEN 200MG TAB",
+          "code": "I43766"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        }
+      ]
+    },
+    "ttotal": [
+      125,
+      300,
+      600,
+      600,
+      700,
+      1500,
+      2000,
+      2000,
+      700
+    ],
+    "claim_number": 300002668
+  },
+  {
+    "claimNumber": "OHI01618000090419GD24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "TAIWO DANIEL ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "MALE",
+    "dateOfBirth": "1979-07-14",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2900",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Other acute upper respiratory infections of multiple sites",
+      "Dental caries, unspecified"
+    ],
+    "total": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "LORATIDINE 10MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "60",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2900,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "LORATIDINE 10MG TAB",
+          "code": "A30248"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      300,
+      600,
+      2000
+    ],
+    "claim_number": 300002669
+  },
+  {
+    "claimNumber": "OHI01046000090231SX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "KHALEED TAJUDEEN",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "2006-01-16",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "18970",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-05",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Unspecified malaria",
+      "Peptic ulcer, site unspecified",
+      "anemia, unspecified",
+      "Hypertensive heart and renal disease, unspecified",
+      "Typhoid fever"
+    ],
+    "total": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "item": [
+      "DICLOFENAC 75MG INJECTION",
+      "PARACETAMOL 500MG TAB",
+      "Creatinine",
+      "GESTID SUSPENSION 100ML",
+      "PCV",
+      "UREA",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG",
+      "OMEPRAZOLE 20MG",
+      "Electrolytes"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Laboratory"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "cost": [
+      "120",
+      "15",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "300",
+      "2000",
+      "360",
+      "90",
+      "4000"
+    ],
+    "awarded": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 18970,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "GESTID SUSPENSION 100ML",
+          "code": "G1001"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "OMEPRAZOLE 20MG",
+          "code": "C32106"
+        }
+      ],
+      "services": [
+        {
+          "item": "Creatinine",
+          "code": "82570"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        },
+        {
+          "item": "UREA",
+          "code": "84545"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "Electrolytes",
+          "code": "80051"
+        }
+      ]
+    },
+    "ttotal": [
+      120,
+      270,
+      1000,
+      1200,
+      1200,
+      1200,
+      1500,
+      1800,
+      2000,
+      2160,
+      2520,
+      4000
+    ],
+    "claim_number": 300002670
+  },
+  {
+    "claimNumber": "OHI01144000090679RX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "AHMED OLAWALE ENIOLA",
+    "company": "AA RESCUE(BFCL)",
+    "gender": "MALE",
+    "dateOfBirth": "1986-04-22",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "52340",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-18",
+    "dateOfAdmission": "2024-12-18",
+    "dateOfDischarge": "2024-12-18",
+    "diagnosis": [
+      "Unspecified malaria",
+      "sepsis, unspecified organism",
+      "Acute bronchitis, unspecified"
+    ],
+    "total": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "8000",
+      "8000"
+    ],
+    "item": [
+      "PARACETAMOL 500MG TAB",
+      "AMOXYCILLIN 500MG CAP",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "NORMAL SALINE",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "QUININE INJ. 600MG",
+      "PARACETAMOL INJ",
+      "10% DEXTROSE",
+      "METRONIDAZOLE INFUSION",
+      "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+      "FEEDING PER DIEM",
+      "GENERAL WARD"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Admin",
+      "Admin"
+    ],
+    "quantity": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "2",
+      "2"
+    ],
+    "cost": [
+      "30",
+      "60",
+      "1500",
+      "1200",
+      "3000",
+      "3000",
+      "800",
+      "800",
+      "1200",
+      "1000",
+      "2000",
+      "4000",
+      "4000"
+    ],
+    "awarded": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "4000",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4000",
+      "4000"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Paid for 24 hours admission",
+      "Paid for 24 hours admission"
+    ],
+    "quantityApproved": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 52340,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "AMOXYCILLIN 500MG CAP",
+          "code": "A29746"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "QUININE INJ. 600MG",
+          "code": "A29798"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "V42607"
+        },
+        {
+          "item": "10% DEXTROSE",
+          "code": "D1071"
+        },
+        {
+          "item": "METRONIDAZOLE INFUSION",
+          "code": "A00254"
+        },
+        {
+          "item": "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+          "code": "C00069"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "FEEDING PER DIEM",
+          "code": "FEED-1"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        }
+      ]
+    },
+    "ttotal": [
+      540,
+      900,
+      1500,
+      2400,
+      3000,
+      3000,
+      3200,
+      4000,
+      4800,
+      5000,
+      8000,
+      8000,
+      8000
+    ],
+    "claim_number": 300002671
+  },
+  {
+    "claimNumber": "OHI066130000907277724",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUFEMI ADEWALE ONABOTE",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "1975-12-09",
+    "memberPlan": "GOLD FAMILY",
+    "totalClaimed": "21502.5",
+    "status": "Adjudicated",
+    "serviceProvider": "DENNIS TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-20",
+    "dateOfAdmission": "2024-12-19",
+    "dateOfDischarge": "2024-12-20",
+    "diagnosis": [
+      "Sickle-cell anaemia with crisis"
+    ],
+    "total": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "awarded": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "item": [
+      "PROMETHAZINE INJ",
+      "Urinalysis",
+      "PARACETAMOL INJ",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "NORMAL SALINE",
+      "GENERAL WARD",
+      "PENTAZOCINE INJ 30MG",
+      "SPECIALIST CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "MEDICAL",
+      "Drugs",
+      "Administrative",
+      "Drugs",
+      "Administrative"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "cost": [
+      "175",
+      "500",
+      "200",
+      "1000",
+      "2000",
+      "535",
+      "3000",
+      "337.5",
+      "7500"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 21502.5,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PROMETHAZINE INJ",
+          "code": "P43749"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "Entry: PARACETAMOL INJ"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "PENTAZOCINE INJ 30MG",
+          "code": "F1231"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "Entry: GP INITIAL CONSULTATION"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        },
+        {
+          "item": "SPECIALIST CONSULTATION",
+          "code": "Entry: SPECIALIST CONSULTATION"
+        }
+      ]
+    },
+    "ttotal": [
+      175,
+      500,
+      800,
+      1000,
+      2000,
+      2140,
+      3000,
+      4387.5,
+      7500
+    ],
+    "claim_number": 300002672
+  },
+  {
+    "claimNumber": "OHI01951000090431RY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "SOLOMON LEBURA IGBOH",
+    "company": "DEPORTA LOGISTICS",
+    "gender": "Male",
+    "dateOfBirth": "1978-05-04",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "4792",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-12",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Hypertensive heart disease without (congestive) heart failure",
+      "sepsis, unspecified organism",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "item": [
+      "NIFEDIPINE 20MG TAB",
+      "PARACETAMOL 500MG TAB",
+      "ARTHEMETER INJECTION 80MG",
+      "AMLODIPINE 10MG (OTHER BRANDS)",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "FBC",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Chronic Drugs",
+      "DRUGS",
+      "DRUGS",
+      "Chronic Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "40",
+      "9",
+      "30",
+      "35",
+      "600",
+      "700",
+      "1000"
+    ],
+    "awarded": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "Abayomi",
+    "claimed": 3172,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "NIFEDIPINE 20MG TAB",
+          "code": "N43556"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "AMLODIPINE 10MG (OTHER BRANDS)",
+          "code": "E33497"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      40,
+      162,
+      180,
+      490,
+      600,
+      700,
+      1000
+    ],
+    "claim_number": 300002673
+  },
+  {
+    "claimNumber": "OHI06177000090404CT24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUWADAMILOLA AYOMIDE ADESINA",
+    "company": "WORKFORCE MANAGEMENT CENTRE",
+    "gender": "Female",
+    "dateOfBirth": "1997-01-20",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "8656",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Urinary tract infection, site not specified",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "400",
+      "840"
+    ],
+    "item": [
+      "Urinalysis",
+      "PREDNISOLONE 5MG TAB",
+      "WBC",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "Urine mcs",
+      "FANSIDAR 525MG TAB",
+      "DOXYCYCLINE 100MG CAP/vibramycine",
+      "GP INITIAL CONSULTATION",
+      "AMOXICILIN + CLAVULANIC  1G TAB",
+      "PCV",
+      "DICLOFENAC SODIUM 50MG"
+    ],
+    "itemType": [
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Laboratory",
+      "Drugs"
+    ],
+    "quantity": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "28"
+    ],
+    "cost": [
+      "380",
+      "15",
+      "500",
+      "600",
+      "700",
+      "250",
+      "55",
+      "1000",
+      "164",
+      "400",
+      "30"
+    ],
+    "awarded": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "0",
+      "300"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "400",
+      "540"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Diagnosis & Lab mismatch",
+      "Overprescriptions"
+    ],
+    "quantityApproved": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "10"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8656,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PREDNISOLONE 5MG TAB",
+          "code": "N38155"
+        },
+        {
+          "item": "FANSIDAR 525MG TAB",
+          "code": "F00623"
+        },
+        {
+          "item": "DOXYCYCLINE 100MG CAP/vibramycine",
+          "code": "D1062"
+        },
+        {
+          "item": "AMOXICILIN + CLAVULANIC  1G TAB",
+          "code": "A29714"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 50MG",
+          "code": "B30977"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "Urine mcs",
+          "code": "81001"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        }
+      ]
+    },
+    "ttotal": [
+      380,
+      420,
+      500,
+      600,
+      700,
+      750,
+      770,
+      1000,
+      2296,
+      400,
+      840
+    ],
+    "claim_number": 300002674
+  },
+  {
+    "claimNumber": "OHI01618000090421PY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "BRIGHT MAYOWA ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "Male",
+    "dateOfBirth": "2017-10-17",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2775",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Other specified helminthiases"
+    ],
+    "total": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2775,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      25,
+      150,
+      600,
+      2000
+    ],
+    "claim_number": 300002675
+  },
+  {
+    "claimNumber": "OHI016180000904201Z24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "ANUOLUWAPO CATHERINE ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "FEMALE",
+    "dateOfBirth": "2015-07-28",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "8525",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Plasmodium falciparum malaria, unspecified",
+      "Abdominal and pelvic pain",
+      "Other specified sepsis",
+      "Helminthiasis, unspecified"
+    ],
+    "total": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "IBUPROFEN 200MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "WBC"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Laboratory"
+    ],
+    "quantity": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "40",
+      "600",
+      "700",
+      "250",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "awarded": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "0"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "700"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "FBC already paid"
+    ],
+    "quantityApproved": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8525,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "IBUPROFEN 200MG TAB",
+          "code": "I43766"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        }
+      ]
+    },
+    "ttotal": [
+      125,
+      300,
+      600,
+      600,
+      700,
+      1500,
+      2000,
+      2000,
+      700
+    ],
+    "claim_number": 300002676
+  },
+  {
+    "claimNumber": "OHI01618000090419GD24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "TAIWO DANIEL ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "MALE",
+    "dateOfBirth": "1979-07-14",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2900",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Other acute upper respiratory infections of multiple sites",
+      "Dental caries, unspecified"
+    ],
+    "total": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "LORATIDINE 10MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "60",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2900,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "LORATIDINE 10MG TAB",
+          "code": "A30248"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      300,
+      600,
+      2000
+    ],
+    "claim_number": 300002677
+  },
+  {
+    "claimNumber": "OHI01046000090231SX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "KHALEED TAJUDEEN",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "2006-01-16",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "18970",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-05",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Unspecified malaria",
+      "Peptic ulcer, site unspecified",
+      "anemia, unspecified",
+      "Hypertensive heart and renal disease, unspecified",
+      "Typhoid fever"
+    ],
+    "total": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "item": [
+      "DICLOFENAC 75MG INJECTION",
+      "PARACETAMOL 500MG TAB",
+      "Creatinine",
+      "GESTID SUSPENSION 100ML",
+      "PCV",
+      "UREA",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG",
+      "OMEPRAZOLE 20MG",
+      "Electrolytes"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Laboratory"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "cost": [
+      "120",
+      "15",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "300",
+      "2000",
+      "360",
+      "90",
+      "4000"
+    ],
+    "awarded": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 18970,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "GESTID SUSPENSION 100ML",
+          "code": "G1001"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "OMEPRAZOLE 20MG",
+          "code": "C32106"
+        }
+      ],
+      "services": [
+        {
+          "item": "Creatinine",
+          "code": "82570"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        },
+        {
+          "item": "UREA",
+          "code": "84545"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "Electrolytes",
+          "code": "80051"
+        }
+      ]
+    },
+    "ttotal": [
+      120,
+      270,
+      1000,
+      1200,
+      1200,
+      1200,
+      1500,
+      1800,
+      2000,
+      2160,
+      2520,
+      4000
+    ],
+    "claim_number": 300002678
+  },
+  {
+    "claimNumber": "OHI01144000090679RX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "AHMED OLAWALE ENIOLA",
+    "company": "AA RESCUE(BFCL)",
+    "gender": "MALE",
+    "dateOfBirth": "1986-04-22",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "52340",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-18",
+    "dateOfAdmission": "2024-12-18",
+    "dateOfDischarge": "2024-12-18",
+    "diagnosis": [
+      "Unspecified malaria",
+      "sepsis, unspecified organism",
+      "Acute bronchitis, unspecified"
+    ],
+    "total": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "8000",
+      "8000"
+    ],
+    "item": [
+      "PARACETAMOL 500MG TAB",
+      "AMOXYCILLIN 500MG CAP",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "NORMAL SALINE",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "QUININE INJ. 600MG",
+      "PARACETAMOL INJ",
+      "10% DEXTROSE",
+      "METRONIDAZOLE INFUSION",
+      "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+      "FEEDING PER DIEM",
+      "GENERAL WARD"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Admin",
+      "Admin"
+    ],
+    "quantity": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "2",
+      "2"
+    ],
+    "cost": [
+      "30",
+      "60",
+      "1500",
+      "1200",
+      "3000",
+      "3000",
+      "800",
+      "800",
+      "1200",
+      "1000",
+      "2000",
+      "4000",
+      "4000"
+    ],
+    "awarded": [
+      "540",
+      "900",
+      "1500",
+      "2400",
+      "3000",
+      "3000",
+      "3200",
+      "4000",
+      "4800",
+      "5000",
+      "8000",
+      "4000",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "4000",
+      "4000"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Paid for 24 hours admission",
+      "Paid for 24 hours admission"
+    ],
+    "quantityApproved": [
+      "18",
+      "15",
+      "1",
+      "2",
+      "1",
+      "1",
+      "4",
+      "5",
+      "4",
+      "5",
+      "4",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 52340,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "AMOXYCILLIN 500MG CAP",
+          "code": "A29746"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "QUININE INJ. 600MG",
+          "code": "A29798"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "V42607"
+        },
+        {
+          "item": "10% DEXTROSE",
+          "code": "D1071"
+        },
+        {
+          "item": "METRONIDAZOLE INFUSION",
+          "code": "A00254"
+        },
+        {
+          "item": "CEFTRIAZONE INJ (OTHER BRANDS) 1G",
+          "code": "C00069"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "FEEDING PER DIEM",
+          "code": "FEED-1"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        }
+      ]
+    },
+    "ttotal": [
+      540,
+      900,
+      1500,
+      2400,
+      3000,
+      3000,
+      3200,
+      4000,
+      4800,
+      5000,
+      8000,
+      8000,
+      8000
+    ],
+    "claim_number": 300002679
+  },
+  {
+    "claimNumber": "OHI066130000907277724",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUFEMI ADEWALE ONABOTE",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "1975-12-09",
+    "memberPlan": "GOLD FAMILY",
+    "totalClaimed": "21502.5",
+    "status": "Adjudicated",
+    "serviceProvider": "DENNIS TEST HOSPITAL",
+    "typeOfVisit": "IN-PATIENT",
+    "dateOfConsultation": "2024-12-20",
+    "dateOfAdmission": "2024-12-19",
+    "dateOfDischarge": "2024-12-20",
+    "diagnosis": [
+      "Sickle-cell anaemia with crisis"
+    ],
+    "total": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "awarded": [
+      "175",
+      "500",
+      "800",
+      "1000",
+      "2000",
+      "2140",
+      "3000",
+      "4387.5",
+      "7500"
+    ],
+    "item": [
+      "PROMETHAZINE INJ",
+      "Urinalysis",
+      "PARACETAMOL INJ",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "NORMAL SALINE",
+      "GENERAL WARD",
+      "PENTAZOCINE INJ 30MG",
+      "SPECIALIST CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "MEDICAL",
+      "Drugs",
+      "Administrative",
+      "Drugs",
+      "Administrative"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "cost": [
+      "175",
+      "500",
+      "200",
+      "1000",
+      "2000",
+      "535",
+      "3000",
+      "337.5",
+      "7500"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "4",
+      "1",
+      "1",
+      "4",
+      "1",
+      "13",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 21502.5,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PROMETHAZINE INJ",
+          "code": "P43749"
+        },
+        {
+          "item": "PARACETAMOL INJ",
+          "code": "Entry: PARACETAMOL INJ"
+        },
+        {
+          "item": "NORMAL SALINE",
+          "code": "B804"
+        },
+        {
+          "item": "PENTAZOCINE INJ 30MG",
+          "code": "F1231"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "Entry: GP INITIAL CONSULTATION"
+        },
+        {
+          "item": "GENERAL WARD",
+          "code": "RM-8.01"
+        },
+        {
+          "item": "SPECIALIST CONSULTATION",
+          "code": "Entry: SPECIALIST CONSULTATION"
+        }
+      ]
+    },
+    "ttotal": [
+      175,
+      500,
+      800,
+      1000,
+      2000,
+      2140,
+      3000,
+      4387.5,
+      7500
+    ],
+    "claim_number": 300002680
+  },
+  {
+    "claimNumber": "OHI01951000090431RY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "SOLOMON LEBURA IGBOH",
+    "company": "DEPORTA LOGISTICS",
+    "gender": "Male",
+    "dateOfBirth": "1978-05-04",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "4792",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-12",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Hypertensive heart disease without (congestive) heart failure",
+      "sepsis, unspecified organism",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "item": [
+      "NIFEDIPINE 20MG TAB",
+      "PARACETAMOL 500MG TAB",
+      "ARTHEMETER INJECTION 80MG",
+      "AMLODIPINE 10MG (OTHER BRANDS)",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "FBC",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Chronic Drugs",
+      "DRUGS",
+      "DRUGS",
+      "Chronic Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "40",
+      "9",
+      "30",
+      "35",
+      "600",
+      "700",
+      "1000"
+    ],
+    "awarded": [
+      "40",
+      "162",
+      "180",
+      "490",
+      "600",
+      "700",
+      "1000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "6",
+      "14",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "Abayomi",
+    "claimed": 3172,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "NIFEDIPINE 20MG TAB",
+          "code": "N43556"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "AMLODIPINE 10MG (OTHER BRANDS)",
+          "code": "E33497"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      40,
+      162,
+      180,
+      490,
+      600,
+      700,
+      1000
+    ],
+    "claim_number": 300002681
+  },
+  {
+    "claimNumber": "OHI06177000090404CT24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "OLUWADAMILOLA AYOMIDE ADESINA",
+    "company": "WORKFORCE MANAGEMENT CENTRE",
+    "gender": "Female",
+    "dateOfBirth": "1997-01-20",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "8656",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Urinary tract infection, site not specified",
+      "Plasmodium falciparum malaria, unspecified"
+    ],
+    "total": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "400",
+      "840"
+    ],
+    "item": [
+      "Urinalysis",
+      "PREDNISOLONE 5MG TAB",
+      "WBC",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "Urine mcs",
+      "FANSIDAR 525MG TAB",
+      "DOXYCYCLINE 100MG CAP/vibramycine",
+      "GP INITIAL CONSULTATION",
+      "AMOXICILIN + CLAVULANIC  1G TAB",
+      "PCV",
+      "DICLOFENAC SODIUM 50MG"
+    ],
+    "itemType": [
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Laboratory",
+      "Drugs"
+    ],
+    "quantity": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "28"
+    ],
+    "cost": [
+      "380",
+      "15",
+      "500",
+      "600",
+      "700",
+      "250",
+      "55",
+      "1000",
+      "164",
+      "400",
+      "30"
+    ],
+    "awarded": [
+      "380",
+      "420",
+      "500",
+      "600",
+      "700",
+      "750",
+      "770",
+      "1000",
+      "2296",
+      "0",
+      "300"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "400",
+      "540"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Diagnosis & Lab mismatch",
+      "Overprescriptions"
+    ],
+    "quantityApproved": [
+      "1",
+      "28",
+      "1",
+      "1",
+      "1",
+      "3",
+      "14",
+      "1",
+      "14",
+      "1",
+      "10"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8656,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PREDNISOLONE 5MG TAB",
+          "code": "N38155"
+        },
+        {
+          "item": "FANSIDAR 525MG TAB",
+          "code": "F00623"
+        },
+        {
+          "item": "DOXYCYCLINE 100MG CAP/vibramycine",
+          "code": "D1062"
+        },
+        {
+          "item": "AMOXICILIN + CLAVULANIC  1G TAB",
+          "code": "A29714"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 50MG",
+          "code": "B30977"
+        }
+      ],
+      "services": [
+        {
+          "item": "Urinalysis",
+          "code": "81015"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "Urine mcs",
+          "code": "81001"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        }
+      ]
+    },
+    "ttotal": [
+      380,
+      420,
+      500,
+      600,
+      700,
+      750,
+      770,
+      1000,
+      2296,
+      400,
+      840
+    ],
+    "claim_number": 300002682
+  },
+  {
+    "claimNumber": "OHI01618000090421PY24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "BRIGHT MAYOWA ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "Male",
+    "dateOfBirth": "2017-10-17",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2775",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Other specified helminthiases"
+    ],
+    "total": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "25",
+      "150",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2775,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      25,
+      150,
+      600,
+      2000
+    ],
+    "claim_number": 300002683
+  },
+  {
+    "claimNumber": "OHI016180000904201Z24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "ANUOLUWAPO CATHERINE ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "FEMALE",
+    "dateOfBirth": "2015-07-28",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "8525",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Acute upper respiratory infection, unspecified",
+      "Plasmodium falciparum malaria, unspecified",
+      "Abdominal and pelvic pain",
+      "Other specified sepsis",
+      "Helminthiasis, unspecified"
+    ],
+    "total": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "ALBENDAZOLE TABLET",
+      "IBUPROFEN 200MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "WBC"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Laboratory"
+    ],
+    "quantity": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "25",
+      "150",
+      "40",
+      "600",
+      "700",
+      "250",
+      "2000",
+      "2000",
+      "700"
+    ],
+    "awarded": [
+      "125",
+      "300",
+      "600",
+      "600",
+      "700",
+      "1500",
+      "2000",
+      "2000",
+      "0"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "700"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "FBC already paid"
+    ],
+    "quantityApproved": [
+      "5",
+      "2",
+      "15",
+      "1",
+      "1",
+      "6",
+      "1",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 8525,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "ALBENDAZOLE TABLET",
+          "code": "A29455"
+        },
+        {
+          "item": "IBUPROFEN 200MG TAB",
+          "code": "I43766"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "WBC",
+          "code": "85048"
+        }
+      ]
+    },
+    "ttotal": [
+      125,
+      300,
+      600,
+      600,
+      700,
+      1500,
+      2000,
+      2000,
+      700
+    ],
+    "claim_number": 300002684
+  },
+  {
+    "claimNumber": "OHI01618000090419GD24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "TAIWO DANIEL ASHADE",
+    "company": "JUSTRITE SPECIAL",
+    "gender": "MALE",
+    "dateOfBirth": "1979-07-14",
+    "memberPlan": "GOLD PLUS FAMILY",
+    "totalClaimed": "2900",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-11",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Other acute upper respiratory infections of multiple sites",
+      "Dental caries, unspecified"
+    ],
+    "total": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "item": [
+      "LORATIDINE 10MG TAB",
+      "ZEDEX COUGH SYRUP 100ML",
+      "GP INITIAL CONSULTATION"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Medical"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1"
+    ],
+    "cost": [
+      "60",
+      "600",
+      "2000"
+    ],
+    "awarded": [
+      "300",
+      "600",
+      "2000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 2900,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "LORATIDINE 10MG TAB",
+          "code": "A30248"
+        },
+        {
+          "item": "ZEDEX COUGH SYRUP 100ML",
+          "code": "Z280"
+        }
+      ],
+      "services": [
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      300,
+      600,
+      2000
+    ],
+    "claim_number": 300002685
+  },
+  {
+    "claimNumber": "OHI01046000090231SX24",
+    "memberNumber": "OHM222/CS173841/ST",
+    "memberNumber1": "",
+    "fullName": "KHALEED TAJUDEEN",
+    "company": "ICMA PROFESSIONAL SERVICES",
+    "gender": "Male",
+    "dateOfBirth": "2006-01-16",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "18970",
+    "status": "Adjudicated",
+    "serviceProvider": "TEST HOSPITAL",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-05",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Unspecified malaria",
+      "Peptic ulcer, site unspecified",
+      "anemia, unspecified",
+      "Hypertensive heart and renal disease, unspecified",
+      "Typhoid fever"
+    ],
+    "total": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "item": [
+      "DICLOFENAC 75MG INJECTION",
+      "PARACETAMOL 500MG TAB",
+      "Creatinine",
+      "GESTID SUSPENSION 100ML",
+      "PCV",
+      "UREA",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "COARTEM 80/480",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG",
+      "OMEPRAZOLE 20MG",
+      "Electrolytes"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Laboratory",
+      "Laboratory",
+      "Drugs",
+      "Medical",
+      "Drugs",
+      "Drugs",
+      "Laboratory"
+    ],
+    "quantity": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "cost": [
+      "120",
+      "15",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "300",
+      "2000",
+      "360",
+      "90",
+      "4000"
+    ],
+    "awarded": [
+      "120",
+      "270",
+      "1000",
+      "1200",
+      "1200",
+      "1200",
+      "1500",
+      "1800",
+      "2000",
+      "2160",
+      "2520",
+      "4000"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "1",
+      "18",
+      "1",
+      "1",
+      "1",
+      "1",
+      "1",
+      "6",
+      "1",
+      "6",
+      "28",
+      "1"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 18970,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "PARACETAMOL 500MG TAB",
+          "code": "E888"
+        },
+        {
+          "item": "GESTID SUSPENSION 100ML",
+          "code": "G1001"
+        },
+        {
+          "item": "COARTEM 80/480",
+          "code": "Entry: COARTEM 80/480"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        },
+        {
+          "item": "OMEPRAZOLE 20MG",
+          "code": "C32106"
+        }
+      ],
+      "services": [
+        {
+          "item": "Creatinine",
+          "code": "82570"
+        },
+        {
+          "item": "PCV",
+          "code": "85014"
+        },
+        {
+          "item": "UREA",
+          "code": "84545"
+        },
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        },
+        {
+          "item": "Electrolytes",
+          "code": "80051"
+        }
+      ]
+    },
+    "ttotal": [
+      120,
+      270,
+      1000,
+      1200,
+      1200,
+      1200,
+      1500,
+      1800,
+      2000,
+      2160,
+      2520,
+      4000
+    ],
+    "claim_number": 300002686
+  }
+]

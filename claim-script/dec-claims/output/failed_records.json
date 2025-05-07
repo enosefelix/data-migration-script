@@ -1,0 +1,183 @@
+{
+  "Provider not found for serviceProvider": [
+    {
+      "record": {
+        "claimNumber": "OHI066130000907277724",
+        "memberNumber": "OHM222/CS173841/ST",
+        "memberNumber1": "",
+        "fullName": "OLUFEMI ADEWALE ONABOTE",
+        "company": "ICMA PROFESSIONAL SERVICES",
+        "gender": "Male",
+        "dateOfBirth": "1975-12-09",
+        "memberPlan": "GOLD FAMILY",
+        "totalClaimed": "21502.5",
+        "status": "Adjudicated",
+        "serviceProvider": "TEST HOSPIL",
+        "typeOfVisit": "IN-PATIENT",
+        "dateOfConsultation": "2024-12-20",
+        "dateOfAdmission": "2024-12-19",
+        "dateOfDischarge": "2024-12-20",
+        "diagnosis": [
+          "Sickle-cell anaemia with crisis"
+        ],
+        "total": [
+          "175",
+          "500",
+          "800",
+          "1000",
+          "2000",
+          "2140",
+          "3000",
+          "4387.5",
+          "7500"
+        ],
+        "awarded": [
+          "175",
+          "500",
+          "800",
+          "1000",
+          "2000",
+          "2140",
+          "3000",
+          "4387.5",
+          "7500"
+        ],
+        "item": [
+          "PROMETHAZINE INJ",
+          "Urinalysis",
+          "PARACETAMOL INJ",
+          "FBC",
+          "GP INITIAL CONSULTATION",
+          "NORMAL SALINE",
+          "GENERAL WARD",
+          "PENTAZOCINE INJ 30MG",
+          "SPECIALIST CONSULTATION"
+        ],
+        "itemType": [
+          "Drugs",
+          "Laboratory",
+          "Drugs",
+          "Laboratory",
+          "MEDICAL",
+          "Drugs",
+          "Administrative",
+          "Drugs",
+          "Administrative"
+        ],
+        "quantity": [
+          "1",
+          "1",
+          "4",
+          "1",
+          "1",
+          "4",
+          "1",
+          "13",
+          "1"
+        ],
+        "cost": [
+          "175",
+          "500",
+          "200",
+          "1000",
+          "2000",
+          "535",
+          "3000",
+          "337.5",
+          "7500"
+        ],
+        "rejected": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "rejectionReasons": [
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved",
+          "Approved"
+        ],
+        "quantityApproved": [
+          "1",
+          "1",
+          "4",
+          "1",
+          "1",
+          "4",
+          "1",
+          "13",
+          "1"
+        ],
+        "auditedBy": "shukurat",
+        "claimed": 21502.5,
+        "mapped": {
+          "drugs": [
+            {
+              "item": "PROMETHAZINE INJ",
+              "code": "P43749"
+            },
+            {
+              "item": "PARACETAMOL INJ",
+              "code": "Entry: PARACETAMOL INJ"
+            },
+            {
+              "item": "NORMAL SALINE",
+              "code": "B804"
+            },
+            {
+              "item": "PENTAZOCINE INJ 30MG",
+              "code": "F1231"
+            }
+          ],
+          "services": [
+            {
+              "item": "Urinalysis",
+              "code": "81015"
+            },
+            {
+              "item": "FBC",
+              "code": "85027"
+            },
+            {
+              "item": "GP INITIAL CONSULTATION",
+              "code": "Entry: GP INITIAL CONSULTATION"
+            },
+            {
+              "item": "GENERAL WARD",
+              "code": "RM-8.01"
+            },
+            {
+              "item": "SPECIALIST CONSULTATION",
+              "code": "Entry: SPECIALIST CONSULTATION"
+            }
+          ]
+        },
+        "ttotal": [
+          175,
+          500,
+          800,
+          1000,
+          2000,
+          2140,
+          3000,
+          4387.5,
+          7500
+        ],
+        "claim_number": 300001934
+      },
+      "error": "Provider not found for serviceProvider: TEST HOSPIL",
+      "stackTrace": "Error: Provider not found for serviceProvider: TEST HOSPIL\n    at processRecord (C:\\Users\\OCT-YAB-ENG-ENOSE\\Documents\\Godabeg\\migrationScriptUpdateProdd\\claim-script\\migrateClaim.js:177:13)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n    at async processBatch (C:\\Users\\OCT-YAB-ENG-ENOSE\\Documents\\Godabeg\\migrationScriptUpdateProdd\\claim-script\\migrateClaim.js:101:41)\n    at async migrateClaimDec (C:\\Users\\OCT-YAB-ENG-ENOSE\\Documents\\Godabeg\\migrationScriptUpdateProdd\\claim-script\\migrateClaim.js:42:28)\n    at async main (C:\\Users\\OCT-YAB-ENG-ENOSE\\Documents\\Godabeg\\migrationScriptUpdateProdd\\script-runner.js:94:5)"
+    }
+  ]
+}

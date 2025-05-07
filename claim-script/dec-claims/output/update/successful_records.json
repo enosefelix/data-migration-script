@@ -1,0 +1,702 @@
+[
+  {
+    "claimNumber": "OHI019090000903806224",
+    "memberNumber": "OHM304/CS172969/ST",
+    "fullName": "IBRAHIM OLAMILEKAN BABATUNDE",
+    "company": "ICL SUPPORT SERVICES LIMITED",
+    "gender": "MALE",
+    "dateOfBirth": "1995-09-14",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "9350",
+    "status": "Adjudicated",
+    "serviceProvider": "ALL SOULS INFIRMARY",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-09",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Malaria due to simian plasmodia",
+      "Typhoid fever"
+    ],
+    "total": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "DICLOFENAC 75MG INJECTION",
+      "EMZOLYN EXPECTORANT",
+      "DICLOFENAC SODIUM 100MG TAB",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "CIPROTAB 500MG",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "cost": [
+      "30",
+      "200",
+      "400",
+      "50",
+      "600",
+      "100",
+      "2000",
+      "2000",
+      "350"
+    ],
+    "awarded": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 9350,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "EMZOLYN EXPECTORANT",
+          "code": "E860"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 100MG TAB",
+          "code": "D32892"
+        },
+        {
+          "item": "CIPROTAB 500MG",
+          "code": "C1829"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      150,
+      200,
+      400,
+      500,
+      600,
+      1400,
+      2000,
+      2000,
+      2100
+    ],
+    "claim_number": 300000011
+  },
+  {
+    "claimNumber": "OHI019090000903806224",
+    "memberNumber": "OHM304/CS172969/ST",
+    "fullName": "IBRAHIM OLAMILEKAN BABATUNDE",
+    "company": "ICL SUPPORT SERVICES LIMITED",
+    "gender": "MALE",
+    "dateOfBirth": "1995-09-14",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "9350",
+    "status": "Adjudicated",
+    "serviceProvider": "ALL SOULS INFIRMARY",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-09",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Malaria due to simian plasmodia",
+      "Typhoid fever"
+    ],
+    "total": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "DICLOFENAC 75MG INJECTION",
+      "EMZOLYN EXPECTORANT",
+      "DICLOFENAC SODIUM 100MG TAB",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "CIPROTAB 500MG",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "cost": [
+      "30",
+      "200",
+      "400",
+      "50",
+      "600",
+      "100",
+      "2000",
+      "2000",
+      "350"
+    ],
+    "awarded": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 9350,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "EMZOLYN EXPECTORANT",
+          "code": "E860"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 100MG TAB",
+          "code": "D32892"
+        },
+        {
+          "item": "CIPROTAB 500MG",
+          "code": "C1829"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      150,
+      200,
+      400,
+      500,
+      600,
+      1400,
+      2000,
+      2000,
+      2100
+    ],
+    "claim_number": 300000011
+  },
+  {
+    "claimNumber": "OHI019090000903806224",
+    "memberNumber": "OHM304/CS172969/ST",
+    "fullName": "IBRAHIM OLAMILEKAN BABATUNDE",
+    "company": "ICL SUPPORT SERVICES LIMITED",
+    "gender": "MALE",
+    "dateOfBirth": "1995-09-14",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "9350",
+    "status": "Adjudicated",
+    "serviceProvider": "ALL SOULS INFIRMARY",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-09",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Malaria due to simian plasmodia",
+      "Typhoid fever"
+    ],
+    "total": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "DICLOFENAC 75MG INJECTION",
+      "EMZOLYN EXPECTORANT",
+      "DICLOFENAC SODIUM 100MG TAB",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "CIPROTAB 500MG",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "cost": [
+      "30",
+      "200",
+      "400",
+      "50",
+      "600",
+      "100",
+      "2000",
+      "2000",
+      "350"
+    ],
+    "awarded": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 9350,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "EMZOLYN EXPECTORANT",
+          "code": "E860"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 100MG TAB",
+          "code": "D32892"
+        },
+        {
+          "item": "CIPROTAB 500MG",
+          "code": "C1829"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      150,
+      200,
+      400,
+      500,
+      600,
+      1400,
+      2000,
+      2000,
+      2100
+    ],
+    "claim_number": 300000011
+  },
+  {
+    "claimNumber": "OHI019090000903806224",
+    "memberNumber": "OHM304/CS172969/ST",
+    "fullName": "IBRAHIM OLAMILEKAN BABATUNDE",
+    "company": "ICL SUPPORT SERVICES LIMITED",
+    "gender": "MALE",
+    "dateOfBirth": "1995-09-14",
+    "memberPlan": "STANDARD FAMILY",
+    "totalClaimed": "9350",
+    "status": "Adjudicated",
+    "serviceProvider": "ALL SOULS INFIRMARY",
+    "typeOfVisit": "OUT-PATIENT",
+    "dateOfConsultation": "2024-12-09",
+    "dateOfAdmission": null,
+    "dateOfDischarge": null,
+    "diagnosis": [
+      "Malaria due to simian plasmodia",
+      "Typhoid fever"
+    ],
+    "total": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "item": [
+      "PIRITON TAB",
+      "DICLOFENAC 75MG INJECTION",
+      "EMZOLYN EXPECTORANT",
+      "DICLOFENAC SODIUM 100MG TAB",
+      "MALARIA PARASITES IN BLOOD SMEAR",
+      "CIPROTAB 500MG",
+      "FBC",
+      "GP INITIAL CONSULTATION",
+      "ARTHEMETER INJECTION 80MG"
+    ],
+    "itemType": [
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Drugs",
+      "Laboratory",
+      "Drugs",
+      "Laboratory",
+      "Medical",
+      "Drugs"
+    ],
+    "quantity": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "cost": [
+      "30",
+      "200",
+      "400",
+      "50",
+      "600",
+      "100",
+      "2000",
+      "2000",
+      "350"
+    ],
+    "awarded": [
+      "150",
+      "200",
+      "400",
+      "500",
+      "600",
+      "1400",
+      "2000",
+      "2000",
+      "2100"
+    ],
+    "rejected": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "rejectionReasons": [
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved",
+      "Approved"
+    ],
+    "quantityApproved": [
+      "5",
+      "1",
+      "1",
+      "10",
+      "1",
+      "14",
+      "1",
+      "1",
+      "6"
+    ],
+    "auditedBy": "shukurat",
+    "claimed": 9350,
+    "mapped": {
+      "drugs": [
+        {
+          "item": "PIRITON TAB",
+          "code": "P39630"
+        },
+        {
+          "item": "DICLOFENAC 75MG INJECTION",
+          "code": "M37842"
+        },
+        {
+          "item": "EMZOLYN EXPECTORANT",
+          "code": "E860"
+        },
+        {
+          "item": "DICLOFENAC SODIUM 100MG TAB",
+          "code": "D32892"
+        },
+        {
+          "item": "CIPROTAB 500MG",
+          "code": "C1829"
+        },
+        {
+          "item": "ARTHEMETER INJECTION 80MG",
+          "code": "V42735"
+        }
+      ],
+      "services": [
+        {
+          "item": "MALARIA PARASITES IN BLOOD SMEAR",
+          "code": "87207"
+        },
+        {
+          "item": "FBC",
+          "code": "85027"
+        },
+        {
+          "item": "GP INITIAL CONSULTATION",
+          "code": "99201"
+        }
+      ]
+    },
+    "ttotal": [
+      150,
+      200,
+      400,
+      500,
+      600,
+      1400,
+      2000,
+      2000,
+      2100
+    ],
+    "claim_number": 300000011
+  }
+]
