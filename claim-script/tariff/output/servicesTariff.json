@@ -1,0 +1,4259 @@
+[
+  {
+    "service": "X-Ray",
+    "cpt": "70300",
+    "description": "XRAY EXAM TEETH, SINGLE VIEW, FOR TRAUMA",
+    "provider_code": "70300",
+    "provider_desc": "2 views Xray",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "76499.01",
+    "description": "Small X-ray Film",
+    "provider_code": "76499.01",
+    "provider_desc": "2 X RAY VIEWS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pulmonary Services",
+    "cpt": "93228",
+    "description": "External mobile cardiovascular telemetry with electrocardiographic recording, concurrent computerized real time data analysis and greater than 24 hours of accessible ECG data storage (retrievable with query) with ECG triggered and patient selected events transmitted to a remote attended surveillance center for up to 30 days physician review and interpretation with report",
+    "provider_code": "93228",
+    "provider_desc": "24hrs Holter Monitoring",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82950",
+    "description": "GLUCOSE, POST PRANDIAL",
+    "provider_code": "82950",
+    "provider_desc": "2hr Post Prandial",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "UltraSound",
+    "cpt": "76511",
+    "description": "Ophthalmic ultrasound, diagnostic; quantitative A-scan only",
+    "provider_code": "76511",
+    "provider_desc": "A Scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "44385",
+    "description": "Endoscopic evaluation of small intestinal (abdominal or pelvic) pouch diagnostic, with or without collection of specimen(s) by brushing or washing (separate procedure)",
+    "provider_code": "44385",
+    "provider_desc": "Abdominal USS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45110",
+    "description": "Proctectomy; complete, combined abdominoperineal, with colostomy",
+    "provider_code": "45110",
+    "provider_desc": "Abdominopelvic USS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Composite Filling",
+    "cpt": "D2390",
+    "description": "resin-based composite crown, anterior",
+    "provider_code": "D2390",
+    "provider_desc": "Acrylic Crowning/ Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42830",
+    "description": "Adenoidectomy, primary; younger than age 12",
+    "provider_code": "42830",
+    "provider_desc": "Adenoidectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42831",
+    "description": "Adenoidectomy, primary; age 12 or over",
+    "provider_code": "42831",
+    "provider_desc": "Adenotonsilectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82040",
+    "description": "ASSAY OF ALBUMIN; SERUM",
+    "provider_code": "82040",
+    "provider_desc": "Albumin",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84075",
+    "description": "ASSAY OF ALKALINE PHOSPHATASE",
+    "provider_code": "84075",
+    "provider_desc": "Alkaline Phosphatase",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "25924",
+    "description": "Disarticulation through wrist; re-amputation",
+    "provider_code": "25924",
+    "provider_desc": "Amputation and/or Joint Disarticulation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82150",
+    "description": "ASSAY OF AMYLASE",
+    "provider_code": "82150",
+    "provider_desc": "Amylase",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "46706",
+    "description": "Repair of anal fistula with fibrin glue",
+    "provider_code": "46706",
+    "provider_desc": "Anal Fistula Repair",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "46080",
+    "description": "Sphincterotomy, anal, division of sphincter (separate procedure)",
+    "provider_code": "46080",
+    "provider_desc": "Anal Sphincterectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pathology",
+    "cpt": "80500",
+    "description": "LAB PATHOLOGY CONSULTATION",
+    "provider_code": "80500",
+    "provider_desc": "ANC (Consultation, lab and up to max of  3 scans)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73600.03",
+    "description": "Radiologic examination, ankle; 1 view",
+    "provider_code": "73600.03",
+    "provider_desc": "Ankle",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "28072",
+    "description": "Synovectomy; metatarsophalangeal joint, each",
+    "provider_code": "28072",
+    "provider_desc": "Antral wash out bilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "31000.01",
+    "description": "Lavage by cannulation; maxillary sinus (antrum puncture or natural ostium); Unilateral",
+    "provider_code": "31000.01",
+    "provider_desc": "Antral washout-unilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "44950.01",
+    "description": "Excision of chronic Appendectomy;",
+    "provider_code": "44950.01",
+    "provider_desc": "Appendectomy (ruptured)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "44950",
+    "description": "Appendectomy;",
+    "provider_code": "44950",
+    "provider_desc": "Appendectomy (uncomplicated)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86060",
+    "description": "ANTISTREPTOLYSIN 0; TITER",
+    "provider_code": "86060",
+    "provider_desc": "ASO Titre",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthopedic procedures",
+    "cpt": "20600",
+    "description": "Arthrocentesis, aspiration and/or injection; small joint or bursa (eg, fingers, toes)",
+    "provider_code": "20600",
+    "provider_desc": "Aspirate pus MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59400.04",
+    "description": "Breech vaginal delivery",
+    "provider_code": "59400.04",
+    "provider_desc": "Assisted Breech Delivery",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92585.02",
+    "description": "Auditory brainstem response (ABR) audiometry test",
+    "provider_code": "92585.02",
+    "provider_desc": "Auditory Brainstem Response (ABR)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92586",
+    "description": "AUDITORY EVOKED POTENTIALS, EVOKED RESPONSE AUDIOMETRY, &/OR TESTING CENTRAL NERVOUS SYSTEM;LIMITED",
+    "provider_code": "92586",
+    "provider_desc": "Auditory steady state response (ASSR)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "11042.05",
+    "description": "Surgical toilet and wound debridement under general anesthesia",
+    "provider_code": "11042.05",
+    "provider_desc": "Aural Toileting & Dressing - Bilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Emergency room",
+    "cpt": "16015",
+    "description": "DRESSINGS &/ INITIAL/SUBSEQUENT; WITHOUT ANESTHESIA, MEDIUM",
+    "provider_code": "16015",
+    "provider_desc": "Aural Toileting & Dressing - Unilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "UltraSound",
+    "cpt": "76512",
+    "description": "Ophthalmic ultrasound, diagnostic; B-scan (with or without superimposed non-quantitative A-scan)",
+    "provider_code": "76512",
+    "provider_desc": "B Scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74270",
+    "description": "Radiologic examination, colon; contrast (eg, barium) enema, with or without KUB",
+    "provider_code": "74270",
+    "provider_desc": "Barium Enema",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "43761",
+    "description": "Radiological examination, gastrointestinal tract, upper, air contrast, with specific high density barium, effervescent agent, with or without glucagon; with or without delayed films, without KUB",
+    "provider_code": "43761",
+    "provider_desc": "Barium meal & follow through",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74270.01",
+    "description": "Radiologic examination, colon; oral contrast (eg, barium), with or without KUB",
+    "provider_code": "74270.01",
+    "provider_desc": "Barium Swallow (Oesophageal study only)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "90586",
+    "description": "Bacillus Calmette-Guerin vaccine (BCG) for bladder cancer, live, for intravesical use",
+    "provider_code": "90586",
+    "provider_desc": "BCG",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "58752.01",
+    "description": "Reconstructive Tubal Surgery",
+    "provider_code": "58752.01",
+    "provider_desc": "Bilateral tubal ligation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85102",
+    "description": "Bone Marrow Biopsy",
+    "provider_code": "85102",
+    "provider_desc": "Biopsy of Bone Tumor",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "102900612",
+    "description": "Biopsy, thyroid gland, open",
+    "provider_code": "102900612",
+    "provider_desc": "Biopsy of the Thyroid Gland",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "BBC001",
+    "description": "Birth before arrival care",
+    "provider_code": "BBC001",
+    "provider_desc": "Birth before arrival care",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "113095734",
+    "description": "Biopsy, open, bladder",
+    "provider_code": "113095734",
+    "provider_desc": "Bladder Scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87020",
+    "description": "CULTURE BODY FLUIDS",
+    "provider_code": "87020",
+    "provider_desc": "Blood culture",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86985",
+    "description": "SPLITTING, BLOOD/BLOOD PRODUCTS, EACH UNIT",
+    "provider_code": "86985",
+    "provider_desc": "Blood group",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84703",
+    "description": "PREGNANCY TEST (BLOOD) QUALITATIVE",
+    "provider_code": "84703",
+    "provider_desc": "Blood preg. test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "21215",
+    "description": "Graft, bone; mandible (includes obtaining graft)",
+    "provider_code": "21215",
+    "provider_desc": "Bone grafting + ORIF (attracts extra fee in addition to ORIF + implant fee) )",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85102.01",
+    "description": "BONE MARROW BIOPSY (FEES)",
+    "provider_code": "85102.01",
+    "provider_desc": "Bone Marrow Biopsy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78607.02",
+    "description": "Brain Scan (HAMPO)",
+    "provider_code": "78607.02",
+    "provider_desc": "Brain Scan - Neonate",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78607.03",
+    "description": "Brain Scan (MIBI)",
+    "provider_code": "78607.03",
+    "provider_desc": "Brain scan including doppler",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "19120.01",
+    "description": "Excision of small cyst, fibroadenoma, or other benign or malignant tumor, aberrant breast tissue, duct lesion, nipple or areolar lesion",
+    "provider_code": "19120.01",
+    "provider_desc": "Breast lump Excision (Inclusive of Theatre, Anaethesia & Histology)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "19102",
+    "description": "Biopsy of breast; percutaneous, needle core, using imaging guidance",
+    "provider_code": "19102",
+    "provider_desc": "Breast Scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "77077",
+    "description": "Joint survey, single view, 2 or more joints (specify)",
+    "provider_code": "77077",
+    "provider_desc": "Bridges( 2 units) / Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "77077.01",
+    "description": "Joint survey, 2 views, 2 or more joints (specify)",
+    "provider_code": "77077.01",
+    "provider_desc": "Bridges( 3 units)/ Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Bronchoscopy",
+    "cpt": "31635",
+    "description": "Bronchoscopy, rigid or flexible, including fluoroscopic guidance, when performed; with removal of foreign body",
+    "provider_code": "31635",
+    "provider_desc": "Bronchoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84520",
+    "description": "ASSAY OF UREA NITROGEN; (BUN) (BLOOD)",
+    "provider_code": "84520",
+    "provider_desc": "BUN (Blood Urea Nitrogen) -  [Serum]",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84540",
+    "description": "ASSAY OF UREA NITROGEN; URINE",
+    "provider_code": "84540",
+    "provider_desc": "BUN (Blood Urea Nitrogen) -  [Urine, 24hrs]",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Emergency room",
+    "cpt": "12041",
+    "description": "Emergency burn dressing, medium",
+    "provider_code": "12041",
+    "provider_desc": "Burns Management -1St Degree/Dressing",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86304",
+    "description": "Immunoassay for tumor antigen, quantitative CA 125",
+    "provider_code": "86304",
+    "provider_desc": "CA-125 tumour marker",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "80053",
+    "description": "Comprehensive metabolic panel This panel must include the following: Albumin (82040), Bilirubin, total (82247), Calcium, total (82310), Carbon dioxide (bicarbonate) (82374), Chloride (82435), Creatinine (82565), Glucose (82947), Phosphatase, alkaline (84075), Potassium (84132), Protein, total (84155), Sodium (84295), Transferase, alanine amino (ALT) (SGPT) (84460), Transferase, aspartate amino (AST) (SGOT) (84450), Urea nitrogen (BUN) (84520)",
+    "provider_code": "80053",
+    "provider_desc": "Calcium",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-3",
+    "description": "Cardiologist Consultation",
+    "provider_code": "CON-3",
+    "provider_desc": "Cardiologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-4",
+    "description": "Cardiologist Follow Up",
+    "provider_code": "CON-4",
+    "provider_desc": "Cardiologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-6",
+    "description": "Cardiothoracic Surgeon Consultation",
+    "provider_code": "CON-6",
+    "provider_desc": "Cardiothoracic Surgeon Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-5",
+    "description": "Cardiothoracic Surgeon  Follow Up",
+    "provider_code": "CON-5",
+    "provider_desc": "Cardiothoracic Surgeon Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "CTGN001",
+    "description": "Cardiotocography (CTG)",
+    "provider_code": "CTGN001",
+    "provider_desc": "Cardiotocography (CTG)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "66984",
+    "description": "Extracapsular cataract removal with insertion of intraocular lens prosthesis (1 stage procedure), manual or mechanical technique (eg, irrigation and aspiration or phacoemulsification)",
+    "provider_code": "66984",
+    "provider_desc": "Cataract surgery (ICCE/ECCE) + IOL",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Instruments & Consumables",
+    "cpt": "C1754",
+    "description": "CATHETER, INTRADISCAL",
+    "provider_code": "C1754",
+    "provider_desc": "Catheterization (+Catheter)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "120072.02",
+    "description": "Cautery Under G.A",
+    "provider_code": "120072.02",
+    "provider_desc": "Cauterization",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Space Maintainers",
+    "cpt": "D1550",
+    "description": "re-cementation of space maintainer",
+    "provider_code": "D1550",
+    "provider_desc": "Cementation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "57700",
+    "description": "Cerclage of uterine cervix, nonobstetrical",
+    "provider_code": "57700",
+    "provider_desc": "Cervical Cerclage (Block fee)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "31237",
+    "description": "Nasal/sinus endoscopy, surgical with biopsy, polypectomy or debridement (separate procedure)",
+    "provider_code": "31237",
+    "provider_desc": "Cervical Polypectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72040.01",
+    "description": "Radiologic examination, spine, cervical; 1 view",
+    "provider_code": "72040.01",
+    "provider_desc": "Cervical Spine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "57510",
+    "description": "Cautery of cervix",
+    "provider_code": "57510",
+    "provider_desc": "Cervix - Cervical Procedures (Cauterization Of Lesion)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "57555",
+    "description": "Excision of cervical stump, vaginal approach; with anterior and/or posterior repair",
+    "provider_code": "57555",
+    "provider_desc": "Cervix - Cervical Procedures (Repair Of Laceration)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "C-Section Delievry",
+    "cpt": "59514",
+    "description": "Cesarean delivery only;",
+    "provider_code": "59514",
+    "provider_desc": "Cesarean Section",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "C-Section Delievry",
+    "cpt": "59510",
+    "description": "Routine obstetric care including antepartum care, cesarean delivery, and postpartum care",
+    "provider_code": "59510",
+    "provider_desc": "Cesarean Section + Hysterectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "C-Section Delievry",
+    "cpt": "CSB001",
+    "description": "CS + BTL",
+    "provider_code": "CSB001",
+    "provider_desc": "Cesarean Section+BTL",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "67800",
+    "description": "Excision of chalazion; single",
+    "provider_code": "67800",
+    "provider_desc": "Chalazion Incision/Drainage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "71010",
+    "description": "Radiologic examination, chest; single view, frontal",
+    "provider_code": "71010",
+    "provider_desc": "Chest ( PA/AP) / (PA/Lateral)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82438",
+    "description": "ASSAY OF CHLORIDE; OTHER SOURCE",
+    "provider_code": "82438",
+    "provider_desc": "Chloride or bicarbonate",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "47600",
+    "description": "Cholecystectomy;",
+    "provider_code": "47600",
+    "provider_desc": "Cholecystectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "54163",
+    "description": "Repair incomplete circumcision",
+    "provider_code": "54163",
+    "provider_desc": "Circumcision (Bundle Fee)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73000.01",
+    "description": "Radiologic examination; clavicle, One View",
+    "provider_code": "73000.01",
+    "provider_desc": "Clavicle",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "20610.01",
+    "description": "injection of a joint",
+    "provider_code": "20610.01",
+    "provider_desc": "Closed reduction  + POP Application across 1 joint",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7720",
+    "description": "maxilla - closed reduction",
+    "provider_code": "D7720",
+    "provider_desc": "Closed reduction + POP Application (Hip Spica)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7820",
+    "description": "closed reduction of dislocation",
+    "provider_code": "D7820",
+    "provider_desc": "Closed reduction + POP Application across 2  joints",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85002",
+    "description": "BLEEDING TIME",
+    "provider_code": "85002",
+    "provider_desc": "Clotting time",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "740.01",
+    "description": "Anesthesia for colonoscopy",
+    "provider_code": "740.01",
+    "provider_desc": "Colonoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Composite Filling",
+    "cpt": "D2330.01",
+    "description": "Composit Filling",
+    "provider_code": "D2330.01",
+    "provider_desc": "Composite filling",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86689",
+    "description": "Antibody; HTLV or HIV antibody, confirmatory test (eg, Western Blot)",
+    "provider_code": "86689",
+    "provider_desc": "Confirmatory HIV",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "12011.05",
+    "description": "Removal of Corneal Stitch",
+    "provider_code": "12011.05",
+    "provider_desc": "Corneal repair",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthodontic Treatment",
+    "cpt": "D8693",
+    "description": "rebonding or recementing; and/or repair, as required, of fixed retainers",
+    "provider_code": "D8693",
+    "provider_desc": "Correction of Duputyren contracture",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86140",
+    "description": "C-REACTIVE PROTEIN",
+    "provider_code": "86140",
+    "provider_desc": "C-Reactive Protein",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82570",
+    "description": "ASSAY OF CREATININE; OTHER SOURCE",
+    "provider_code": "82570",
+    "provider_desc": "Creatinine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82575",
+    "description": "CREATININE; CLEARANCE",
+    "provider_code": "82575",
+    "provider_desc": "Creatinine clearance",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82552",
+    "description": "CREATINE KINASE (CK), (CPK); ISOENZYMES",
+    "provider_code": "82552",
+    "provider_desc": "Creatinine kinase",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "CSF001",
+    "description": "CSF Analysis",
+    "provider_code": "CSF001",
+    "provider_desc": "CSF Analysis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83516.02",
+    "description": "IMMUNOASSAY ANALYTE QUALITATIVE, CSF FLUID",
+    "provider_code": "83516.02",
+    "provider_desc": "CSF Comprehensive(chemistry+cyto+microb)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82784.04",
+    "description": "Assay of IgA In CSF",
+    "provider_code": "82784.04",
+    "provider_desc": "CSF(routine chemistry)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "CT",
+    "cpt": "76497.05",
+    "description": "CT Scan Angiography any body part",
+    "provider_code": "76497.05",
+    "provider_desc": "CT Scan( depending on the bodies part)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Ophthalmology Procedures",
+    "cpt": "92140",
+    "description": "Provocative tests for glaucoma, with interpretation and report, without tonography",
+    "provider_code": "92140",
+    "provider_desc": "CVF/glaucoma screening",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "38550",
+    "description": "Excision of cystic hygroma, axillary or cervical; without deep neurovascular dissection",
+    "provider_code": "38550",
+    "provider_desc": "Cystic Hygroma Excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Cystoscopy",
+    "cpt": "52000",
+    "description": "Cystourethroscopy (separate procedure)",
+    "provider_code": "52000",
+    "provider_desc": "Cystourethroscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pathology",
+    "cpt": "88161",
+    "description": "Cytopathology, smears, any other source; preparation, screening and interpretation",
+    "provider_code": "88161",
+    "provider_desc": "Cytology",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Dental Consultation",
+    "cpt": "DCON-1",
+    "description": "Dental Consultation",
+    "provider_code": "DCON-1",
+    "provider_desc": "Dental Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Dental Consultation",
+    "cpt": "DCON-2",
+    "description": "Dental Follow Up",
+    "provider_code": "DCON-2",
+    "provider_desc": "Dental Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Dental Consultation",
+    "cpt": "DCON-1.1",
+    "description": "Dental Consultation",
+    "provider_code": "DCON-1.1",
+    "provider_desc": "Dental Specialist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthodontist Consultation",
+    "cpt": "DCON-3",
+    "description": "Orthodontist Consultation",
+    "provider_code": "DCON-3",
+    "provider_desc": "Dental Specialist Consult-Orthodontist",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthodontist Consultation",
+    "cpt": "DCON-4",
+    "description": "Orthodontist Follow Up",
+    "provider_code": "DCON-4",
+    "provider_desc": "Dental Specialist Consult-Orthodontist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "DCON-1.2",
+    "description": "Dental Specialist Consult-Others (Maxillofacial) Review",
+    "provider_code": "DCON-1.2",
+    "provider_desc": "Dental Specialist Consult-Others (Maxillofacial) Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-7",
+    "description": "Dermatology Consultation",
+    "provider_code": "CON-7",
+    "provider_desc": "Dermatologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-8",
+    "description": "Dermatology Follow Up",
+    "provider_code": "CON-8",
+    "provider_desc": "Dermatologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-9",
+    "description": "Dietician Consultation",
+    "provider_code": "CON-9",
+    "provider_desc": "Dietician/Nutritionist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-10",
+    "description": "Dietician Consultation Follow Up",
+    "provider_code": "CON-10",
+    "provider_desc": "Dietician/Nutritionist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82248",
+    "description": "BILIRUBIN; DIRECT",
+    "provider_code": "82248",
+    "provider_desc": "Direct Bilirubin",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86880",
+    "description": "ANTIHUMAN GLOBULIN TEST (COOMBS TEST); DIRECT, EACH ANTISERUM",
+    "provider_code": "86880",
+    "provider_desc": "Direct coomb's test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31535",
+    "description": "Laryngoscopy, direct, operative, with biopsy;",
+    "provider_code": "31535",
+    "provider_desc": "Direct laryngoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "76512.02",
+    "description": "Ophthalmic ultrasound, diagnostic; B-scan (with or without superimposed non-quantitative A-scan); Bilateral",
+    "provider_code": "76512.02",
+    "provider_desc": "Doppler Scan per limb",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Single Room",
+    "cpt": "RM-5",
+    "description": "Excellent single room - package/day",
+    "provider_code": "RM-5",
+    "provider_desc": "Double bed",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42310",
+    "description": "Drainage of abscess; submaxillary or sublingual, intraoral",
+    "provider_code": "42310",
+    "provider_desc": "Drainage of anal abscess",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "51080",
+    "description": "Drainage of perivesical or prevesical space abscess",
+    "provider_code": "51080",
+    "provider_desc": "Drainage of Auricular Abscess",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "27033",
+    "description": "Arthrotomy, hip, including exploration or removal of loose or foreign body",
+    "provider_code": "27033",
+    "provider_desc": "Drainage of Septic Arthritis  (Open athrotomy)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "27030",
+    "description": "Arthrotomy, hip, with drainage (eg, infection)",
+    "provider_code": "27030",
+    "provider_desc": "Drainage of septic arthritis (arthroscopic)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Instruments & Consumables",
+    "cpt": "C1729",
+    "description": "CATHETER, DRAINAGE",
+    "provider_code": "C1729",
+    "provider_desc": "Drainage of whitlow",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "81003",
+    "description": "URINALYSIS, DIP STICK W/O MICROSCOPY",
+    "provider_code": "81003",
+    "provider_desc": "E/U/CR",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "69090",
+    "description": "Incision Procedures on the External Ear. (Ear Piercing)",
+    "provider_code": "69090",
+    "provider_desc": "Ear Piercing",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "69110",
+    "description": "Excision external ear; partial, simple repair",
+    "provider_code": "69110",
+    "provider_desc": "Ear Syringing - Bilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "69399",
+    "description": "Unlisted procedure, external ear",
+    "provider_code": "69399",
+    "provider_desc": "Ear Syringing - Unilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "36430",
+    "description": "Transfusion, blood or blood components",
+    "provider_code": "36430",
+    "provider_desc": "EBT (Rh+Ve Blood + EBT Kit)(minus blood)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "EEG",
+    "cpt": "3650F",
+    "description": "Electroencephalogram (EEG) ordered, reviewed or requested (EPI)",
+    "provider_code": "3650F",
+    "provider_desc": "ECG  for ≤4years old",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Cardiovascular Procedures",
+    "cpt": "93016",
+    "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress; physician supervision only, without interpretation and report",
+    "provider_code": "93016",
+    "provider_desc": "ECG ( Stress Test only)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Cardiovascular Procedures",
+    "cpt": "93018",
+    "description": "Cardiovascular stress test using maximal or submaximal treadmill or bicycle exercise, continuous electrocardiographic monitoring, and/or pharmacological stress; interpretation and report only",
+    "provider_code": "93018",
+    "provider_desc": "ECG (Pre-Exercise and Stress Test)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "ECG",
+    "cpt": "3120F",
+    "description": "12-Lead ECG Performed (EM)",
+    "provider_code": "3120F",
+    "provider_desc": "ECG(pre-exercise/resting)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Cardiovascular Procedures",
+    "cpt": "93318",
+    "description": "Echocardiography, transesophageal (TEE) for monitoring purposes, including probe placement, real time 2-dimensional image acquisition and interpretation leading to ongoing (continuous) assessment of (dynamically changing) cardiac pumping function and to therapeutic measures on an immediate time basis",
+    "provider_code": "93318",
+    "provider_desc": "Echocardiogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "EEG",
+    "cpt": "95953.02",
+    "description": "Computerized EEG (4 - 6) HOURS",
+    "provider_code": "95953.02",
+    "provider_desc": "EEG",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "L6250",
+    "description": "ABOVE ELBOW, MOLDED DOUBLE WALL SOCKET, INTERNAL LOCKING ELBOW, FOREARM",
+    "provider_code": "L6250",
+    "provider_desc": "Elbow",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "80051",
+    "description": "Electrolyte panel This panel must include the following: Carbon dioxide (82374), Chloride (82435), Potassium (84132), Sodium (84295)",
+    "provider_code": "80051",
+    "provider_desc": "Electrolytes",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "E0746",
+    "description": "ELECTROMYOGRAPHY (EMG), BIOFEEDBACK DEVICE",
+    "provider_code": "E0746",
+    "provider_desc": "EMG",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-11",
+    "description": "Endocrinology Consultation",
+    "provider_code": "CON-11",
+    "provider_desc": "Endocrinologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-12",
+    "description": "Endocrinology Follow Up",
+    "provider_code": "CON-12",
+    "provider_desc": "Endocrinologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-13",
+    "description": "Ent Specialist Consultation",
+    "provider_code": "CON-13",
+    "provider_desc": "ENT Surgeon (Otorhinolaryngologist) Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-14",
+    "description": "Ent Specialst Follow Up",
+    "provider_code": "CON-14",
+    "provider_desc": "ENT Surgeon (Otorhinolaryngologist) Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85651",
+    "description": "ESR (Erythrocyte Sedimentation Rate)",
+    "provider_code": "85651",
+    "provider_desc": "ESR only",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85651.01",
+    "description": "ESR (Erythrocyte Sedimentation Rate) 2 Hr",
+    "provider_code": "85651.01",
+    "provider_desc": "ESR+FBC",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82378",
+    "description": "CARCINOEMBRYONIC ANTIGEN (CEA)",
+    "provider_code": "82378",
+    "provider_desc": "EUA",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45915",
+    "description": "Removal of fecal impaction or foreign body (separate procedure) under anesthesia",
+    "provider_code": "45915",
+    "provider_desc": "Evacuation of Impacted Faeces",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7415",
+    "description": "excision of malignant lesion, complicated",
+    "provider_code": "D7415",
+    "provider_desc": "Excision Biopsy (Including Histology)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "55150",
+    "description": "Resection of scrotum",
+    "provider_code": "55150",
+    "provider_desc": "Excision of intrascrotal mass",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30115",
+    "description": "Excision, nasal polyp(s), extensive",
+    "provider_code": "30115",
+    "provider_desc": "Excision of Polyps in the Ear - Bilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "30110",
+    "description": "Excision, nasal polyp(s), simple",
+    "provider_code": "30110",
+    "provider_desc": "Excision of Polyps in the Ear - Unilateral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7981",
+    "description": "excision of salivary gland, by report",
+    "provider_code": "D7981",
+    "provider_desc": "Excision of salivary gland",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7471",
+    "description": "removal of lateral exostosis (maxilla or mandible)",
+    "provider_code": "D7471",
+    "provider_desc": "Exostectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "20694",
+    "description": "Removal, under anesthesia, of external fixation system",
+    "provider_code": "20694",
+    "provider_desc": "External fixation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "80050.02",
+    "description": "Full Check up-CBC/HbA1c/UricA./S.creat./BI.Urea/SGPT/SGOT/Lipid profile/Urine analysis/HCV Ab(el)/HBs.Ag(el)/FT4/T.S.H",
+    "provider_code": "80050.02",
+    "provider_desc": "Fasting Blood Sugar",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85027",
+    "description": "COMPLETE BLOOD COUNT (CBC)",
+    "provider_code": "85027",
+    "provider_desc": "FBC",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Feeding",
+    "cpt": "FEED-1",
+    "description": "Feeding",
+    "provider_code": "FEED-1",
+    "provider_desc": "Feeding Per Diem",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "10022",
+    "description": "Fine needle aspiration; with imaging guidance",
+    "provider_code": "10022",
+    "provider_desc": "Fine Needle Aspiration Cytology",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "76080.01",
+    "description": "Fistulogram",
+    "provider_code": "76080.01",
+    "provider_desc": "Fistulogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "29550",
+    "description": "Strapping; toes",
+    "provider_code": "29550",
+    "provider_desc": "Foot/toe",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59409.03",
+    "description": "Vaginal delivery only with episiotomy and/or forceps",
+    "provider_code": "59409.03",
+    "provider_desc": "Forcep Delivery",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Ophthalmology Procedures",
+    "cpt": "65205",
+    "description": "Removal of foreign body, external eye; conjunctival superficial",
+    "provider_code": "65205",
+    "provider_desc": "Foreign Body Removal (superficial/conjunctival)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84402",
+    "description": "ASSAY OF TESTOSTERONE; FREE",
+    "provider_code": "84402",
+    "provider_desc": "Free testosterone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84439",
+    "description": "ASSAY OF THYROXINE (T4); FREE",
+    "provider_code": "84439",
+    "provider_desc": "Free thyroxine (T4)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84481",
+    "description": "ASSAY OF TRIIODOTHYRONINE T3; FREE",
+    "provider_code": "84481",
+    "provider_desc": "Free tri-iodothyronine (T3)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92583",
+    "description": "SELECT PICTURE AUDIOMETRY",
+    "provider_code": "92583",
+    "provider_desc": "Free-field Audiometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "31255",
+    "description": "Nasal/sinus endoscopy, surgical with ethmoidectomy, total (anterior and posterior)",
+    "provider_code": "31255",
+    "provider_desc": "Frontoethmoidectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83001",
+    "description": "FOLLICLE STIMULATING HORMONE (FSH)",
+    "provider_code": "83001",
+    "provider_desc": "FSH - Follicle Stimulating Hormone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83001.1",
+    "description": "FSH-LH-Prolactin",
+    "provider_code": "83001.1",
+    "provider_desc": "FSH-LH-Prolactin",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83001.2",
+    "description": "FSH-LH-Prolactin-Testosterone",
+    "provider_code": "83001.2",
+    "provider_desc": "FSH-LH-Prolactin-Testosterone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83001.3",
+    "description": "FSH-LH-Prolactin-TSH",
+    "provider_code": "83001.3",
+    "provider_desc": "FSH-LH-Prolactin-TSH",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83001.4",
+    "description": "FSH-LH-Testosterone",
+    "provider_code": "83001.4",
+    "provider_desc": "FSH-LH-Testosterone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Removable Dentures",
+    "cpt": "D5110",
+    "description": "complete denture - maxillary",
+    "provider_code": "D5110",
+    "provider_desc": "Full Denture / Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "31276",
+    "description": "Nasal/sinus endoscopy, surgical with frontal sinus exploration, with or without removal of tissue from frontal sinus",
+    "provider_code": "31276",
+    "provider_desc": "Functional endoscopic sinus surgery",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82955",
+    "description": "ASSAY OF G6PD; QUANTITATIVE",
+    "provider_code": "82955",
+    "provider_desc": "G-6-PD deficiency",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82977",
+    "description": "ASSAY OF GAMMA GLUTAMYLTRANSFERASE (GGT)",
+    "provider_code": "82977",
+    "provider_desc": "Gamma GT",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "25112",
+    "description": "Excision of ganglion, wrist (dorsal or volar); recurrent",
+    "provider_code": "25112",
+    "provider_desc": "Ganglion Excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "43753",
+    "description": "Gastric intubation and aspiration(s) therapeutic, necessitating physician's skill (eg, for gastrointestinal hemorrhage), including lavage if performed",
+    "provider_code": "43753",
+    "provider_desc": "Gastric Lavage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "43810",
+    "description": "Gastroduodenostomy",
+    "provider_code": "43810",
+    "provider_desc": "Gastroduodenoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-15",
+    "description": "Gastroenterology Consultation",
+    "provider_code": "CON-15",
+    "provider_desc": "Gastroenterologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-16",
+    "description": "Gastroenterology Follow Up",
+    "provider_code": "CON-16",
+    "provider_desc": "Gastroenterologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-17",
+    "description": "General Surgeon Consultation",
+    "provider_code": "CON-17",
+    "provider_desc": "General Surgeon Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-18",
+    "description": "General Surgeon Follow Up",
+    "provider_code": "CON-18",
+    "provider_desc": "General Surgeon Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "General ward",
+    "cpt": "RM-8.01",
+    "description": "General ward : (more than 3 Beds) package/day",
+    "provider_code": "RM-8.01",
+    "provider_desc": "General ward",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87901",
+    "description": "HIV GENOTYPE",
+    "provider_code": "87901",
+    "provider_desc": "Genotype",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Other Preventive",
+    "cpt": "D1351",
+    "description": "sealant - per tooth",
+    "provider_code": "D1351",
+    "provider_desc": "Glass ionomer cement (GIC) restoration",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82943",
+    "description": "ASSAY OF GLUCAGON",
+    "provider_code": "82943",
+    "provider_desc": "Gluacoma Phasing",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82951",
+    "description": "GLUCOSE TOLERANCE TEST (GTT)",
+    "provider_code": "82951",
+    "provider_desc": "Glucose tolerance test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "65820",
+    "description": "Goniotomy",
+    "provider_code": "65820",
+    "provider_desc": "Gonioscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "GP Consultation",
+    "cpt": "99201",
+    "description": "GP Consultation",
+    "provider_code": "99201",
+    "provider_desc": "GP Initial Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "GP Consultation",
+    "cpt": "99201-F",
+    "description": "Gp Review\\follow up - GP Consultation",
+    "provider_code": "99201-F",
+    "provider_desc": "GP Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86805",
+    "description": "HLA Living Related Final Crossmatch (Test must be scheduled, pls call 2683)",
+    "provider_code": "86805",
+    "provider_desc": "Grouping & Cross match",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-21",
+    "description": "Gynaecology Consultation",
+    "provider_code": "CON-21",
+    "provider_desc": "Gynae/Obs consult",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-22",
+    "description": "Gynaecology Follow Up",
+    "provider_code": "CON-22",
+    "provider_desc": "Gynae/Obs Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86317.01",
+    "description": "H. Pylori VacA and CagA Line Test By Immunoassay Detection",
+    "provider_code": "86317.01",
+    "provider_desc": "H.Pylori Test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85018",
+    "description": "Blood count; hemoglobin (Hgb)",
+    "provider_code": "85018",
+    "provider_desc": "Haemoglobin / hb",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "46255",
+    "description": "Hemorrhoidectomy, internal and external, single column/group;",
+    "provider_code": "46255",
+    "provider_desc": "Haemorriodectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "29280",
+    "description": "Strapping; hand or finger",
+    "provider_code": "29280",
+    "provider_desc": "Hand/ Finger",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pathology",
+    "cpt": "81257",
+    "description": "HBA1/HBA2 (alpha globin 1 and alpha globin 2) (eg, alpha thalassemia, Hb Bart hydrops fetalis syndrome, HbH disease), gene analysis, for common deletions or variant (eg, Southeast Asian, Thai, Filipino, Mediterranean, alpha3.7, alpha4.2, alpha20.5, and Constant Spring)",
+    "provider_code": "81257",
+    "provider_desc": "HBA1C",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86706.01",
+    "description": "HBsAg II quantitative",
+    "provider_code": "86706.01",
+    "provider_desc": "HBsAg",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83718",
+    "description": "HDL CHOLESTEROL",
+    "provider_code": "83718",
+    "provider_desc": "HDL/LDL CHOLESTEROL",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92590",
+    "description": "HEARING AID EXAM & SELECTION; MONAURAL",
+    "provider_code": "92590",
+    "provider_desc": "Hearing aid trial / evaluation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-23",
+    "description": "Haematologist Consultation",
+    "provider_code": "CON-23",
+    "provider_desc": "Hematologist",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-24",
+    "description": "Haematologist Follow Up",
+    "provider_code": "CON-24",
+    "provider_desc": "Hematologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86803",
+    "description": "HEPATITIS C ANTIBODY; (HCV)",
+    "provider_code": "86803",
+    "provider_desc": "Hepatitis C(screening)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "39540",
+    "description": "Repair, diaphragmatic hernia (other than neonatal), traumatic; acute",
+    "provider_code": "39540",
+    "provider_desc": "Herniorrhaphy (complicated)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "39541",
+    "description": "Repair, diaphragmatic hernia (other than neonatal), traumatic; chronic",
+    "provider_code": "39541",
+    "provider_desc": "Herniorrhaphy (uncomplicated)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73500",
+    "description": "Radiologic examination, hip, unilateral; 1 view",
+    "provider_code": "73500",
+    "provider_desc": "Hip",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87536",
+    "description": "HIV QUANTITATIVE BY PCR",
+    "provider_code": "87536",
+    "provider_desc": "HIV Screening",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74740",
+    "description": "Hysterosalpingography, radiological supervision and interpretation",
+    "provider_code": "74740",
+    "provider_desc": "HSG",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73060",
+    "description": "Radiologic examination; humerus, minimum of 2 views",
+    "provider_code": "73060",
+    "provider_desc": "Humerus",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87068",
+    "description": "CULTURE (HVS)",
+    "provider_code": "87068",
+    "provider_desc": "HVS MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "55041",
+    "description": "Excision of hydrocele; bilateral",
+    "provider_code": "55041",
+    "provider_desc": "Hydrocelectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "A7002",
+    "description": "TUBING, USED WITH SUCTION PUMP, EACH",
+    "provider_code": "A7002",
+    "provider_desc": "Hydrotubation + D&C",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laparoscopy",
+    "cpt": "58550",
+    "description": "LAPAROSCOPY, SURGICAL W/ VAGINAL HYSTerECTOMY FOR UTerUS 250G OR <",
+    "provider_code": "58550",
+    "provider_desc": "Hysterectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "58262",
+    "description": "Vaginal hysterectomy, for uterus 250 g or less; with removal of tube(s), and/or ovary(s)",
+    "provider_code": "58262",
+    "provider_desc": "Hysterectomy (elect vaginal, elect abdominal)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "58293",
+    "description": "Vaginal hysterectomy, for uterus greater than 250 g with colpo-urethrocystopexy (Marshall-Marchetti-Krantz type, Pereyra type) with or without endoscopic control",
+    "provider_code": "58293",
+    "provider_desc": "Hysterectomy + Myomectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "58555",
+    "description": "Hysteroscopy, diagnostic (separate procedure)",
+    "provider_code": "58555",
+    "provider_desc": "Hysteroscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "ICU",
+    "cpt": "RM-9",
+    "description": "Intensive Care Unit ICU - package/day",
+    "provider_code": "RM-9",
+    "provider_desc": "ICU Care/day",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "28001",
+    "description": "Incision and drainage, bursa, foot",
+    "provider_code": "28001",
+    "provider_desc": "Incision and Drainage.",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "NICU",
+    "cpt": "RM-16",
+    "description": "Incubator - package/day",
+    "provider_code": "RM-16",
+    "provider_desc": "Incubator Care/day",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86885",
+    "description": "ANTIHUMAN GLOBULIN TEST (COOMBS TEST); INDIRECT, QUALITATIVE, EACH REAGENT RED CELL",
+    "provider_code": "86885",
+    "provider_desc": "Indirect coomb's test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31505",
+    "description": "Laryngoscopy, indirect; diagnostic (separate procedure)",
+    "provider_code": "31505",
+    "provider_desc": "Indirect laryngoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Ophthalmology Procedures",
+    "cpt": "92225",
+    "description": "Ophthalmoscopy, extended, with retinal drawing (eg, for retinal detachment, melanoma), with interpretation and report; initial",
+    "provider_code": "92225",
+    "provider_desc": "Indirect Ophthalmoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "11765",
+    "description": "Wedge excision of skin of nail fold (eg, for ingrown toenail)",
+    "provider_code": "11765",
+    "provider_desc": "Ingrown  toe nail",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85210",
+    "description": "CLOTTING; FACTOR II, PROTHROMBIN, SPECIFIC",
+    "provider_code": "85210",
+    "provider_desc": "INR Test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42320",
+    "description": "Drainage of abscess; submaxillary, external",
+    "provider_code": "42320",
+    "provider_desc": "Intercostal Drainage insertion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "44126",
+    "description": "Enterectomy, resection of small intestine for congenital atresia, single resection and anastomosis of proximal segment of intestine; without tapering",
+    "provider_code": "44126",
+    "provider_desc": "Intestinal Obstruction Repair with resection",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "44125",
+    "description": "Enterectomy, resection of small intestine; with enterostomy",
+    "provider_code": "44125",
+    "provider_desc": "Intestinal Obstruction Repair without resection",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Ophthalmology Procedures",
+    "cpt": "92100",
+    "description": "Serial tonometry (separate procedure) with multiple measurements of intraocular pressure over an extended time period with interpretation and report, same day (eg, diurnal curve or medical treatment of acute elevation of intraocular pressure)",
+    "provider_code": "92100",
+    "provider_desc": "Intra ocular pressure (IOP) / Tonometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "67028",
+    "description": "Intravitreal injection of a pharmacologic agent (separate procedure)",
+    "provider_code": "67028",
+    "provider_desc": "Intra-articular injection excluding the drug",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31020",
+    "description": "Sinusotomy, maxillary (antrotomy); intranasal",
+    "provider_code": "31020",
+    "provider_desc": "Intranasal Anthrostomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "58300",
+    "description": "INSERT INTRAUTERINE DEVICE-IUD",
+    "provider_code": "58300",
+    "provider_desc": "IUCD Insertion + Device",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Crowns",
+    "cpt": "D2920.01",
+    "description": "Crown Removal",
+    "provider_code": "D2920.01",
+    "provider_desc": "IUCD Removal",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74320",
+    "description": "Cholangiography, percutaneous, transhepatic, radiological supervision and interpretation",
+    "provider_code": "74320",
+    "provider_desc": "IV Cholangiogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74400",
+    "description": "Urography (pyelography), intravenous, with or without KUB, with or without tomography",
+    "provider_code": "74400",
+    "provider_desc": "IVU",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85095",
+    "description": "BONE MARROW ASPIRATION",
+    "provider_code": "85095",
+    "provider_desc": "Joint Aspiration",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "11721",
+    "description": "Debridement of nail(s) by any method(s); 6 or more",
+    "provider_code": "11721",
+    "provider_desc": "K nail insertion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "11750.01",
+    "description": "Excision of nail and nail matrix, partial or complete (eg, ingrown or deformed nail), for permanent removal; under local anesthesia",
+    "provider_code": "11750.01",
+    "provider_desc": "k nail removal",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "24105",
+    "description": "Excision, olecranon bursa",
+    "provider_code": "24105",
+    "provider_desc": "Keloid Excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73560",
+    "description": "Radiologic examination, knee; 1 or 2 views",
+    "provider_code": "73560",
+    "provider_desc": "Knee",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laparoscopy",
+    "cpt": "44180",
+    "description": "Laparoscopy, SURGICALENTerOLYSIS",
+    "provider_code": "44180",
+    "provider_desc": "Laparatomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laparoscopy",
+    "cpt": "54699",
+    "description": "Unlisted laparoscopy procedure, testis",
+    "provider_code": "54699",
+    "provider_desc": "Laparoscopy & Dye test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laparoscopy",
+    "cpt": "38120",
+    "description": "Laparoscopy, SURGICAL, SPLENECTOMY",
+    "provider_code": "38120",
+    "provider_desc": "Laparotomy/ Rupture repair",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "106218683",
+    "description": "Liposuction Major",
+    "provider_code": "106218683",
+    "provider_desc": "Lipid Profile",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "15835",
+    "description": "Excision, excessive skin and subcutaneous tissue (includes lipectomy); buttock",
+    "provider_code": "15835",
+    "provider_desc": "Lipoma excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78220",
+    "description": "Liver function study with hepatobiliary agents, with serial images",
+    "provider_code": "78220",
+    "provider_desc": "Liver function test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72080",
+    "description": "Radiologic examination, spine; thoracolumbar, 2 views",
+    "provider_code": "72080",
+    "provider_desc": "Lumbar Spine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Other Endodontic",
+    "cpt": "D3351",
+    "description": "apexification/recalcification/pulpal regeneration â€“ initial visit (apical closure/calcific repair of perforations, root resorption, pulp space disinfection, etc.)",
+    "provider_code": "D3351",
+    "provider_desc": "Lumber Puncture",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72100.01",
+    "description": "Radiologic examination, spine, lumbosacral; 1 View",
+    "provider_code": "72100.01",
+    "provider_desc": "Lumbo- Sacral",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "83735",
+    "description": "ASSAY OF MAGNESIUM",
+    "provider_code": "83735",
+    "provider_desc": "Magnesium",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "28003",
+    "description": "Incision and drainage below fascia, with or without tendon sheath involvement, foot; multiple areas",
+    "provider_code": "28003",
+    "provider_desc": "Major Incision & Drainage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "12011.02",
+    "description": "Conjunctival Suturing - Major",
+    "provider_code": "12011.02",
+    "provider_desc": "Major Suturing",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Emergency room",
+    "cpt": "12021.03",
+    "description": "treatment, superficial wound major",
+    "provider_code": "12021.03",
+    "provider_desc": "Major Wound Debridement",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "A2",
+    "description": "DRESSING FOR TWO WOUNDS",
+    "provider_code": "A2",
+    "provider_desc": "Major Wound Dressing/Day",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87207",
+    "description": "MALARIA SMEAR",
+    "provider_code": "87207",
+    "provider_desc": "Malaria Parasites in blood smear",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Mammogram",
+    "cpt": "77056",
+    "description": "Mammography; bilateral",
+    "provider_code": "77056",
+    "provider_desc": "Mammogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31420",
+    "description": "Epiglottidectomy",
+    "provider_code": "31420",
+    "provider_desc": "Management of Epistaxis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "70100",
+    "description": "Radiologic examination, mandible; partial, less than 4 views",
+    "provider_code": "70100",
+    "provider_desc": "Mandibles",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "89300",
+    "description": "SEMEN ANALYSIS; PRESENCE &/OR MOTILITY, SPERM W/ HUHNER TEST (POST COITAL)",
+    "provider_code": "89300",
+    "provider_desc": "Mantoux test/  Heaf",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59414.01",
+    "description": "Retained Placenta removal.",
+    "provider_code": "59414.01",
+    "provider_desc": "Manual Removal Of Placenta",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "11305554",
+    "description": "Marsupialization, cyst, kidney",
+    "provider_code": "11305554",
+    "provider_desc": "Marsupialization",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "69502",
+    "description": "Mastoidectomy; complete",
+    "provider_code": "69502",
+    "provider_desc": "Mastoidectomy (Cortical)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "69505",
+    "description": "Mastoidectomy; modified radical",
+    "provider_code": "69505",
+    "provider_desc": "Mastoidectomy (Modified)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "70120",
+    "description": "Radiologic examination, mastoids; less than 3 views per side",
+    "provider_code": "70120",
+    "provider_desc": "Mastoids",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84702",
+    "description": "BhCG (QUANTITATIVE)",
+    "provider_code": "84702",
+    "provider_desc": "MCHC",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "51600",
+    "description": "Injection procedure for cystography or voiding urethrocystography",
+    "provider_code": "51600",
+    "provider_desc": "MCUG+RCUG",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "53200",
+    "description": "Biopsy of urethra",
+    "provider_code": "53200",
+    "provider_desc": "MC-Urethrogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86645.02",
+    "description": "CMV IgM (ARCHITECT-Abbott)",
+    "provider_code": "86645.02",
+    "provider_desc": "MCV",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87207.01",
+    "description": "Filaria Smear",
+    "provider_code": "87207.01",
+    "provider_desc": "Microfilaria",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "28002",
+    "description": "Incision and drainage below fascia, with or without tendon sheath involvement, foot; single bursal space",
+    "provider_code": "28002",
+    "provider_desc": "Minor Incision & Drainage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7911",
+    "description": "complicated suture - up to 5 cm",
+    "provider_code": "D7911",
+    "provider_desc": "Minor Primary Suturing (less than 10cm)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Emergency room",
+    "cpt": "12021.01",
+    "description": "treatment, superficial wound minor",
+    "provider_code": "12021.01",
+    "provider_desc": "Minor Wound Debridement",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "A1",
+    "description": "DRESSING FOR ONE WOUND",
+    "provider_code": "A1",
+    "provider_desc": "Minor Wound Dressing/Day",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "MRI",
+    "cpt": "MR-01",
+    "description": "MRI Whole Spine",
+    "provider_code": "MR-01",
+    "provider_desc": "MRI",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "V33",
+    "description": "Twin, born in hospital, By Normal delivery (Charges added Separately)",
+    "provider_code": "V33",
+    "provider_desc": "Multiple Delivery (extra fee)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72265",
+    "description": "Myelography, lumbosacral, radiological supervision and interpretation",
+    "provider_code": "72265",
+    "provider_desc": "Myelogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45108",
+    "description": "Anorectal myomectomy",
+    "provider_code": "45108",
+    "provider_desc": "Myomectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7856",
+    "description": "myotomy",
+    "provider_code": "D7856",
+    "provider_desc": "Myringotomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30117",
+    "description": "Excision or destruction (eg, laser), intranasal lesion; internal approach",
+    "provider_code": "30117",
+    "provider_desc": "Nasal Polypectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "E0570",
+    "description": "NEBULIZER, WITH COMPRESSOR",
+    "provider_code": "E0570",
+    "provider_desc": "Nebulization+Nebules (Per session)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-29",
+    "description": "Neonatologist Consultation",
+    "provider_code": "CON-29",
+    "provider_desc": "Neonatologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-30",
+    "description": "Neonatologist Review",
+    "provider_code": "CON-30",
+    "provider_desc": "Neonatologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "50240",
+    "description": "Nephrectomy, partial",
+    "provider_code": "50240",
+    "provider_desc": "Nephrectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "11305562",
+    "description": "Ureterotomy",
+    "provider_code": "11305562",
+    "provider_desc": "Nephrolithotomy/ureterolithotomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-31",
+    "description": "Nephrology Consultation",
+    "provider_code": "CON-31",
+    "provider_desc": "Nephrologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-32",
+    "description": "Nephrology Follow Up",
+    "provider_code": "CON-32",
+    "provider_desc": "Nephrologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-35",
+    "description": "Neurosurgeon Consultation",
+    "provider_code": "CON-35",
+    "provider_desc": "Neurologist/ Neurosurgeon  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-36",
+    "description": "Neurosurgeon Follow Up",
+    "provider_code": "CON-36",
+    "provider_desc": "Neurologist/ Neurosurgeon  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59409",
+    "description": "Vaginal delivery only (with or without episiotomy and/or forceps);",
+    "provider_code": "59409",
+    "provider_desc": "Normal Delivery (including Episiotomy/Induction)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "80182",
+    "description": "ASSAY OF NORTRIPTYLINE",
+    "provider_code": "80182",
+    "provider_desc": "Norplant Application",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82143",
+    "description": "AMNIOTIC FLU SCAN",
+    "provider_code": "82143",
+    "provider_desc": "Obstetric Scan (extra)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82273",
+    "description": "OCCULT BLOOD; STOOL, QUALITATIVE",
+    "provider_code": "82273",
+    "provider_desc": "Occult blood, stool/urine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "A6412",
+    "description": "EYE PATCH, OCCLUSIVE, EACH",
+    "provider_code": "A6412",
+    "provider_desc": "OCT  (Both eyes)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Endoscopy",
+    "cpt": "43215",
+    "description": "Esophagoscopy, rigid or flexible; with removal of foreign body",
+    "provider_code": "43215",
+    "provider_desc": "Oesophagoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82670",
+    "description": "ASSAY OF ESTRADIOL",
+    "provider_code": "82670",
+    "provider_desc": "Oestradiol",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82952",
+    "description": "GTT-ADDED SAMPLES (3, 4, 5 HR)",
+    "provider_code": "82952",
+    "provider_desc": "OGTT",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-64",
+    "description": "Oncologist  consultation",
+    "provider_code": "CON-64",
+    "provider_desc": "Oncologist  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-65",
+    "description": "Oncologist follow up",
+    "provider_code": "CON-65",
+    "provider_desc": "Oncologist  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "22318",
+    "description": "Open treatment and/or reduction of odontoid fracture(s) and or dislocation(s) (including os odontoideum), anterior approach, including placement of internal fixation; without grafting",
+    "provider_code": "22318",
+    "provider_desc": "Open Reduction & internal fixation of fractures  (+ locked plate implant)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "21407",
+    "description": "Open treatment of fracture of orbit, except blowout; with implant",
+    "provider_code": "21407",
+    "provider_desc": "Open Reduction & internal fixation of fractures- arm (+Dynamic compression plate implant)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "27506",
+    "description": "Open treatment of femoral shaft fracture, with or without external fixation, with insertion of intramedullary implant, with or without cerclage and/or locking screws",
+    "provider_code": "27506",
+    "provider_desc": "Open Reduction & internal fixation of fractures-Femur(+ Dynamic compression plate implant)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "26765",
+    "description": "Open treatment of distal phalangeal fracture, finger or thumb, includes internal fixation, when performed, each",
+    "provider_code": "26765",
+    "provider_desc": "Open Reduction & internal fixation of fractures-Hand (+Dynamic compression plate  implant)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "82197936.01",
+    "description": "Reduction, fracture, open, with internal fixation, tibia and fibula (fragments)",
+    "provider_code": "82197936.01",
+    "provider_desc": "Open Reduction & internal fixation of fractures-Tibia & Ankle (+ Dynamic compression plate implant)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "41821",
+    "description": "Operculectomy, excision pericoronal tissues",
+    "provider_code": "41821",
+    "provider_desc": "Operculectomy/ Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Panoramic X-ray",
+    "cpt": "D0330",
+    "description": "panoramic film",
+    "provider_code": "D0330",
+    "provider_desc": "OPG (Panoramic view x-ray)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-28",
+    "description": "Maxilloficial Surgeon Consultation",
+    "provider_code": "CON-28",
+    "provider_desc": "Oral and Maxillofacial Surgeon  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-27",
+    "description": "Maxillofacial Surgeon Review",
+    "provider_code": "CON-27",
+    "provider_desc": "Oral and Maxillofacial Surgeon  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74290",
+    "description": "Cholecystography, oral contrast;",
+    "provider_code": "74290",
+    "provider_desc": "Oral Cholecystogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "19371",
+    "description": "Periprosthetic capsulectomy, breast",
+    "provider_code": "19371",
+    "provider_desc": "Orchidectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "54640",
+    "description": "Orchiopexy, inguinal approach, with or without hernia repair",
+    "provider_code": "54640",
+    "provider_desc": "Orchidoplexy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-39",
+    "description": "Orthopaedic Consultation",
+    "provider_code": "CON-39",
+    "provider_desc": "Orthopedic Surgeon  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-40",
+    "description": "Orthopaedic Follow Up",
+    "provider_code": "CON-40",
+    "provider_desc": "Orthopedic Surgeon  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92587",
+    "description": "EVOKED OTOACOUSTIC EMISSIONS; LIMITED",
+    "provider_code": "92587",
+    "provider_desc": "Oto-accoustic emissions (OAE)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Respiratory Services",
+    "cpt": "140004",
+    "description": "Initial Patient Assessment",
+    "provider_code": "140004",
+    "provider_desc": "Oxygen Therapy (Continous per diem)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Respiratory Services",
+    "cpt": "140001",
+    "description": "O2 Therapy - per Hour",
+    "provider_code": "140001",
+    "provider_desc": "Oxygen Therapy (Intermittent/day)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Urodynamic",
+    "cpt": "51729.01",
+    "description": "Cystometry",
+    "provider_code": "51729.01",
+    "provider_desc": "Pachymetry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pathology",
+    "cpt": "88141.01",
+    "description": "Pap Smear",
+    "provider_code": "88141.01",
+    "provider_desc": "Pap Smear Procedure + Cytology",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78070",
+    "description": "Parathyroid imaging",
+    "provider_code": "78070",
+    "provider_desc": "parathyroid hormone test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42420",
+    "description": "Excision of parotid tumor or parotid gland; total, with dissection and preservation of facial nerve",
+    "provider_code": "42420",
+    "provider_desc": "Parotidectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Removable Dentures",
+    "cpt": "D5820",
+    "description": "interim partial denture (maxillary)",
+    "provider_code": "D5820",
+    "provider_desc": "Partial Denture (1st tooth) / Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Removable Dentures",
+    "cpt": "D5821",
+    "description": "interim partial denture (mandibular)",
+    "provider_code": "D5821",
+    "provider_desc": "Partial Denture (subsequent teeth)/ Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85732",
+    "description": "THROMBOPLASTIN TIME, PARTIAL (PTT); SUBSTITUTION, PLASMA FRACTIONS, EACH",
+    "provider_code": "85732",
+    "provider_desc": "Partial thromboplastin time with kaolin (PPTK)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85730",
+    "description": "THROMBOPLASTIN TIME, PARTIAL (PTT); PLASMA/WHOLE BLOOD",
+    "provider_code": "85730",
+    "provider_desc": "Partial thromplastin time",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85014",
+    "description": "Blood count; hematocrit (Hct)",
+    "provider_code": "85014",
+    "provider_desc": "PCV",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-43",
+    "description": "Paediatrician Consultation",
+    "provider_code": "CON-43",
+    "provider_desc": "Pediatrician  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-42",
+    "description": "Paediatric Surgeon Review",
+    "provider_code": "CON-42",
+    "provider_desc": "Pediatrician Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "E0944",
+    "description": "PELVIC BELT/HARNESS/BOOT",
+    "provider_code": "E0944",
+    "provider_desc": "Pelvic USS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "74710",
+    "description": "Pelvimetry, with or without placental localization",
+    "provider_code": "74710",
+    "provider_desc": "Pelvimetry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72170",
+    "description": "Radiologic examination, pelvis; 1 or 2 views",
+    "provider_code": "72170",
+    "provider_desc": "Pelvis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "33010",
+    "description": "Pericardiocentesis; initial",
+    "provider_code": "33010",
+    "provider_desc": "Pericardiocentesis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "17110.05",
+    "description": "Lesion Destrusction, or Plantar wart removal (Three Warts)",
+    "provider_code": "17110.05",
+    "provider_desc": "Perineal Warts Podophyllin Rx X 6 Courses",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82725",
+    "description": "FATTY ACIDS , NONESTERIFIED",
+    "provider_code": "82725",
+    "provider_desc": "Phaeco-emulsification",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84100",
+    "description": "ASSAY OF INORGANIC PHOSPHORUS (PHOSPHATE) (BLOOD)",
+    "provider_code": "84100",
+    "provider_desc": "Phosphorus",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "E0202",
+    "description": "PHOTOTHERAPY (BILIRUBIN) LIGHT WITH PHOTOMETER",
+    "provider_code": "E0202",
+    "provider_desc": "Phototherapy/day",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "22900",
+    "description": "Excision, tumor, soft tissue of abdominal wall, subfascial (eg, intramuscular); less than 5 cm",
+    "provider_code": "22900",
+    "provider_desc": "Plain Abdominal",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85576.04",
+    "description": "PLATELETS AGGREGATION (RESTOCETIN)",
+    "provider_code": "85576.04",
+    "provider_desc": "Platelets",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Crowns",
+    "cpt": "D2783",
+    "description": "crown - 3/4 porcelain/ceramic",
+    "provider_code": "D2783",
+    "provider_desc": "Porcelain Crowning /Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Inlay / Onlay Fillings",
+    "cpt": "D2630",
+    "description": "inlay - porcelain/ceramic - three or more surfaces",
+    "provider_code": "D2630",
+    "provider_desc": "Porcelain Repair / Exclusion",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "19304",
+    "description": "Mastectomy, subcutaneous",
+    "provider_code": "19304",
+    "provider_desc": "Post  Mastectomy tissue histology",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "70160",
+    "description": "Radiologic examination, nasal bones, complete, minimum of 3 views",
+    "provider_code": "70160",
+    "provider_desc": "Post nasal space",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84132",
+    "description": "ASSAY OF POTASSIUM; SERUM",
+    "provider_code": "84132",
+    "provider_desc": "Potassium",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31299",
+    "description": "Unlisted procedure, accessory sinuses",
+    "provider_code": "31299",
+    "provider_desc": "Pre-auricular Sinus Excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7912",
+    "description": "complicated suture - greater than 5 cm",
+    "provider_code": "D7912",
+    "provider_desc": "Primary Suturing (10cm and above)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45307",
+    "description": "Proctosigmoidoscopy, rigid; with removal of foreign body",
+    "provider_code": "45307",
+    "provider_desc": "Proctoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84144",
+    "description": "ASSAY OF PROGESTERONE",
+    "provider_code": "84144",
+    "provider_desc": "Progesterone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84146",
+    "description": "ASSAY OF PROLACTIN",
+    "provider_code": "84146",
+    "provider_desc": "Prolactin",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45123",
+    "description": "Proctectomy, partial, without anastomosis, perineal approach",
+    "provider_code": "45123",
+    "provider_desc": "Prostactectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "UltraSound",
+    "cpt": "76872.02",
+    "description": "Ultrasound, transrectal for prostate examination; with biopsy",
+    "provider_code": "76872.02",
+    "provider_desc": "Prostate Scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84153",
+    "description": "PROSTATE SPECIFIC ANTIGEN (PSA); TOTAL",
+    "provider_code": "84153",
+    "provider_desc": "Prostate Specific Antigen /PSA",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84066",
+    "description": "ACID PHOSPHATASE (PROSTATIC)",
+    "provider_code": "84066",
+    "provider_desc": "Prostatic Acid Phospatase",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85610",
+    "description": "PROTHROMBIN TIME; PT/INR",
+    "provider_code": "85610",
+    "provider_desc": "Prothrombim time",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-51",
+    "description": "Psychiatrist Consultation",
+    "provider_code": "CON-51",
+    "provider_desc": "Psychiatrist  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-52",
+    "description": "Psychiatrist Review",
+    "provider_code": "CON-52",
+    "provider_desc": "Psychiatrist  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92552.01",
+    "description": "pure tone audiometry, Tympanometry & speech recognition tests, air only",
+    "provider_code": "92552.01",
+    "provider_desc": "PTA + Tympanometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "65420",
+    "description": "Excision or transposition of pterygium; without graft",
+    "provider_code": "65420",
+    "provider_desc": "Pterygium Excision/eye",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "65426",
+    "description": "Excision or transposition of pterygium; with graft",
+    "provider_code": "65426",
+    "provider_desc": "Pterygium Excision/Eye (with Autograft)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-56",
+    "description": "Respiratory Physician Consultation",
+    "provider_code": "CON-56",
+    "provider_desc": "Pulmonologist/Respiratory Physician  Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-57",
+    "description": "Respiratory Physician Follow Up",
+    "provider_code": "CON-57",
+    "provider_desc": "Pulmonologist/Respiratory Physician  Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pulpal therapy",
+    "cpt": "D3220",
+    "description": "therapeutic pulpotomy (excluding final restoration) - removal of pulp coronal to the dentinocemental junction and application of medicament",
+    "provider_code": "D3220",
+    "provider_desc": "Pulpotomy / Pulpectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92552",
+    "description": "PURE TONE AUDIOMETRY (THRESHOLD); AIR ONLY",
+    "provider_code": "92552",
+    "provider_desc": "Pure tone Audiometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "80050.03",
+    "description": "Full Check up- CBC / F&PP bl.Sugar / Uric A. / S.creat. / Lipid profile / TSH / Urine analysis / SGPT",
+    "provider_code": "80050.03",
+    "provider_desc": "Random blood sugar",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85041",
+    "description": "Blood count; red blood cell (RBC), automated",
+    "provider_code": "85041",
+    "provider_desc": "Red cell count",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Consultation",
+    "cpt": "92015.02",
+    "description": "Determination of refractive state ; BILATERAL",
+    "provider_code": "92015.02",
+    "provider_desc": "Refraction / Autorefraction",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "26508",
+    "description": "Release of thenar muscle(s) (eg, thumb contracture)",
+    "provider_code": "26508",
+    "provider_desc": "Release of Chordae Tendinae",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "69210",
+    "description": "Removal impacted cerumen (separate procedure), 1 or both ears",
+    "provider_code": "69210",
+    "provider_desc": "Removal of Cerumol (Ear Wax)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "69200",
+    "description": "Removal foreign body from external auditory canal; without general anesthesia",
+    "provider_code": "69200",
+    "provider_desc": "Removal of Foreign body (EAR)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30320",
+    "description": "Removal foreign body, intranasal; by lateral rhinotomy",
+    "provider_code": "30320",
+    "provider_desc": "Removal of foreign body (NOSE)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30300",
+    "description": "Removal foreign body, intranasal; office type procedure",
+    "provider_code": "30300",
+    "provider_desc": "Removal of foreign body (THROAT)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Dental Implants",
+    "cpt": "D6100",
+    "description": "implant removal, by report",
+    "provider_code": "D6100",
+    "provider_desc": "Removal of Implant",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "13160",
+    "description": "Secondary closure of surgical wound or dehiscence, extensive or complicated",
+    "provider_code": "13160",
+    "provider_desc": "Repair of 3rd deg tear",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "57720",
+    "description": "Trachelorrhaphy, plastic repair of uterine cervix, vaginal approach",
+    "provider_code": "57720",
+    "provider_desc": "Repair of Cervical Laceration",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59409.04",
+    "description": "Vaginal delivery with repairing the vaginal tears.",
+    "provider_code": "59409.04",
+    "provider_desc": "Repair of Minor Vaginal Laceration",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59409.06",
+    "description": "Vaginal delivery with suturing  the vaginal tears.",
+    "provider_code": "59409.06",
+    "provider_desc": "Repair of Vaginal Laceration (2nd degree)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "85044",
+    "description": "BLOOD COUNT: RETICULOCYTE COUNT, MANUAL / AUTOMATED",
+    "provider_code": "85044",
+    "provider_desc": "Reticulocyte",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "49061",
+    "description": "Drainage of retroperitoneal abscess; percutaneous",
+    "provider_code": "49061",
+    "provider_desc": "Retroperitoneal drainage of perinephric abscess",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86900",
+    "description": "ABO + RH (D) typing",
+    "provider_code": "86900",
+    "provider_desc": "Rh +Ve",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86235.04",
+    "description": "Ro (ss-A)",
+    "provider_code": "86235.04",
+    "provider_desc": "Rh –Ve",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86431",
+    "description": "RHEUMATOID FACTOR; QUANTITATIVE",
+    "provider_code": "86431",
+    "provider_desc": "Rheumatoid factor",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30430",
+    "description": "Rhinoplasty, secondary; minor revision (small amount of nasal tip work)",
+    "provider_code": "30430",
+    "provider_desc": "Rhinoplasty",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31579",
+    "description": "Laryngoscopy, flexible or rigid fiberoptic, with stroboscopy",
+    "provider_code": "31579",
+    "provider_desc": "Rigid Direct Laryngoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Root Canal treatment",
+    "cpt": "D3346",
+    "description": "retreatment of previous root canal therapy - anterior",
+    "provider_code": "D3346",
+    "provider_desc": "Root Canal Therapy  anterior",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Root Canal treatment",
+    "cpt": "D3347",
+    "description": "retreatment of previous root canal therapy - bicuspid",
+    "provider_code": "D3347",
+    "provider_desc": "Root Canal Therapy  Posterior",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72220.01",
+    "description": "Radiologic examination, sacrum; 1 view",
+    "provider_code": "72220.01",
+    "provider_desc": "Sacrum",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Prophylaxis",
+    "cpt": "D1110.02",
+    "description": "Dental Polishing",
+    "provider_code": "D1110.02",
+    "provider_desc": "Scaling & polishing",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92560",
+    "description": "BEKESY AUDIOMETRY; SCREENING",
+    "provider_code": "92560",
+    "provider_desc": "Screening Audiometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "89320",
+    "description": "COMPLETE SEMEN ANALYSIS",
+    "provider_code": "89320",
+    "provider_desc": "Semen MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30620",
+    "description": "Septal or other intranasal dermatoplasty (does not include obtaining graft)",
+    "provider_code": "30620",
+    "provider_desc": "Septoplasty",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "30420",
+    "description": "Rhinoplasty, primary; including major septal repair",
+    "provider_code": "30420",
+    "provider_desc": "Septorhinoplasty",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "23172",
+    "description": "Sequestrectomy (eg, for osteomyelitis or bone abscess), scapula",
+    "provider_code": "23172",
+    "provider_desc": "Sequestrectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84165",
+    "description": "PROTEIN ELECTROPHORESIS (BLOOD)",
+    "provider_code": "84165",
+    "provider_desc": "Serum Protein electrophoresis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84450",
+    "description": "ASPARTATE AMINO TRANSFERASE; (AST) (SGOT)",
+    "provider_code": "84450",
+    "provider_desc": "SGOT & SGPT",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86771",
+    "description": "ANTIBODY; SHIGELLA",
+    "provider_code": "86771",
+    "provider_desc": "Shirmers's",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "23920",
+    "description": "Disarticulation of shoulder;",
+    "provider_code": "23920",
+    "provider_desc": "Shoulder",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7980",
+    "description": "sialolithotomy",
+    "provider_code": "D7980",
+    "provider_desc": "sialogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "45332",
+    "description": "Sigmoidoscopy, flexible; with removal of foreign body",
+    "provider_code": "45332",
+    "provider_desc": "Sigmoidoscopy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Amalgam Filling",
+    "cpt": "D2140.01",
+    "description": "Amalgam Filling",
+    "provider_code": "D2140.01",
+    "provider_desc": "Simple Amalgam filling",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Non Surgical",
+    "cpt": "D7111.01",
+    "description": "extraction, coronal remnants - deciduous tooth (Exterior)",
+    "provider_code": "D7111.01",
+    "provider_desc": "Simple Extraction",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "19303",
+    "description": "Mastectomy, simple, complete",
+    "provider_code": "19303",
+    "provider_desc": "Simple Mastectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Single Room",
+    "cpt": "RM-4",
+    "description": "Single Room -1 Bed- package/day",
+    "provider_code": "RM-4",
+    "provider_desc": "Single room",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "70210",
+    "description": "Radiologic examination, sinuses, paranasal, less than 3 views",
+    "provider_code": "70210",
+    "provider_desc": "Sinuses",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "15275",
+    "description": "Application of skin substitute graft to face, scalp, eyelids, mouth, neck, ears, orbits, genitalia, hands, feet, and/or multiple digits, total wound surface area up to 100 sq cm; first 25 sq cm or less wound surface area",
+    "provider_code": "15275",
+    "provider_desc": "Skin grafting (<9% surface area)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "15276",
+    "description": "Application of skin substitute graft to face, scalp, eyelids, mouth, neck, ears, orbits, genitalia, hands, feet, and/or multiple digits, total wound surface area up to 100 sq cm; each additional 25 sq cm wound surface area, or part thereof (List separately in addition to code for primary procedure)",
+    "provider_code": "15276",
+    "provider_desc": "Skin grafting (>9% surface area)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "89050.04",
+    "description": "Microscopic Examination Fungi in Hair, Skin, Nail",
+    "provider_code": "89050.04",
+    "provider_desc": "Skin Scraping for fungus",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "87210.03",
+    "description": "SMEAR, PRIMARY SOURCE, W/ INTERPRET; WET MOUNT, FOR INFECTIOUS AGENTS (KOH FOR Fungus)",
+    "provider_code": "87210.03",
+    "provider_desc": "Skin snip",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Physiotherapy & Rehabilitation",
+    "cpt": "97012",
+    "description": "Mechanical traction",
+    "provider_code": "97012",
+    "provider_desc": "Skin traction",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "70250",
+    "description": "Radiologic examination, skull; less than 4 views",
+    "provider_code": "70250",
+    "provider_desc": "Skull",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "57135",
+    "description": "Excision of vaginal cyst or tumor",
+    "provider_code": "57135",
+    "provider_desc": "Small cyst excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "A4458",
+    "description": "ENEMA BAG WITH TUBING, REUSABLE",
+    "provider_code": "A4458",
+    "provider_desc": "Soap Enema",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84302",
+    "description": "ASSAY OF SODIUM; OTHER SOURCE",
+    "provider_code": "84302",
+    "provider_desc": "Sodium",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87070.02",
+    "description": "CULTURE, SPUTUM",
+    "provider_code": "87070.02",
+    "provider_desc": "Sputum culture+ AFB 3",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "89050.03",
+    "description": "Microscopic Examination T.B. Film Sputum/Urine",
+    "provider_code": "89050.03",
+    "provider_desc": "Sputum MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Maxillofacial Prosthesis",
+    "cpt": "D5982",
+    "description": "surgical stent",
+    "provider_code": "D5982",
+    "provider_desc": "Stenosing Tenosynovitis Release",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87073.01",
+    "description": "Stool analysis",
+    "provider_code": "87073.01",
+    "provider_desc": "Stool analysis- routine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "89125",
+    "description": "STOOL / FECAL FAT",
+    "provider_code": "89125",
+    "provider_desc": "Stool MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "50125",
+    "description": "Pyelotomy; with drainage, pyelostomy",
+    "provider_code": "50125",
+    "provider_desc": "Stye Incision/Drainage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "11307603",
+    "description": "Prostatectomy, suprapubic",
+    "provider_code": "11307603",
+    "provider_desc": "Subcapsular orchidopexy for removal of prostate tumor",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42440",
+    "description": "Excision of submandibular (submaxillary) gland",
+    "provider_code": "42440",
+    "provider_desc": "Submandibular gland excision",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "49060",
+    "description": "Drainage of retroperitoneal abscess; open",
+    "provider_code": "49060",
+    "provider_desc": "Subperiosteal drainage of chronic oesteomyelitis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Respiratory Services",
+    "cpt": "140044",
+    "description": "Nasotracheal Suctioning",
+    "provider_code": "140044",
+    "provider_desc": "Suction Clearance",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Cystoscopy",
+    "cpt": "174125732",
+    "description": "Other Cystoscopy",
+    "provider_code": "174125732",
+    "provider_desc": "Supra pubic Cystostomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "59130",
+    "description": "Surgical treatment of ectopic pregnancy; abdominal pregnancy",
+    "provider_code": "59130",
+    "provider_desc": "Surgery for Ectopic Pregnancy-",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Non Surgical",
+    "cpt": "D7140.01",
+    "description": "extraction, erupted tooth (elevation and/or forceps removal)",
+    "provider_code": "D7140.01",
+    "provider_desc": "Surgical Extraction (all ranges)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "EYESM-1",
+    "description": "EYE SWAB MCS",
+    "provider_code": "EYESM-1",
+    "provider_desc": "Swab MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Oral & Maxillofacial Surgery",
+    "cpt": "D7854",
+    "description": "synovectomy",
+    "provider_code": "D7854",
+    "provider_desc": "Synovectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Gingival Treatement",
+    "cpt": "D4920",
+    "description": "unscheduled dressing change (by someone other than treating dentist)",
+    "provider_code": "D4920",
+    "provider_desc": "Temporary dressing / tooth",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Prophylaxis",
+    "cpt": "D1110.03",
+    "description": "Dental Polishing - more than one session",
+    "provider_code": "D1110.03",
+    "provider_desc": "Temporary fillings",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "UltraSound",
+    "cpt": "76870",
+    "description": "Ultrasound, scrotum and contents",
+    "provider_code": "76870",
+    "provider_desc": "Testes scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84403",
+    "description": "ASSAY OF TESTOSTERONE; TOTAL",
+    "provider_code": "84403",
+    "provider_desc": "Testosterone",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "58558",
+    "description": "Hysteroscopy, surgical; with sampling (biopsy) of endometrium and/or polypectomy, with or without D & C",
+    "provider_code": "58558",
+    "provider_desc": "Therapeutic D&C/Uterine Evacuation (block fee)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73550.03",
+    "description": "Radiologic examination, femur, 1 view",
+    "provider_code": "73550.03",
+    "provider_desc": "Thigh/femur",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72270",
+    "description": "Myelography, 2 or more regions (eg, lumbar/thoracic, cervical/thoracic, lumbar/cervical, lumbar/thoracic/cervical), radiological supervision and interpretation",
+    "provider_code": "72270",
+    "provider_desc": "Thoracic - Lumbar Spine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72070",
+    "description": "Radiologic examination, spine; thoracic, 2 views",
+    "provider_code": "72070",
+    "provider_desc": "Thoracic Inlet",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "72070.01",
+    "description": "Radiologic examination, spine; thoracic, 1 view",
+    "provider_code": "72070.01",
+    "provider_desc": "Thoracic Spine",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "32100",
+    "description": "Thoracotomy; with exploration",
+    "provider_code": "32100",
+    "provider_desc": "Thoracotomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "60000",
+    "description": "Incision and drainage of thyroglossal duct cyst, infected",
+    "provider_code": "60000",
+    "provider_desc": "Thyroglossal cyst",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84479",
+    "description": "Thyroid hormone (T3 or T4) uptake or thyroid hormone binding ratio (THBR)",
+    "provider_code": "84479",
+    "provider_desc": "Thyroid Function test (T3+T4+TSH)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78010",
+    "description": "Thyroid imaging; only",
+    "provider_code": "78010",
+    "provider_desc": "Thyroid scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Package Procedure",
+    "cpt": "10290064",
+    "description": "Thyroidectomy, complete",
+    "provider_code": "10290064",
+    "provider_desc": "Thyroidectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "73590",
+    "description": "Radiologic examination; tibia and fibula, 2 views",
+    "provider_code": "73590",
+    "provider_desc": "Tibia/fibula",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Pathology",
+    "cpt": "88304",
+    "description": "TISSUE EXAM BY PATHOLOGIST",
+    "provider_code": "88304",
+    "provider_desc": "Tissue Histology",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Simple X-ray",
+    "cpt": "D0320",
+    "description": "Temporomandibular joint arthrogram, including injection",
+    "provider_code": "D0320",
+    "provider_desc": "TMJ",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "41512",
+    "description": "Tongue base suspension, permanent suture technique",
+    "provider_code": "41512",
+    "provider_desc": "Tongue Tie Release",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "42825",
+    "description": "Tonsillectomy, primary or secondary; younger than age 12",
+    "provider_code": "42825",
+    "provider_desc": "Tonsilectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "55520",
+    "description": "Excision of lesion of spermatic cord (separate procedure)",
+    "provider_code": "55520",
+    "provider_desc": "Torsion Spermatic Cord (Bilateral orchidopexy)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Orthotic &Prosthetic devices",
+    "cpt": "L2060",
+    "description": "HIP KNEE ANKLE FOOT ORTHOSIS, TORSION CONTROL, BILATERAL TORSION CABLES, BALL BEARING HIP JOINT, PELVIC BAND/ BELT, CUSTOM-FABRICATED",
+    "provider_code": "L2060",
+    "provider_desc": "Torsion Spermatic Cord (Bilateral orchidopexy)",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84060",
+    "description": "ASSAY OF PHOSPHATASE, ACID; TOTAL",
+    "provider_code": "84060",
+    "provider_desc": "Total acid phosphatase",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82247",
+    "description": "BILIRUBIN; TOTAL",
+    "provider_code": "82247",
+    "provider_desc": "Total Bilirubin",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "82465",
+    "description": "ASSAY OF CHOLESTEROL, SERUM, TOTAL",
+    "provider_code": "82465",
+    "provider_desc": "Total Cholesterol",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84155",
+    "description": "ASSAY OF PROTEIN; TOTAL; BLOOD",
+    "provider_code": "84155",
+    "provider_desc": "Total protein",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "66172",
+    "description": "Fistulization of sclera for glaucoma; trabeculectomy ab externo with scarring from previous ocular surgery or trauma (includes injection of antifibrotic agents)",
+    "provider_code": "66172",
+    "provider_desc": "Trabeculectomy /Per eye",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "31600",
+    "description": "Tracheostomy, planned (separate procedure);",
+    "provider_code": "31600",
+    "provider_desc": "Tracheostomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Outpatient Procedures",
+    "cpt": "55700",
+    "description": "Biopsy, prostate; needle or punch, single or multiple, any approach",
+    "provider_code": "55700",
+    "provider_desc": "Transrectal ultrasound guided biopsy of prostate",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "UltraSound",
+    "cpt": "76830",
+    "description": "Ultrasound, transvaginal",
+    "provider_code": "76830",
+    "provider_desc": "Transvaginal scan",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84478",
+    "description": "ASSAY OF TRIGLYCERIDES",
+    "provider_code": "84478",
+    "provider_desc": "Triglycerides",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84512",
+    "description": "ASSAY OF TROPONIN, QUALITATIVE",
+    "provider_code": "84512",
+    "provider_desc": "Troponin I",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "28140",
+    "description": "Metatarsectomy",
+    "provider_code": "28140",
+    "provider_desc": "Turbinectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Audiometry",
+    "cpt": "92550",
+    "description": "Tympanometry and reflex threshold measurements",
+    "provider_code": "92550",
+    "provider_desc": "Tympanometry",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84545",
+    "description": "UREA-N CLEARANCE TEST",
+    "provider_code": "84545",
+    "provider_desc": "Urea",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "51565",
+    "description": "Cystectomy, partial, with reimplantation of ureter(s) into bladder (ureteroneocystostomy)",
+    "provider_code": "51565",
+    "provider_desc": "Ureteral reimplantation into the Bladder",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "53502",
+    "description": "Urethrorrhaphy, suture of urethral wound or injury, female",
+    "provider_code": "53502",
+    "provider_desc": "Urethral & wound MCS",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "53405",
+    "description": "Urethroplasty; second stage (formation of urethra), including urinary diversion",
+    "provider_code": "53405",
+    "provider_desc": "Urethroplasty per stage",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "84560",
+    "description": "ASSAY OF URIC ACID; OTHER SOURCE",
+    "provider_code": "84560",
+    "provider_desc": "Uric acid",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "81015",
+    "description": "URINALYSIS; MICROSCOPIC ONLY",
+    "provider_code": "81015",
+    "provider_desc": "Urinalysis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "87088",
+    "description": "CULTURE, BACTERIAL, URINE; QUANTITATIVE, COLONY COUNT W/ ISOLATION & PRESUMPTIVE IDENTIFICATION EACH ISOLATE, URINE",
+    "provider_code": "87088",
+    "provider_desc": "Urine culture +Analysis",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "81001",
+    "description": "URINALYSIS, AUTOMATED WITH MICROSCOPY",
+    "provider_code": "81001",
+    "provider_desc": "Urine mcs",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "81025",
+    "description": "PREGNANCY TEST, URINE",
+    "provider_code": "81025",
+    "provider_desc": "Urine preg. test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-60",
+    "description": "Urologist Consultation",
+    "provider_code": "CON-60",
+    "provider_desc": "Urologist Consultation",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Specialist Consultation",
+    "cpt": "CON-61",
+    "description": "Urologist Review",
+    "provider_code": "CON-61",
+    "provider_desc": "Urologist Review",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Normal Delivery",
+    "cpt": "59409.02",
+    "description": "Vaginal delivery only (with or without episiotomy and/or forceps); With complications.",
+    "provider_code": "59409.02",
+    "provider_desc": "Vacuum Delivery",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "55250",
+    "description": "Vasectomy, unilateral or bilateral (separate procedure), including postoperative semen examination(s)",
+    "provider_code": "55250",
+    "provider_desc": "Vasectomy",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86593",
+    "description": "SYPHILIS TEST; QUANTITATIVE - CSF/SERUM EACH (REFER TO RESULT)",
+    "provider_code": "86593",
+    "provider_desc": "VDRL, serum/csf",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Nuclear Imaging",
+    "cpt": "78457",
+    "description": "Venous thrombosis imaging, venogram; unilateral",
+    "provider_code": "78457",
+    "provider_desc": "Venogram",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "85048",
+    "description": "Blood count; leukocyte (WBC), automated",
+    "provider_code": "85048",
+    "provider_desc": "WBC",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Laboratory",
+    "cpt": "86000.01",
+    "description": "WIDAL TEST;  AGGLUTINATION TEST FOR TYPHOID DETECTION",
+    "provider_code": "86000.01",
+    "provider_desc": "Widal Test",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Surgery",
+    "cpt": "29260",
+    "description": "Strapping; elbow or wrist",
+    "provider_code": "29260",
+    "provider_desc": "Wrist",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "X-Ray",
+    "cpt": "76499.02",
+    "description": "Medium X-ray Film",
+    "provider_code": "76499.02",
+    "provider_desc": "X-RAY periapical",
+    "price": "2000",
+    "currency": "NGN"
+  },
+  {
+    "service": "Medical Supplies",
+    "cpt": "W45",
+    "description": "Walking stick",
+    "provider_code": "W45",
+    "provider_desc": "Walking stick",
+    "price": "2000",
+    "currency": "NGN"
+  }
+]
