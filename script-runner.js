@@ -33,6 +33,7 @@ async function main() {
       failed: path.resolve(__dirname, 'claim-script/dec-claims/output/failed_records.json'),
       notFound: path.resolve(__dirname, 'claim-script/dec-claims/output/not_found_items.json'),
       match_output: path.resolve(__dirname, 'claim-script/dec-claims/output/data_transformed.json'),
+      match_summary_output: path.resolve(__dirname, 'claim-script/dec-claims/output/data_transformed.summary.json'),
       tariff: path.resolve(__dirname, 'claim-script/tariff/output/tariff.json'),
       servicesTariff: path.resolve(__dirname, 'claim-script/tariff/output/servicesTariff.json'),
       not_found_drugs: path.resolve(__dirname, 'claim-script/dec-claims/output/drugs_not_found.json'),
@@ -46,14 +47,15 @@ async function main() {
       json: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.json'),
       json_test: path.resolve(__dirname, 'claim-script/gen-claims/output/output.json'),
       excel: [
-        path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 1.xlsx'),
-        path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 2.xlsx'),
-        path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 3.xlsx'),
+        path.resolve(__dirname, 'claim-script/gen-claims/data/2024.xlsx'),
+        // path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 2.xlsx'),
+        // path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 3.xlsx'),
       ],
       success: path.resolve(__dirname, 'claim-script/gen-claims/output/successful_records.json'),
       failed: path.resolve(__dirname, 'claim-script/gen-claims/output/failed_records.json'),
       notFound: path.resolve(__dirname, 'claim-script/gen-claims/output/not_found_items.json'),
-      match_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.json'),
+      match_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed2.json'),
+      match_summary_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.summary.json'),
       tariff: path.resolve(__dirname, 'claim-script/tariff/output/tariff.json'),
       servicesTariff: path.resolve(__dirname, 'claim-script/tariff/output/servicesTariff.json'),
       not_found_drugs: path.resolve(__dirname, 'claim-script/gen-claims/output/drugs_not_found.json'),
@@ -96,14 +98,14 @@ async function main() {
     await convertExcelFiles(selectedPaths.excel, selectedPaths.json_test);
   } else if (action === 'match') {
     // map drugs and services in sheet
-    await mapItemsToGenericName(selectedPathsJson, selectedPaths.tariff, selectedPaths.servicesTariff, selectedPaths.provider_json,selectedPaths.match_output);
+    await mapItemsToGenericName(selectedPathsJson, selectedPaths.tariff, selectedPaths.servicesTariff, selectedPaths.provider_json,selectedPaths.match_output, selectedPaths.match_summary_output);
   } else if (action === 'extractprovider') {
     await providerExcelToJson(selectedPaths.provider_excel, selectedPaths.provider_json )
   }else if (action === 'extract') {
     // extract not found drugs/services
     await writeEntriesToFile(selectedPathsJson, selectedPaths.not_found_drugs)
   } else if (action === 'transform') {
-    await transformDiagnosis(selectedPathsJson, selectedPathsJson);
+    // await transformDiagnosis(selectedPathsJson, selectedPathsJson);
   } else if (action === 'update') {
     await updateClaims(selectedPaths.success, selectedPaths.failed_records_update_path, selectedPaths.successful_records_update_path,selectedPaths.not_found_update_path)
   } else {
@@ -248,8 +250,8 @@ async function convertExcelFileDec(excelPaths, outputFilePath) {
     // Write the closing bracket after all files have been processed
     writeStream.write(']');
     writeStream.end();
-    console.log(`✅ Consolidated DEC JSON saved to ${outputFilePath}`);
+    console.log(`✅ Consolidated JSON saved to ${outputFilePath}`);
   } catch (error) {
-    console.error(`❌ Failed to process DEC Excel files:`, error);
+    console.error(`❌ Failed to process Excel files:`, error);
   }
 }

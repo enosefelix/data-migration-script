@@ -163,7 +163,7 @@ async function processRecord(
     const memberInfo = await findMemberInfo(
       connection,
       record.memberNumber,
-      record.memberNumber1
+      record.memberId
     );
     if (!memberInfo) {
       throw new Error(
@@ -183,19 +183,19 @@ async function processRecord(
     }
 
     const { max_claim_number } = await findLastClaimAndLotNumber(connection);
-    let max_lot_no;
+    let max_lot_no = null;
 
-    try {
-      max_lot_no = await getOrCreateLotStatement(
-        connection,
-        memberInfo,
-        record,
-        claimRemark
-      );
-    } catch (error) {
-      console.error("Error in createLotStatement:", error);
-      throw error;
-    }
+    // try {
+    //   max_lot_no = await getOrCreateLotStatement(
+    //     connection,
+    //     memberInfo,
+    //     record,
+    //     claimRemark
+    //   );
+    // } catch (error) {
+    //   console.error("Error in createLotStatement:", error);
+    //   throw error;
+    // }
 
     try {
       await insertAuditAndDataEntry(connection, max_lot_no);
@@ -284,7 +284,14 @@ async function processRecord(
       console.log(
         "+++++++++++++++++======================+++++++++++++++++++++++++"
       );
-      await updateClaimTotals(connection, claimId, record, max_lot_no);
+      await updateClaimTotals(connection, claimId, record);
+
+      try {
+        await assignLotsPostProcessing(connection);
+      } catch (error) {
+        console.error("Error in updateClaimTotals:", error);
+        throw error;
+      }
     } catch (error) {
       console.error("Error in storeItems in table", error);
       throw error;
@@ -323,7 +330,129 @@ async function processRecord(
   }
 }
 
-async function updateClaimTotals(connection, claimId, record, lot) {
+async function assignLotsPostProcessing(connection) {
+  const claimRemark = "Migrated";
+
+  try {
+    // 1) Undelete all old lots
+    console.log(
+      "+++++++++++++++++++++++++++++++**********************************************+------------------------------------------------+++++++++++++++++++++++++++++++++"
+    );
+    console.log("Deleting lots");
+    await connection.query(
+      "UPDATE lots SET lot_deleted = '1' WHERE lot_remark = ?",
+      [claimRemark]
+    );
+
+    // 2) Fetch every migrated claim
+    const [claims] = await connection.query(
+      `SELECT claim_id, claim_provider_id, claim_service_date, claim_type, claim_ms_id,
+      claim_auth_req_amt as claim_amt
+      FROM claim c
+      JOIN members_schemes ms
+        ON ms.ms_id = c.claim_ms_id
+      WHERE claim_remark = ?`,
+      [claimRemark]
+    );
+
+    // 3) Group by provider + YYYY-MM
+    const groups = {};
+    for (const { claim_id, claim_provider_id, claim_service_date } of claims) {
+      const month = new Date(claim_service_date).toISOString().slice(0, 7);
+      const key = `${claim_provider_id}|${month}`;
+      if (!groups[key])
+        groups[key] = { provider: claim_provider_id, month, claimIds: [] };
+      groups[key].claimIds.push(claim_id);
+    }
+
+    // 4) For each group, create one new lot and update its claims
+    for (const { provider, month, claimIds } of Object.values(groups)) {
+      // get the next lot_no
+      const { max_lot_no } = await maxLotNumber(connection);
+
+      // insert the new lot
+      const lot_type = claims[0].claim_type == 1 ? 2 : 1; // 1 for out-patient, 2 for in-patient
+
+      const result = await connection.query("INSERT INTO lots SET ?", {
+        lot_no: max_lot_no,
+        lot_receive_date: new Date(claims[0].claim_service_date)
+          .toISOString()
+          .slice(0, 10),
+        lot_from_date: null,
+        lot_to_date: null,
+        lot_type: lot_type,
+        lot_amount: claims[0].claimed,
+        lot_provider_id: provider,
+        lot_total_claim: 1,
+        lot_payment_date: null,
+        lot_created_by: 1,
+        lot_created: new Date().toISOString().slice(0, 10),
+        lot_audit_date: null,
+        lot_claimed_date: null,
+        lot_claimed_status: null,
+        lot_claimed_status: null,
+        lot_verifiy_status: null,
+        lot_audit_status: 1,
+        lot_close_status: 3,
+        lot_payment_status: null,
+        lot_invoice_status: null,
+        lot_source: "offline",
+        lot_ic_id: null,
+        // lot_deleted:0,
+        lot_modified_date: null,
+        lot_audit_close_date: new Date(claims[0].claim_service_date)
+          .toISOString()
+          .slice(0, 10),
+        lot_claim_close_date: null,
+        lot_master_type: 1,
+        lot_grp: claims[0].claim_ms_id,
+        lot_t: "G",
+        lot_remark: claimRemark,
+        lot_is_chronic: 0,
+        lot_management_status: 0,
+        lot_management_user_id: 0,
+        lot_closed_user_id: 0,
+        lot_merged_user_id: 0,
+      });
+
+      // assign that lot to all grouped claims
+      await connection.query(
+        "UPDATE claim SET claim_lot_no = ? WHERE claim_id IN (?)",
+        [max_lot_no, claimIds]
+      );
+    }
+
+    await connection.query(
+      `UPDATE lots AS l
+      JOIN (
+        SELECT 
+          claim_lot_no        AS lot_no,
+          COUNT(DISTINCT claim_type) AS distinct_types
+        FROM claim
+        WHERE claim_remark = 'Migrated'
+        GROUP BY claim_lot_no
+      ) AS t
+        ON l.lot_no = t.lot_no
+      SET l.lot_type = 0
+      WHERE 
+        l.lot_remark = 'Migrated'
+        AND t.distinct_types > 1
+      ;
+    `
+    );
+
+    await connection.commit();
+    console.log("🎉 Batch lot-assignment complete.");
+  } catch (err) {
+    await connection.rollback();
+    console.error("Failed to assign lots in post-processing:", err);
+    throw err;
+  } finally {
+    connection.release();
+  }
+}
+
+async function updateClaimTotals(connection, claimId, record) {
   const {
     memberInfo,
     dateOfAdmission,
@@ -425,74 +554,73 @@ async function updateClaimTotals(connection, claimId, record, lot) {
       claim_total_amount: totalClaimed.toFixed(2),
       claim_payable_amt: totalClaimed.toFixed(2),
       claim_deduction_amt: totalDeducted.toFixed(2),
-      claim_lot_no: lot,
     },
     claimId,
   ]);
 }
 
 const lotCache = new Map();
-async function getOrCreateLotStatement(
-  connection,
-  memberInfo,
-  record,
-  claimRemark
-) {
-  //   console.log("🚀 ~ getOrCreateLotStatement ~ record:", record);
+// async function getOrCreateLotStatement(
+//   connection,
+//   memberInfo,
+//   record,
+//   claimRemark
+// ) {
+//   //   console.log("🚀 ~ getOrCreateLotStatement ~ record:", record);
 
-  const { max_lot_no } = await maxLotNumber(connection);
-  console.log("🚀 ~ getOrCreateLotStatement ~ max_lot_no:", max_lot_no);
+//   const { max_lot_no } = await maxLotNumber(connection);
+//   console.log("🚀 ~ getOrCreateLotStatement ~ max_lot_no:", max_lot_no);
 
-  // Use a key combining service provider and dateOfConsultation.
-  const dateKey = record.dateOfConsultation.slice(0, 7); // e.g., "2024-12"
-  const key = `${record.serviceProvider}|${dateKey}`;
+//   // Use a key combining service provider and dateOfConsultation.
+//   const dateKey = record.dateOfConsultation.slice(0, 7); // e.g., "2024-12"
+//   const key = `${record.serviceProvider}|${dateKey}`;
 
-  // Determine the record's type (1 for IN-PATIENT, 2 for OUT-PATIENT)
-  console.log("🚀 ~ record.typeOfVisit:", record.typeOfVisit);
-  const recordType = ["OUT-PATIENT", "OutPatient"].includes(record.typeOfVisit)
-    ? 1 // out‑patient
-    : 2;
-  console.log("🚀 ~ recordType:", recordType);
+//   // Determine the record's type (1 for IN-PATIENT, 2 for OUT-PATIENT)
+//   console.log("🚀 ~ record.typeOfVisit:", record.typeOfVisit);
+//   const recordType = ["OUT-PATIENT", "OutPatient"].includes(record.typeOfVisit)
+//     ? 1 // out‑patient
+//     : 2;
+//   console.log("🚀 ~ recordType:", recordType);
 
-  console.log("🚀 ~ getOrCreateLotStatement ~ key:", key);
-  if (lotCache.has(key)) {
-    console.log(`Reusing lot for ${key}: ${lotCache.get(key)}`);
+//   console.log("🚀 ~ getOrCreateLotStatement ~ key:", key);
+//   if (lotCache.has(key)) {
+//     console.log(`Reusing lot for ${key}: ${lotCache.get(key)}`);
 
-    await connection.query(
-      "UPDATE lots SET lot_total_claim = IFNULL(lot_total_claim, 0) + 1 WHERE lot_no = ?",
-      [max_lot_no]
-    );
-    return lotCache.get(key);
-  }
+//     await connection.query(
+//       "UPDATE lots SET lot_total_claim = IFNULL(lot_total_claim, 0) + 1 WHERE lot_no = ?",
+//       [max_lot_no]
+//     );
+//     return lotCache.get(key);
+//   }
 
-  const sth = await connection.query("SELECT * FROM lots WHERE lot_no = ?", [
-    max_lot_no,
-  ]);
-  console.log("🚀 ~ before create lot statement function:", sth[0]);
+//   const sth = await connection.query("SELECT * FROM lots WHERE lot_no = ?", [
+//     max_lot_no,
+//   ]);
+//   console.log("🚀 ~ before create lot statement function:", sth[0]);
 
-  // Assume maxLotNumber() returns an object with property max_lot_no.
-  await createLotStatement(
-    connection,
-    memberInfo,
-    max_lot_no,
-    record,
-    claimRemark
-  );
-  lotCache.set(key, max_lot_no);
-  console.log(`Created new lot for ${key}: ${max_lot_no}`);
+//   // Assume maxLotNumber() returns an object with property max_lot_no.
+//   await createLotStatement(
+//     connection,
+//     memberInfo,
+//     max_lot_no,
+//     record,
+//     claimRemark
+//   );
+//   lotCache.set(key, max_lot_no);
+//   console.log(`Created new lot for ${key}: ${max_lot_no}`);
 
-  const sth2 = await connection.query("SELECT * FROM lots WHERE lot_no = ?", [
-    max_lot_no,
-  ]);
-  console.log("🚀 ~ after create lot statement function:", sth2[0]);
+//   const sth2 = await connection.query("SELECT * FROM lots WHERE lot_no = ?", [
+//     max_lot_no,
+//   ]);
+//   console.log("🚀 ~ after create lot statement function:", sth2[0]);
 
-  await connection.query(
-    "UPDATE lots SET lot_type = 0 WHERE lot_no = ? AND lot_type <> ? AND lot_type <> 0",
-    [max_lot_no, recordType]
-  );
+//   await connection.query(
+//     "UPDATE lots SET lot_type = 0 WHERE lot_no = ? AND lot_type <> ? AND lot_type <> 0",
+//     [max_lot_no, recordType]
+//   );
 
-  return max_lot_no;
-}
+//   return max_lot_no;
+// }
 
 async function createLotStatement(
   connection,
@@ -812,6 +940,7 @@ async function storeItemsInTables(
         ipOp,
         claimType,
       ]);
+      console.log("🚀 ~ tariffData:", tariffData);
 
       if (tariffData.length === 0) {
         console.log("No lab data found for item:", matchedService);
@@ -832,10 +961,10 @@ async function storeItemsInTables(
           rejected: items.rejected[index],
           rejectionReason: items.rejectionReason[index],
           total: items.total[index], // Using correct index
-          tm_id: tariffData[0].tm_id,
-          tm_tariff_id: tariffData[0].tm_tariff_id,
-          tm_net_amt: tariffData[0].tm_net_amt,
-          sl_id: tariffData[0].sl_id,
+          tm_id: tariffData[0]?.tm_id,
+          tm_tariff_id: tariffData[0]?.tm_tariff_id,
+          tm_net_amt: tariffData[0]?.tm_net_amt,
+          sl_id: tariffData[0]?.sl_id,
           sl_cover_id: tariffData[0]?.sl_cover_id,
         };
 
@@ -957,9 +1086,9 @@ async function storeItemsInTables(
       // If a drug is found, save the details
       if (drug.length > 0) {
         const itemData = {
-          code: drug[0].med_code,
-          matchType: drug[0].match_type,
-          description: drug[0].drug_details || drug[0].md_pro_desc,
+          code: drug[0]?.med_code,
+          matchType: drug[0]?.match_type,
+          description: drug[0]?.drug_details || drug[0]?.md_pro_desc,
           cost: items.cost[index], // Using correct index
           quantity: items.quantity[index], // Using correct index
           md_pro_desc: drug[0].md_pro_desc,
@@ -968,10 +1097,10 @@ async function storeItemsInTables(
           awarded: items.awarded[index],
           rejected: items.rejected[index],
           rejectionReason: items.rejectionReason[index],
-          med_code: drug[0].med_code,
-          med_id: drug[0].med_id,
-          unitform: drug[0].unitform,
-          pud_id: drug[0].pud_id,
+          med_code: drug[0]?.med_code,
+          med_id: drug[0]?.med_id,
+          unitform: drug[0]?.unitform,
+          pud_id: drug[0]?.pud_id,
           adp_dosage_per_tme: drug[0].adp_dosage_per_tme,
           adp_dosage_frequency: drug[0].adp_dosage_frequency,
           adp_prescribed_period: drug[0].adp_prescribed_period,
@@ -1293,9 +1422,17 @@ async function insertLabItems(connection, labItems, claimId) {
 }
 
 async function insertDrugItems(connection, drugItems, claimId, memberInfo) {
+  // if there are no drugs mapped, just skip this whole function
+  if (!Array.isArray(drugItems) || drugItems.length === 0) {
+    console.log(`No drug items to insert for claim ${claimId}`);
+    return;
+  }
+
   const unitDrops = await getUnitDrops(connection);
-  const pud_id = unitDrops[drugItems[0].unitform][0].pud_id;
+  // now it's safe to look at drugItems[0]
+  const pud_id = unitDrops[drugItems[0].unitform]?.[0]?.pud_id || null;
   console.log("🚀 ~ updateMissingDrugs ~ pud_id:", pud_id);
+
   try {
     for (const drugItem of drugItems) {
       const {
@@ -1459,13 +1596,13 @@ function calculateHospitalStay(dateOfAdmission, dateOfDischarge) {
   return Math.max(0, Math.ceil(diffTime / (1000 * 60 * 60 * 24))); // Convert milliseconds to days
 }
 
-async function findMemberInfo(connection, memberNumber, memberNumber1) {
+async function findMemberInfo(connection, memberNumber, memberId) {
   try {
     memberNumber = String(memberNumber);
-    memberNumber1 = String(memberNumber1);
+    memberId = String(memberId);
     console.log("🚀 ~ findMemberInfo ~ uniqueId's:", {
       memberNumber,
-      memberNumber1,
+      memberId,
     });
     const [member] = await connection.query(
       `
@@ -1474,7 +1611,7 @@ async function findMemberInfo(connection, memberNumber, memberNumber1) {
       INNER JOIN members_schemes ms ON ms.ms_member_id = members.mm_id
       WHERE (mm_nin_number = ? OR mm_national_id = ? OR mm_member_id = ?) 
       ORDER BY ms_id DESC LIMIT 1`,
-      [memberNumber, memberNumber, memberNumber1]
+      [memberNumber, memberNumber, memberId]
     );
     console.log("🚀 ~ findMemberInfo ~ member:", member);
     if (!member || !member.length) {

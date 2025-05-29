@@ -67,9 +67,7 @@ console.log('✅ Mapped data saved to mapped_data.json');
 module.exports = {mapDrugsToGenericName};
  */
 
-
 /* *************************************************************************** */
-
 
 /* const fs = require('fs');
 const { parser } = require('stream-json');
@@ -285,35 +283,60 @@ function mapItemsToGenericName(dataPath, tariffPath, servicesPath, outputFilePat
 module.exports = { mapItemsToGenericName };
  */
 
+const fs = require("fs");
+const { pipeline } = require("stream");
+const { parser } = require("stream-json");
+const { streamArray } = require("stream-json/streamers/StreamArray");
 
-const fs = require('fs');
-const { pipeline } = require('stream');
-const { parser } = require('stream-json');
-const { streamArray } = require('stream-json/streamers/StreamArray');
-
-async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, providerJsonPath, outputFilePath) {
-  const notFoundFilePath = "claim-script/gen-claims/output/data_transformed.summary.json";
+async function mapItemsToGenericName(
+  dataPath,
+  tariffPath,
+  servicesPath,
+  providerJsonPath,
+  outputFilePath,
+  notFoundFilePath
+) {
+  console.log("🚀 ~ outputFilePath:", outputFilePath)
+  console.log("🚀 ~ providerJsonPath:", providerJsonPath)
+  console.log("🚀 ~ servicesPath:", servicesPath)
+  console.log("🚀 ~ tariffPath:", tariffPath)
+  console.log("🚀 ~ dataPath:", dataPath)
   console.log("📌 Output file path:", outputFilePath);
   console.log("📌 Not found data will be logged to:", notFoundFilePath);
   console.log("📌 Starting Stream Processing...");
 
-  const tariff = JSON.parse(fs.readFileSync(tariffPath, 'utf8'));
-  const services = JSON.parse(fs.readFileSync(servicesPath, 'utf8'));
-  const providers = JSON.parse(fs.readFileSync(providerJsonPath, 'utf8'));
+  const tariff = JSON.parse(fs.readFileSync(tariffPath, "utf8"));
+  const services = JSON.parse(fs.readFileSync(servicesPath, "utf8"));
+  const providers = JSON.parse(fs.readFileSync(providerJsonPath, "utf8"));
 
   // Create lookup maps for proper item-to-code mapping
-  const tariffMap = new Map(tariff.map(drug => [(drug.providerdrugdescription || drug.trade_name || "").trim().toLowerCase(), drug.medicinecode]));
-  const servicesMap = new Map(services.map(service => [(service.provider_desc || "").trim().toLowerCase(), service.provider_code || service.cpt]));
+  const tariffMap = new Map(
+    tariff.map((drug) => [
+      (drug.providerdrugdescription || drug.trade_name || "")
+        .trim()
+        .toLowerCase(),
+      drug.medicinecode,
+    ])
+  );
+  const servicesMap = new Map(
+    services.map((service) => [
+      (service.provider_desc || "").trim().toLowerCase(),
+      service.provider_code || service.cpt,
+    ])
+  );
 
-  let totalDrugs = 0, notFoundDrugs = 0;
-  let totalServices = 0, notFoundServices = 0;
-  let totalProviders = providers.length, notFoundProviders = 0;
+  let totalDrugs = 0,
+    notFoundDrugs = 0;
+  let totalServices = 0,
+    notFoundServices = 0;
+  let totalProviders = providers.length,
+    notFoundProviders = 0;
   const notFoundDrugsSet = new Set();
   const notFoundServicesSet = new Set();
   const notFoundProvidersSet = new Set();
 
   const outputStream = fs.createWriteStream(outputFilePath);
-  outputStream.write('[\n');
+  outputStream.write("[\n");
   let isFirst = true;
 
   return new Promise((resolve, reject) => {
@@ -323,6 +346,7 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
       streamArray(),
       async function* (source) {
         for await (const { value: entry } of source) {
+          console.log("🚀 ~ forawait ~ entry:", entry);
           if (!entry) continue;
 
           const mappedDrugs = [];
@@ -331,12 +355,20 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
           const ttotalMap = [];
 
           entry.item.forEach((item, index) => {
-            const ttotal = Number(entry.quantity[index]) * Number(entry.cost[index]);
+            const ttotal =
+              Number(entry.quantity[index]) * Number(entry.cost[index]);
             ttotalMap.push(ttotal);
 
             const key = item.trim().toLowerCase();
             const itemType = entry.itemType[index]?.toLowerCase();
-            const isDrug = ['chronic drugs','drugs', 'drug', 'hypertension', 'diabetis mellitus', 'gynaecology general', 'antineoplastic'].includes(itemType);
+            const isDrug = [
+              "drugs",
+              "drug",
+              "hypertension",
+              "diabetis mellitus",
+              "gynaecology general",
+              "antineoplastic",
+            ].includes(itemType);
             let matchedCode = null;
 
             if (isDrug) {
@@ -364,7 +396,7 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
           entry.ttotal = ttotalMap;
 
           if (!isFirst) {
-            outputStream.write(',\n');
+            outputStream.write(",\n");
           } else {
             isFirst = false;
           }
@@ -372,7 +404,7 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
         }
       },
       (err) => {
-        outputStream.write('\n]\n');
+        outputStream.write("\n]\n");
         outputStream.end();
 
         if (err) {
@@ -390,15 +422,18 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
             serviceSuccessRate: `${(((totalServices - notFoundServices) / totalServices) * 100).toFixed(2)}%`,
             totalProviders,
             notFoundProviders,
-            providerSuccessRate: `${totalProviders > 0 ? (((totalProviders - notFoundProviders) / totalProviders) * 100).toFixed(2) : '0.00'}%`,
+            providerSuccessRate: `${totalProviders > 0 ? (((totalProviders - notFoundProviders) / totalProviders) * 100).toFixed(2) : "0.00"}%`,
             notFound: {
               drugs: Array.from(notFoundDrugsSet),
               services: Array.from(notFoundServicesSet),
-              providers: Array.from(notFoundProvidersSet)
-            }
+              providers: Array.from(notFoundProvidersSet),
+            },
           };
 
-          fs.writeFileSync(notFoundFilePath, JSON.stringify(notFoundData, null, 2));
+          fs.writeFileSync(
+            notFoundFilePath,
+            JSON.stringify(notFoundData, null, 2)
+          );
           console.log(`✅ Not found data saved to ${notFoundFilePath}`);
           console.log(`✅ Mapped data saved to ${outputFilePath}`);
 
@@ -414,4 +449,3 @@ async function mapItemsToGenericName(dataPath, tariffPath, servicesPath, provide
 }
 
 module.exports = { mapItemsToGenericName };
-
