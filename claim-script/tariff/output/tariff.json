@@ -44,7 +44,7 @@
     "genericname": "ANYDROUS DEXTROSE 5G, SODIUM CHLORIDE 0.9G/ 500ML W/V",
     "tradename": "5% DEXTROSE & NORMAL SALINE INFUSION",
     "dosage": "500ML BAG",
-    "providerdrugdescription": "5%DEXTROSE INFUSION 0.5L",
+    "providerdrugdescription": "5% DEXTROSE INFUSION 0.5L",
     "family": "Intravenous Fluids",
     "form": "Infusion",
     "price": "1200"
@@ -2364,7 +2364,7 @@
     "genericname": "CEFUROXIME AXETIL 250MG",
     "tradename": "CEFUROXIME 250MG TABLETS",
     "dosage": "1 TAB",
-    "providerdrugdescription": "CEFUROXIME  250MG TAB",
+    "providerdrugdescription": "CEFUROXIME 250MG TAB",
     "family": "Antibiotics",
     "form": "Tablet",
     "price": "90"

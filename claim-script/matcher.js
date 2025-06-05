@@ -313,6 +313,7 @@ async function mapItemsToGenericName(
   const tariffMap = new Map(
     tariff.map((drug) => [
       (drug.providerdrugdescription || drug.trade_name || "")
+        .toString()
         .trim()
         .toLowerCase(),
       drug.medicinecode,
@@ -320,7 +321,7 @@ async function mapItemsToGenericName(
   );
   const servicesMap = new Map(
     services.map((service) => [
-      (service.provider_desc || "").trim().toLowerCase(),
+      (service.provider_desc || "").toString().trim().toLowerCase(),
       service.provider_code || service.cpt,
     ])
   );
@@ -359,8 +360,11 @@ async function mapItemsToGenericName(
               Number(entry.quantity[index]) * Number(entry.cost[index]);
             ttotalMap.push(ttotal);
 
-            const key = item.trim().toLowerCase();
-            const itemType = entry.itemType[index]?.toLowerCase();
+            const raw = item.toString();
+            const key = raw.trim().toLowerCase();
+            const itemType = entry.itemType[index]?.toString()
+            .trim()
+            .toLowerCase();
             const isDrug = [
               "drugs",
               "drug",
@@ -368,6 +372,7 @@ async function mapItemsToGenericName(
               "diabetis mellitus",
               "gynaecology general",
               "antineoplastic",
+              "chronic drugs",
             ].includes(itemType);
             let matchedCode = null;
 

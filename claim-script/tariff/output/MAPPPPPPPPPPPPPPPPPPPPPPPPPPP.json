@@ -1,0 +1,826 @@
+[
+    {
+        "default": "COARTEM 80/480MG",
+        "recommended": "COARTEM 20/120MG TAB"
+    },
+    {
+        "default": "COARTEM 80/480MG",
+        "recommended": "COARTEM 20/120MG TAB"
+    },
+    {
+        "default": "NIZORAL CREAM/ketoconazol",
+        "recommended": "NIZORAL CREAM"
+    },
+    {
+        "default": "LEVOFLOXACIN  500MG TAB",
+        "recommended": "LEVOFLOXACIN 500MG TAB"
+    },
+    {
+        "default": "ORASEL GRANULES(ORS SOLUTION)",
+        "recommended": ""
+    },
+    {
+        "default": "METOCHLOPRAMIDE 5MG INJ",
+        "recommended": "METOCLOPRAMIDE 5MG INJ"
+    },
+    {
+        "default": "CEFUROXIME (OTHER BRANDS) 250MG TAB",
+        "recommended": "CEFUROXIME 250MG TAB"
+    },
+    {
+        "default": "RINGERS LACTATE",
+        "recommended": "RINGER'S LACTATE"
+    },
+    {
+        "default": "STREPSIL LONZENGES",
+        "recommended": "STREPSILS LONZENGES"
+    },
+    {
+        "default": "ERTHROMYCIN STEARATE 500MG",
+        "recommended": "ERYTHROMYCIN 500MG TAM"
+    },
+    {
+        "default": "MYCOTEN OVULE (PESSARIES)100MG",
+        "recommended": "MYCOTEN OVULE (PESSARIES) 100MG"
+    },
+    {
+        "default": "ALDOMET 250MG TAB/methyldopa",
+        "recommended": "ALDOMET (METHYLDOPA) 250mg TAB"
+    },
+    {
+        "default": "CHLOROQUINE 150MG TAB / cq",
+        "recommended": "CHLOROQUINE 150MG TAB"
+    },
+    {
+        "default": "NEUROGESIC CREAM",
+        "recommended": ""
+    },
+    {
+        "default": "BETAMETHAZONE CREAM",
+        "recommended": "BETAMETHASONE CREAM"
+    },
+    {
+        "default": "TEAR NATURALE EYE DROPS",
+        "recommended": "TEARS NATURALE EYE DROPS"
+    },
+    {
+        "default": "ALOMIDE EYE DROP 10MLS",
+        "recommended": "ALOMIDE EYE DROP 10ML"
+    },
+    {
+        "default": "BACTROBAN CREAM 15G / mupirocin",
+        "recommended": "BACTROBAN CREAM 15G"
+    },
+    {
+        "default": "RHINATHIOL COUGH SYRUP(CHILDREN)",
+        "recommended": "RHINATHIOL COUGH SYRUP (CHILDREN)"
+    },
+    {
+        "default": "AMOXICILLIN + CLAVULANIC (OTHER BRANDS) 1G TAB",
+        "recommended": "AMOXICILIN + CLAVULANIC  1G TAB"
+    },
+    {
+        "default": "TETANUS TOXOID INJ 0.5MG/ tt",
+        "recommended": "TETANUS TOXOID INJ 0.5MG"
+    },
+    {
+        "default": "TRANEXAMIC ACID  500MG TAB",
+        "recommended": "TRANEXAMIC ACID 500MG TAB"
+    },
+    {
+        "default": "CO-TROMOXAZOLE (UNBRANDED SEPTRIN) 480MG TAB",
+        "recommended": ""
+    },
+    {
+        "default": "MAXOLON TABLET /metoclopromide",
+        "recommended": "MAXOLON TABLET/metoclopromide"
+    },
+    {
+        "default": "CAMOSUNATE  FOR CHILDREN AGE 1-6 (POWDER)",
+        "recommended": ""
+    },
+    {
+        "default": "AMPICLOX SUSPENSION (OTHER BRANDS)",
+        "recommended": "AMPICLOX SUSPENSION(GSK)"
+    },
+    {
+        "default": "METFORMIN 500MG TAB",
+        "recommended": ""
+    },
+    {
+        "default": "METOCHLOPRAMIDE 10MG TAB/PLASIL",
+        "recommended": "METOCLOPRAMIDE 10MG TAB"
+    },
+    {
+        "default": "RAMIPRIL 10MG (TEVA)",
+        "recommended": ""
+    },
+    {
+        "default": "AMLODIPINE 5MG (TEVA)",
+        "recommended": "AMLODIPINE 5MG (OTHER BRANDS)"
+    },
+    {
+        "default": "CLOPIDOGREL 75MG (POCCO)",
+        "recommended": "CLOPIDOGREL (PLAGERINE) 75MG"
+    },
+    {
+        "default": "ATORVASTATIN 20MG (TEVA)",
+        "recommended": "ATORVASTATIN 20mg (GENERIC)"
+    },
+    {
+        "default": "LOSARTAN 50MG (POCCO)",
+        "recommended": "LOSARTAN 50MG"
+    },
+    {
+        "default": "AMLODIPINE 10MG (TEVA)",
+        "recommended": "AMLODIPINE 10MG (OTHER BRANDS)"
+    },
+    {
+        "default": "LISINOPRIL 10MG (POCCO)",
+        "recommended": "LISINOPRIL 10MG TAB"
+    },
+    {
+        "default": "AMILORIDE/ HYDROCHLOROTHIAZIDE (BONDURETIC)",
+        "recommended": ""
+    },
+    {
+        "default": "ASPIRIN 75MG (VASOPRIN)",
+        "recommended": "ASPIRIN 75mg TAB(DISPERSIBLE)"
+    },
+    {
+        "default": "HYDROCHLOROTHIAZIDE 25MG (HYDREX)",
+        "recommended": "HYDROCHLOROTHIAZIDE 25MG"
+    },
+    {
+        "default": "ATOVASTATIN 20MG (GENERIC)",
+        "recommended": "ATORVASTATIN 20mg (GENERIC)"
+    },
+    {
+        "default": "ATORVASTATIN 10MG (TEVA)",
+        "recommended": "ATORVASTATIN 10mg (GENERIC)"
+    },
+    {
+        "default": "SPIRONOLACTONE 25MG (ALDACTONE)",
+        "recommended": "SPIRONOLACTONE 25MG TAB"
+    },
+    {
+        "default": "VALSARTAN 160MG (JOLTAN 160)",
+        "recommended": "VALSARTAN 160MG"
+    },
+    {
+        "default": "FUROSEMIDE 40MG (TEVA)",
+        "recommended": ""
+    },
+    {
+        "default": "LISINOPRIL 5MG (POCCO)",
+        "recommended": "LISINOPRIL 5MG TAB"
+    },
+    {
+        "default": "GLICAZIDE 30MG (DIAMICROM MR)",
+        "recommended": ""
+    },
+    {
+        "default": "METFORMIN 500MG (SANDOZ)",
+        "recommended": "GLUCOPHAGE 500MG TAB"
+    },
+    {
+        "default": "GLIBENCLAMIDE 5MG (DIATAB)",
+        "recommended": "GLANIL (DAONIL) 5MG TAB"
+    },
+    {
+        "default": "METFORMIN 1G (SANDOZ)",
+        "recommended": ""
+    },
+    {
+        "default": "METHYLDOPA 250MG (BONDOMET)",
+        "recommended": ""
+    },
+    {
+        "default": "PROPRANOLOL TAB 40MG",
+        "recommended": ""
+    },
+    {
+        "default": "NIFEDIPINE 20MG (NIFECURE)",
+        "recommended": "NIFEDIPINE 20MG TAB"
+    },
+    {
+        "default": "PROPANOLOL 40MG (POCCO)",
+        "recommended": "PROPANOLOL TAN 40MG"
+    },
+    {
+        "default": "ATENOLOL 50MG (POCCO)",
+        "recommended": "ATENOLOL 50mg TAB"
+    },
+    {
+        "default": "INDAPAMIDE 1.5MG (NATRILIX SR 1.5MG)",
+        "recommended": "NATRILIX TAB 1.5MG TAB"
+    },
+    {
+        "default": "VALSARTAN/HYDROCHLOROTHIAZIDE (CO DIOVAN 160/12.5MG)",
+        "recommended": "CO-DIOVAN 160/12.5MG"
+    },
+    {
+        "default": "BISOPROLOL 5MG (SANDOZ)",
+        "recommended": "BISOPROLOL  5MG TAB"
+    },
+    {
+        "default": "CHLORAMPHEMICOL INJ. 500MG",
+        "recommended": "CHLORAMPHEMICOL INJ"
+    },
+    {
+        "default": "RAMIPRIL 5MG (TEVA)",
+        "recommended": "RAMIPRIL 5MG TAB"
+    },
+    {
+        "default": "METOPROLOL 50MG (BRISTOL)",
+        "recommended": ""
+    },
+    {
+        "default": "ATENOLOL 100MG (TEVA)",
+        "recommended": "ATENOLOL 100mg TAB"
+    },
+    {
+        "default": "CO-TRIMOXAZOLE (UNBRANDED SEPTRIN) SYRUP",
+        "recommended": ""
+    },
+    {
+        "default": "FANSIDAR SYRUP",
+        "recommended": ""
+    },
+    {
+        "default": "MIXTARD 30 INSULIN",
+        "recommended": "MIXTARD 30 (INSULIN) 40IU/ML"
+    },
+    {
+        "default": "Mycoten Cream",
+        "recommended": "MYCOTEN CREAM 20G"
+    },
+    {
+        "default": "ANTASIL TAB(GELUSIL)",
+        "recommended": "ANTASIL TAB (GELUSIL)"
+    },
+    {
+        "default": "PRIMOLUT DEPOT 250MG INJ",
+        "recommended": "PRIMOLUT  DEPOT 250MG INJ"
+    },
+    {
+        "default": "AMOXICILIN   CLAVULANIC  (OTHER BRANDS) 1.2G INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC 1.2G INJ"
+    },
+    {
+        "default": "AMOXICILIN + CLAVULANIC (OTHER BRANDS) 457mg/5MLS  SUSP",
+        "recommended": "AMOXICILIN + CLAVULANIC 457mg/5MLS SUSP"
+    },
+    {
+        "default": "OFLOXACIN  (OTHER BRANDS) TAB",
+        "recommended": "OFLOXACIN (OTHER BRANDS) TAB"
+    },
+    {
+        "default": "AMOXICILIN + CLAVULANIC  (OTHER BRANDS) 600mg INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC  600mg INJ"
+    },
+    {
+        "default": "VENTOLIN 2MG TAB",
+        "recommended": "VENTOLIN TAB"
+    },
+    {
+        "default": "AMOXICILIN + CLAVULANIC 625mg TAB",
+        "recommended": "AMOXICILIN + CLAVULANIC 625mg TAB"
+    },
+    {
+        "default": "AMOXICILIN+ CLAVULANIC (OTHER BRANDS) 625mg TAB",
+        "recommended": "AMOXICILIN + CLAVULANIC 625mg TAB"
+    },
+    {
+        "default": "AMOXICILIN   CLAVULANIC (OTHER BRANDS) 228mg/5ML SUSP",
+        "recommended": "AMOXICILIN + CLAVULANIC 228mg/5ML SUSP"
+    },
+    {
+        "default": "AMOXICILIN+ CLAVULANIC (OTHER BRANDS) 228mg/5ML SUSP",
+        "recommended": "AMOXICILIN + CLAVULANIC 228mg/5ML SUSP"
+    },
+    {
+        "default": "FENOFIBRATE 160MG",
+        "recommended": ""
+    },
+    {
+        "default": "BISOPROLOL  5MG",
+        "recommended": "BISOPROLOL  5MG TAB"
+    },
+    {
+        "default": "Ringers Lactate",
+        "recommended": "RINGER'S LACTATE"
+    },
+    {
+        "default": "GLANIL(DAONIL) 5MG TAB",
+        "recommended": "GLANIL (DAONIL) 5MG TAB"
+    },
+    {
+        "default": "FANSIDAR INJ 525MG/AMP",
+        "recommended": "FANSIDAR 525MG TAB"
+    },
+    {
+        "default": "CO DIOVAN 160/12.5MG",
+        "recommended": "CO-DIOVAN 160/12.5MG"
+    },
+    {
+        "default": "IMODIUM CAP 4MG/loperamide",
+        "recommended": "IMODIUM CAP 4MG/ loperamide"
+    },
+    {
+        "default": "ATENOLOL 50MG TAB",
+        "recommended": "ATENOLOL 5Omg TAB"
+    },
+    {
+        "default": "LIQUID PARAFIN",
+        "recommended": ""
+    },
+    {
+        "default": "TELMISARTAN 80MG (ARBITEL)",
+        "recommended": "ARBITEL (TELMISARTAN) 80MG"
+    },
+    {
+        "default": "HYDROCHLORTHIAZIDE/AMLORIDE T",
+        "recommended": "HYDROCHLOROTHIAZIDE/AMLORIDE T"
+    },
+    {
+        "default": "QUININE SYR 200MLS",
+        "recommended": "QUININE SYR. 200MLS"
+    },
+    {
+        "default": "DIPROSALIC OINTMENT 30 G",
+        "recommended": "DIPROSALIC ONITMENT 30 G"
+    },
+    {
+        "default": "AMOXICILIN + CLAVULANIC  (OTHER BRANDS) 1.2G INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC 1.2G INJ"
+    },
+    {
+        "default": "ACTIFED SYRUP",
+        "recommended": "ACTIFED SYRUB"
+    },
+    {
+        "default": "ATOVASTATIN 10MG (GENERIC)",
+        "recommended": "ATORVASTATIN 10MG (GENERIC)"
+    },
+    {
+        "default": "VALSARTAN 80MG (JOLTAN 80)",
+        "recommended": ""
+    },
+    {
+        "default": "AMLODIPINE 10MG (NORVASC 10)",
+        "recommended": "NORVASC TAB 10MG"
+    },
+    {
+        "default": "PREGABALIN 75MG (LYRICA)",
+        "recommended": "LYRICA (PREGABALIN) 75MG CAPS"
+    },
+    {
+        "default": "HYDROCHLOROTHIAZIDE 25MG (ESIDREX)",
+        "recommended": "HYDROCHLOROTHIAZIDE 25MG"
+    },
+    {
+        "default": "NOVOMIX 30 INSULIN",
+        "recommended": ""
+    },
+    {
+        "default": "VIDAGLIPTIN 50MG(VILGET)",
+        "recommended": ""
+    },
+    {
+        "default": "CARVEDILOL 12.5MG (TEVA)",
+        "recommended": "CARVEDILOL 12.5MG TABLET"
+    },
+    {
+        "default": "GLIMEPIRIDE 2MG (MEPIRYL)",
+        "recommended": "AMARYL (GLIMEPIRIDE) 2MG TAB"
+    },
+    {
+        "default": "TAMSULOSIN HCL (CONTIFLO XL)",
+        "recommended": "TAMSULOSIN HYDROCHLORIDE 0.4MG CAP"
+    },
+    {
+        "default": "NIFEDIPINE 20MG (NIFECURE1)",
+        "recommended": "NIFEDIPINE 20MG TAB"
+    },
+    {
+        "default": "TAMSULOSIN HCL 0.4MCG (GENERIC BRAND)",
+        "recommended": "TAMSULOSIN HYDROCHLORIDE 0.4MG CAP"
+    },
+    {
+        "default": "FORTIDE INHALER",
+        "recommended": ""
+    },
+    {
+        "default": "LOSARTAN 25MG (TEVA)",
+        "recommended": "LOSARTAN 25MG TAB"
+    },
+    {
+        "default": "MAGNESIUM SULPHATE INJ.",
+        "recommended": "MAGNESIUM SULPHATE INJ"
+    },
+    {
+        "default": "Diclofenac Suppository",
+        "recommended": ""
+    },
+    {
+        "default": "NORFLEX TAB / orphenadrine",
+        "recommended": "NORFLEX TAB"
+    },
+    {
+        "default": "ROSUVASTATIN 10MG (TEVA)",
+        "recommended": "CRESTOR (ROSUVASTATIN) 10MG"
+    },
+    {
+        "default": "VILGET M (50/1000MG)",
+        "recommended": ""
+    },
+    {
+        "default": "PORENZA 10/160MG",
+        "recommended": ""
+    },
+    {
+        "default": "INDAPAMIDE 1.5MG (TEVA)",
+        "recommended": ""
+    },
+    {
+        "default": "NIFEDIPINE 30MG (CARDOVASC XL)",
+        "recommended": "NIFEDIPINE 30MG, 30MG"
+    },
+    {
+        "default": "MMT SYRUP",
+        "recommended": ""
+    },
+    {
+        "default": "AMLODIPINE/VALSARTAN/HYDROCHLOROTHIAZIDE (EXFORGE 10/160/12.5MG )",
+        "recommended": "EXFORGE (AMLODIPINE/VALSARTAN) 10MG/12.5MG/160MG TAB"
+    },
+    {
+        "default": "VERAPAMIL 80MG (TEVA)",
+        "recommended": ""
+    },
+    {
+        "default": "METOPROLOL SUCCINATE 25MG (BETALOC 25MG)",
+        "recommended": "METOPROLOL TAB/betaloc"
+    },
+    {
+        "default": "COLCHICINE 1MG",
+        "recommended": ""
+    },
+    {
+        "default": "FEBUXOSTAT 40MG",
+        "recommended": ""
+    },
+    {
+        "default": "AMLODIPINE/VALSARTAN (VALVAS 5/160MG )",
+        "recommended": "EXFORGE (AMLODIPINE/VALSARTAN) 5MG/12.5MG/160MG TAB"
+    },
+    {
+        "default": "RIFAMPICIN 60MLS SYRUP",
+        "recommended": "RIFAMPICIN 100MLS SYRUP"
+    },
+    {
+        "default": "VILDAGLIPTIN 50MG (OTHER BRANDS)",
+        "recommended": "GALVUS 50MG"
+    },
+    {
+        "default": "DEXAMETHAZONE 5MG TAB",
+        "recommended": ""
+    },
+    {
+        "default": "Labetalol inj.",
+        "recommended": ""
+    },
+    {
+        "default": "MIXTARD PENFIL (INSULIN) 100IU/ML",
+        "recommended": "MIXTARD PENFIL (INSULIN) 100U/ML"
+    },
+    {
+        "default": "TELMISARTAN/AMLODIPINE (PILOREM 80/10MG)",
+        "recommended": "TWYNSTA 80/10MG"
+    },
+    {
+        "default": "LEVOTHYROXINE 100MCG",
+        "recommended": "LEVOTHYROXINE 100MG"
+    },
+    {
+        "default": "CARBAMAZEPINE CR (TEGRETOL 400MG CR)",
+        "recommended": "TEGRETOL 400MG CR"
+    },
+    {
+        "default": "LEVETIRACETAM 500MG (KEPPRA)",
+        "recommended": "KEPPRA 500MG"
+    },
+    {
+        "default": "SECNIDAZOLE/Zaryl",
+        "recommended": "SECNIDAZOLE/ Zaryl"
+    },
+    {
+        "default": "ATOVASTATIN 40MG (GENERIC)",
+        "recommended": "ATORVASTATIN 40mg (GENERIC)"
+    },
+    {
+        "default": "METFORMIN 500MG (GLUCOPHAGE)",
+        "recommended": "GLUCOPHAGE 500MG TAB"
+    },
+    {
+        "default": "DABIGATRAN 150MG (PRADAXA 150MG)",
+        "recommended": ""
+    },
+    {
+        "default": "EXFORGE (AMLODIPINE/VALSARTAN) 10MG/25MG/160MG TAB",
+        "recommended": ""
+    },
+    {
+        "default": "SERETIDE DISKUS 250MCG",
+        "recommended": ""
+    },
+    {
+        "default": "S-AMLODIPINE (ASOMEX 2.5MG)",
+        "recommended": ""
+    },
+    {
+        "default": "COAPROVEL 150/12.5MG (IRBESARTAN/HYDROCHLOROTHIAZIDE)",
+        "recommended": ""
+    },
+    {
+        "default": "ALLOPURINOL 100MG (TEVA)",
+        "recommended": ""
+    },
+    {
+        "default": "VALSARTAN 160MG (DIOVAN 160)",
+        "recommended": "DIOVAN 160MG"
+    },
+    {
+        "default": "VIDAGLIPITIN/ METFORMIN (GALVUS MET 50/ 1000MG)",
+        "recommended": "GALVUS MET 1000/50MG"
+    },
+    {
+        "default": "ROSUVASTATIN 20MG (CRESTOR)",
+        "recommended": "CRESTOR (ROSUVASTATIN) 20MG"
+    },
+    {
+        "default": "AMLODIPINE 5MG (NORVASC 5)",
+        "recommended": "NORVASC TAB 5MG"
+    },
+    {
+        "default": "MECONERVE FORTE",
+        "recommended": ""
+    },
+    {
+        "default": "PYRANTRIN ORAL SUSPENSION 15MLS",
+        "recommended": "PYRANTRIN ORAL SUSPENION 15MLS"
+    },
+    {
+        "default": "AMPICLOX 500mg INJ (OTHER BRANDS)",
+        "recommended": ""
+    },
+    {
+        "default": "GENTIAL VIOLET",
+        "recommended": "GENTIAN VIOLET"
+    },
+    {
+        "default": "SODIUM CHROMOGLYCATE EYE DROPS",
+        "recommended": ""
+    },
+    {
+        "default": "FEXET  180 MG TAB",
+        "recommended": "FEXET 180 MG TAB"
+    },
+    {
+        "default": "SALBUTAMOL 100MCG INHALER (AEROLINE)",
+        "recommended": "SALBUTAMOL INHALER 100MG"
+    },
+    {
+        "default": "HUMULIN 70/30 VIAL",
+        "recommended": "HUMULIN 70/30 100IU/ML PENFIL"
+    },
+    {
+        "default": "Gutt Catarest Eye drop",
+        "recommended": ""
+    },
+    {
+        "default": "SALBUTAMOL INHALER 100MCG",
+        "recommended": "SALBUTAMOL INHALER 100MG"
+    },
+    {
+        "default": "DIFLUCAN  50MG TAB",
+        "recommended": "DIFLUCAN 50MG TAB"
+    },
+    {
+        "default": "OPTREX EYE DROPS",
+        "recommended": ""
+    },
+    {
+        "default": "SALBUTAMOL SYR",
+        "recommended": "VENTOLIN SYRUP"
+    },
+    {
+        "default": "CO DIOVAN 160/25MG",
+        "recommended": "CO-DIOVAN 160/25MG"
+    },
+    {
+        "default": "AMOXICILIN+ CLAVULANIC  (OTHER BRANDS) 1.2G INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC 1.2G INJ"
+    },
+    {
+        "default": "NIFEDIPINE 30MG (NIFECARD XL)",
+        "recommended": "NIFEDIPINE 30MG"
+    },
+    {
+        "default": "ONDANSTERON INJ  4MG/2ML",
+        "recommended": "ONDANSETRON INJ 4MG/2ML"
+    },
+    {
+        "default": "NORMORETIC TAB",
+        "recommended": "NORMORMETIC TAB"
+    },
+    {
+        "default": "EXFORGE HCT 10/160/25MG",
+        "recommended": ""
+    },
+    {
+        "default": "GLIBENCLAMIDE 5MG (DAONIL)",
+        "recommended": "GLANIL (DAONIL) 5MG TAB"
+    },
+    {
+        "default": "Betnosol-N ear drop",
+        "recommended": ""
+    },
+    {
+        "default": "ALLOPURINOL 100MG TAB  (zyloric)",
+        "recommended": "ZYLORIC 100MG TAB"
+    },
+    {
+        "default": "LOSARTAN 100MG (TEVA)",
+        "recommended": "LOSARTAN 100MG"
+    },
+    {
+        "default": "Ceftriaxone + Sulbactam 1.5mg Inj",
+        "recommended": ""
+    },
+    {
+        "default": "NEUROBION TAB/DOLOMETA B",
+        "recommended": "NEUROBION TAB/ DOLOMETA B"
+    },
+    {
+        "default": "AMATEM  20/120 TAB",
+        "recommended": "AMATEM 20/120 TAB"
+    },
+    {
+        "default": "BISOPROLOL 2.5MG",
+        "recommended": "BISOPROLOL 2.5MG TAB"
+    },
+    {
+        "default": "PREGABALIN 150MG (LYRICA)",
+        "recommended": "LYRICA (PREGABALIN) 150MG CAPS"
+    },
+    {
+        "default": "Betadrone-N eye ointment",
+        "recommended": ""
+    },
+    {
+        "default": "Avamys nasal spray",
+        "recommended": ""
+    },
+    {
+        "default": "Atorvastatin 10mg (Teva)/B",
+        "recommended": "ATORVASTATIN 10mg (GENERIC)"
+    },
+    {
+        "default": "LISINOPRIL 10MG (TEVA)",
+        "recommended": "LISINOPRIL 10MG TAB"
+    },
+    {
+        "default": "METFORMIN 500MG (DIABETMIN)",
+        "recommended": "GLUCOPHAGE 500MG TAB"
+    },
+    {
+        "default": "TRANEXAMIC ACID  250MG TAB",
+        "recommended": "TRANEXAMIC ACID 250MG TAB"
+    },
+    {
+        "default": "CHLORAMPHENICOL EYE OINTMENT",
+        "recommended": "CHLORAMPHENICOL EYE OINTMENTS"
+    },
+    {
+        "default": "DF 118 TAB(DEHYDROCODEINE)",
+        "recommended": "DF 118 TAB (DEHYDROCODEINE)"
+    },
+    {
+        "default": "AMOXICILIN   CLAVULANIC  (OTHER BRANDS) 600mg INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC  600mg INJ"
+    },
+    {
+        "default": "AMOXICILIN + CLAVULANIC  (OTHER BRANDS) 600mg INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC  600mg INJ"
+    },
+    {
+        "default": "AMOXICILIN+ CLAVULANIC  (OTHER BRANDS) 600mg INJ",
+        "recommended": "AMOXICILIN + CLAVULANIC  600mg INJ"
+    },
+    {
+        "default": "CARVEDILOL 3.125MG (TEVA)",
+        "recommended": "CARVEDILOL 3.125mg"
+    },
+    {
+        "default": "CARVEDILOL 3.125MG TABLET",
+        "recommended": "CARVEDILOL 3.125mg"
+    },
+    {
+        "default": "ATENOLOL 100MG TAB/tenoric",
+        "recommended": "ATENOLOL 100mg TAB"
+    },
+    {
+        "default": "Ceftriaxone   Sulbactam 1.5mg Inj",
+        "recommended": ""
+    },
+    {
+        "default": "NYSTATIN 500,000IU",
+        "recommended": "NYSTATIN 500,OOOIU"
+    },
+    {
+        "default": "METHYLDOPA 250MG (ALDOMET)",
+        "recommended": "ALDOMET (METHYLDOPA) 250mg TAB"
+    },
+    {
+        "default": "FERROBIN PLUS TAB",
+        "recommended": ""
+    },
+    {
+        "default": "IVERMECTIN 3MG TAB",
+        "recommended": "MECTIZAN 3MG TAB"
+    },
+    {
+        "default": "Cetirizine tablet 10mg",
+        "recommended": "CETIRIZINE 10MG TAB"
+    },
+    {
+        "default": "CETIRIZINE 10MG TAB",
+        "recommended": "CETIRIZINE 10MG TAB"
+    },
+    {
+        "default": "Cetirizine tablet 10mg",
+        "recommended": "CEFTRIZINE 10MG"
+    },
+    {
+        "default": "ACULAR EYE DROP",
+        "recommended": "ACULAR EYE DROP (5ML)"
+    },
+    {
+        "default": "AMITRIPTYLLINE 50MG TAB",
+        "recommended": ""
+    },
+    {
+        "default": "ASTYMIN SYRUP 200ML",
+        "recommended": "ASTYMIN SYRUP"
+    },
+    {
+        "default": "CLOPIDOGREL 75MG (POCCO)/B",
+        "recommended": "CLOPIDOGREL (PLAGERINE) 75MG"
+    },
+    {
+        "default": "ringers lactate",
+        "recommended": "RINGER'S LACTATE"
+    },
+    {
+        "default": "COZOPT EYEDROP (UNBRANDED)",
+        "recommended": "COZOPT EYE DROP"
+    },
+    {
+        "default": "METFORMIN 1G (GLUCOPHAGE)",
+        "recommended": "GLUCOPHAGE 1000MG TAB"
+    },
+    {
+        "default": "METHYLDOPA 250MG (BONDOMET)/B",
+        "recommended": "ALDOMET (METHYLDOPA) 250MG TAB"
+    },
+    {
+        "default": "FUROSEMIDE 40MG (LASIX)/B",
+        "recommended": "FRUSEMIDE 40MG TAB"
+    },
+    {
+        "default": "MIXTARD 30  (INSULIN) 100IU/ML",
+        "recommended": "MIXTARD 30 (INSULIN) 100IU/ML"
+    },
+    {
+        "default": "CHLORPROMAZINE 100MG TAB",
+        "recommended": "CHLORPROMAZINE 100MG"
+    },
+    {
+        "default": "GLIBENCLAMIDE 5MG (DIATAB)/B",
+        "recommended": "GLANIL (DAONIL) 5MG TAB"
+    },
+    {
+        "default": "METHYLDOPA 250MG (ALDOCURE)",
+        "recommended": "ALDOMET (METHYLDOPA) 250MG TAB"
+    },
+    {
+        "default": "CAFERGOT 1MG",
+        "recommended": "CAFERGOT TAB"
+    },
+    {
+        "default": "NITRAZEPAM 5MG TAB/Mogadan",
+        "recommended": "NITRAZEPAM 5MG TAB"
+    }
+]

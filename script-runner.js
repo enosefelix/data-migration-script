@@ -27,7 +27,7 @@ async function main() {
   const paths = {
     dec: {
       json: path.resolve(__dirname, 'claim-script/dec-claims/output/data_transformed.json'),
-      json_test: path.resolve(__dirname, 'claim-script/dec-claims/output/output2.json'),
+      json_test: path.resolve(__dirname, 'claim-script/dec-claims/output/data_transformed_test.json'),
       excel: [path.resolve(__dirname, 'claim-script/dec-claims/data/DEC 24 CLAIMS UPLOAD DATA.xlsx')],
       success: path.resolve(__dirname, 'claim-script/dec-claims/output/successful_records.json'),
       failed: path.resolve(__dirname, 'claim-script/dec-claims/output/failed_records.json'),
@@ -45,7 +45,7 @@ async function main() {
     },
     gen: {
       json: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.json'),
-      json_test: path.resolve(__dirname, 'claim-script/gen-claims/output/output.json'),
+      json_test: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed_test.json'),
       excel: [
         path.resolve(__dirname, 'claim-script/gen-claims/data/2024.xlsx'),
         // path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 2.xlsx'),
