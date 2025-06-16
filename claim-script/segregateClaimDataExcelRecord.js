@@ -175,10 +175,10 @@ async function splitByYearAndMonth(inputPath, outputDir = '.') {
       // On the first data row, locate the date_added column index
       if (rowCount === 2) {
         const idx = headerRow.findIndex(h =>
-          String(h).toLowerCase() === 'date_added'
+          String(h).toLowerCase() === 'date_of_consultation'
         );
         if (idx < 0) {
-          throw new Error('Header "date_added" not found');
+          throw new Error('Header "date_of_consultation" not found');
         }
         worksheet.dateCol = idx + 1; // 1-based
       }

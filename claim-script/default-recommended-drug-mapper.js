@@ -5,8 +5,13 @@ const fs = require('fs');
 
 // List of itemType values that indicate drugs
 const DRUG_TYPES = [
-  'drugs','drug','hypertension','diabetis mellitus',
-  'gynaecology general','antineoplastic','chronic drugs'
+  'drugs',
+  'drug',
+  'hypertension',
+  'diabetis mellitus',
+  'gynaecology general',
+  'antineoplastic',
+  'chronic drugs',
 ];
 
 function loadJson(path) {
@@ -36,7 +41,7 @@ function main(mapperPath, claimsPath, outputPath, statsPath) {
   let notFoundDrugs = 0;
   const notFoundSet = new Set();
 
-  const fixedClaims = claims.map(claim => {
+  const fixedClaims = claims.map((claim) => {
     const newItems = claim.item.map((item, idx) => {
       const type = normalize(claim.itemType[idx]).toLowerCase();
       const name = normalize(item);
@@ -44,7 +49,7 @@ function main(mapperPath, claimsPath, outputPath, statsPath) {
         totalDrugs++;
         const rec = mapper.get(name.toLowerCase());
         if (rec) {
-          return rec;        
+          return rec;
         } else {
           notFoundDrugs++;
           notFoundSet.add(name);
@@ -58,7 +63,7 @@ function main(mapperPath, claimsPath, outputPath, statsPath) {
 
   // Calculate success rate
   const successRate = totalDrugs
-    ? ((totalDrugs - notFoundDrugs) / totalDrugs * 100).toFixed(2) + '%'
+    ? (((totalDrugs - notFoundDrugs) / totalDrugs) * 100).toFixed(2) + '%'
     : '0.00%';
 
   // Write outputs
@@ -67,21 +72,27 @@ function main(mapperPath, claimsPath, outputPath, statsPath) {
     totalDrugs,
     notFoundDrugs,
     drugSuccessRate: successRate,
-    notFound: { drugs: Array.from(notFoundSet) }
+    notFound: { drugs: Array.from(notFoundSet) },
   });
 
-  console.log(`Processed ${totalDrugs} drug items, ${notFoundDrugs} not found. Success rate: ${successRate}`);
+  console.log(
+    `Processed ${totalDrugs} drug items, ${notFoundDrugs} not found. Success rate: ${successRate}`,
+  );
 }
 
 if (require.main === module) {
-    const [, ,
-        mapperPath = "C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/tariff/output/MAPPPPPPPPPPPPPPPPPPPPPPPPPPP.json",
-        claimsPath = "C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed3.json",
-        outputPath = "C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed5.json",
-        statsPath = "C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed.summary3.json"
-    ] = process.argv;
+  const [
+    ,
+    ,
+    mapperPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/tariff/output/MAPPPPPPPPPPPPPPPPPPPPPPPPPPP.json',
+    claimsPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed2023_2.json',
+    outputPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed2023_3.json',
+    statsPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed.summary2023_3.json',
+  ] = process.argv;
   if (!mapperPath || !claimsPath || !outputPath || !statsPath) {
-    console.error('Usage: node fix-items.js <mapper.json> <claims.json> <fixed.json> <stats.json>');
+    console.error(
+      'Usage: node fix-items.js <mapper.json> <claims.json> <fixed.json> <stats.json>',
+    );
     process.exit(1);
   }
   main(mapperPath, claimsPath, outputPath, statsPath);

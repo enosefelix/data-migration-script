@@ -185,6 +185,8 @@ function convertExcelDate(excelSerialDate) {
  * @returns {Promise<boolean>} - Resolves with the updated isFirstClaim flag.
  */
 async function processDecExcelFile(inputFilePath, writeStream, isFirstClaim) {
+  console.log("🚀 ~ processDecExcelFile ~ writeStream:", writeStream)
+  console.log("🚀 ~ processDecExcelFile ~ inputFilePath:", inputFilePath)
   const workbookReader = new ExcelJS.stream.xlsx.WorkbookReader(inputFilePath);
   const groupedClaims = new Map();
 

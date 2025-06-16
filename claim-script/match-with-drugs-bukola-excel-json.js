@@ -28,30 +28,38 @@ function writeJson(path, data) {
 function replaceItems(claims, lookup) {
   // build map: missing_items_description -> drug_prescription(oceanic)
   const map = new Map();
-  lookup.forEach(record => {
+  lookup.forEach((record) => {
     const key = String(record.missing_items_description).trim();
     const val = record['drug_prescription(oceanic)'];
     if (key && val) map.set(key, val);
   });
 
   // transform each claim
-  return claims.map(claim => {
-    const newItems = claim.item.map(it => {
+  return claims.map((claim) => {
+    const newItems = claim.item.map((it) => {
       const trimmed = String(it).trim();
       return map.has(trimmed) ? map.get(trimmed) : it;
     });
     return {
       ...claim,
-      item: newItems
+      item: newItems,
     };
   });
 }
 
 // CLI entrypoint
 (async () => {
-  const [,, claimsPath="C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed.json", lookupPath="C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/tariff/output/drugs_mapped_bukola.json", outputPath="C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed3.json"] = process.argv;
+  const [
+    ,
+    ,
+    claimsPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed2023.json',
+    lookupPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/tariff/output/drugs_mapped_bukola.json',
+    outputPath = 'C:/Users/OCT-YAB-ENG-ENOSE/Documents/Godabeg/migrationScriptUpdateProdd/claim-script/gen-claims/output/data_transformed2023_2.json',
+  ] = process.argv;
   if (!claimsPath || !lookupPath || !outputPath) {
-    console.error('Usage: node excel-to-json.js <claims.json> <lookup.json> <output.json>');
+    console.error(
+      'Usage: node excel-to-json.js <claims.json> <lookup.json> <output.json>',
+    );
     process.exit(1);
   }
   try {

@@ -1829,7 +1829,7 @@ async function getOrCreateLotNumber(connection, providerId, claimDate, claims) {
         WHERE lot_master_type = 1
         `,
       );
-      console.log('🚀 ~ getOrCreateLotNumber ~ lot:', lot);
+      console.log('🚀 ~ getOrCreateLotNumber ~ max_lot_no:', lot);
 
       const new_lot_no = lot?.[0]?.max_lot_no + 1 || max_lot_no + 1;
       console.log('Lot number generated:', max_lot_no);

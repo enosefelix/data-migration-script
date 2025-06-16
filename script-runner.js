@@ -44,18 +44,18 @@ async function main() {
       successful_records_update_path: path.resolve(__dirname, 'claim-script/dec-claims/output/update/successful_records.json')
     },
     gen: {
-      json: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.json'),
+      json: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed2023.json'),
       json_test: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed_test.json'),
       excel: [
-        path.resolve(__dirname, 'claim-script/gen-claims/data/2024.xlsx'),
+        path.resolve(__dirname, 'claim-script/gen-claims/data/2023.xlsx'),
         // path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 2.xlsx'),
         // path.resolve(__dirname, 'claim-script/gen-claims/data/Oceanic - Claim Data 3.xlsx'),
       ],
       success: path.resolve(__dirname, 'claim-script/gen-claims/output/successful_records.json'),
       failed: path.resolve(__dirname, 'claim-script/gen-claims/output/failed_records.json'),
       notFound: path.resolve(__dirname, 'claim-script/gen-claims/output/not_found_items.json'),
-      match_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed2.json'),
-      match_summary_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.summary.json'),
+      match_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed6.json'),
+      match_summary_output: path.resolve(__dirname, 'claim-script/gen-claims/output/data_transformed.summary4.json'),
       tariff: path.resolve(__dirname, 'claim-script/tariff/output/tariff.json'),
       servicesTariff: path.resolve(__dirname, 'claim-script/tariff/output/servicesTariff.json'),
       not_found_drugs: path.resolve(__dirname, 'claim-script/gen-claims/output/drugs_not_found.json'),
